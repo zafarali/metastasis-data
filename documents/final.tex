@@ -38,11 +38,12 @@
 \textbf{Background:}
 Something about the background
 \textbf{Methods:}
-Methods and experimental design
+We use Cellular Potts Model (CPM) to simulate tumors in their natural environments and allow them to grow under three models including the long standing traditional linear progression model and the Cancer Stem Cell (CSC) model. We emulate sampling and sequencing of their genomes to obtain the relationship between spatial expanse and the genetic landscape of the tumor.
+
 \textbf{Results:}
 Main results and observations
 \textbf{Limitations:}
-Limitations of the model proposed
+Due to memory and time constraints the entire simulation is limited to around $25,000$ cells. In reality, a tiny incision of a tumor can contain an excess of $10^6$ cells.
 \textbf{Conclusions:}
 Conclustions of the paper
 
@@ -51,20 +52,31 @@ Conclustions of the paper
 % 
 % K E Y W O R D S 
 % 
-\textbf{Keywords:} cancer, tumor heterogeneity, cancer stem cells, compucational oncology, cellular potts model.
+\textbf{Keywords:} cancer, tumor heterogeneity, targeted medicine, compucational oncology, cellular potts model.
 
 % 
 % I N T R O D U C T I O N  
 % 
 
 \section{Introduction}
+
 Cancer is the autonomous and uncontrolled growth of cells that forms a feed forward system to reinforce the tumors’ existence \cite{hallmarks}. Cancer originates from accumulated mutations in tumor supressor genes, proto-onco genes and DNA repair genes. These mutations hinder a cell's abillity to regulate its cell cycles, causing it to divide uncontrollably. However, for cancerous cells to keep growing and overcome the limitations of efficient diffusion of nutrients, tumors have two solutions: angiogenesis and metastasis. Angiogenesis permits a tumor to grow blood vessels and bring in nutrients. Metastasis is the migration of cancer cells to other parts of the body often via the permeable blood vessels formed during angiogenesis. It is often after metastasis that cancer becomes difficult to contain and treat despite surgical resection \cite{Demicheli2008}.
 
-**** TALK ABOUT TUMOR HETEROGENEITY AND WHY IT MIGHT BE IMPORTANT IN THE CONTEXT OF TARGETTED MEDICINE. *****
-**** ALSO TALK ABOUT SAMPLING PROBLEMS THAT CHANGE HETEROGENEITY ***8
+\subsection{Background}
+\subsubsecton{Tumor Heterogeneity}
+Not all cancer cells have the same phenotypic characteristics. Higher mutation rates and weaker DNA repair mechanisms lead to a a wide variety of phenotypes amongsts the cells in the tumor. Cancer cells consist of subclonal populations that have different growth rates, metastaising abilities and response to therapeutic drugs \cite{Heppner1983}. This phenomenon of differing subclonal phenotypes within a tumor is known as tumor heterogeneity. If certain subclones have a mutation that gives them resistance to a therapy, these cancer cells will survive and eventually take over and lead to a therapeutically resiliant population. This proves to be a challenge for later treatment even in the context of surgery. Tumor heterogeneity develops during the mitotic events during cancer division in the form of random mutations, chromosomal rearragements and replication errors. This leads to a historical imprint within the genomes of cancer cells in the tumor that can be used to reconstruct the method of progression \cite{Naxerova2015}. 
 
+\subsubsection{Cancer Stem Cells (CSCs)}
+The original model of tumor progression was a linear evolutionary model having a single cell origin. This means that an originally normal cell develops a growth advantage (in the form of loss of divisional control or quicker division) amongst neighbouring normal cells. At each mitotic event, the cancer cells accumulate different mutations (see above) that leads to competition and eventual selection of a few the most advantageous mutations \cite{Nowell}. 
 
-\subsection{Motivation}
+Another compelling model exists considering that certain cancer cells acquire unlimited proliferative potential but producing cancer cells that have limited proliferative potential \cite{Tomasson2009}. It is expect that these two models will produce vastly different spatial and genetic landscapes.
+
+\subsection{Motivation and Significance}
+Understanding how tumor heterogeneity is distributed in space in a tumor during the time of therapeutic decision is of great importance. Quantification of tumor heterogeneity also proves to be a challenge as it is inherently affected by tumor sampling bias \cite{Heppner1983}\cite{Naxerova2015} which causes the decision to be made under situations where we have incomplete information. 
+
+In this paper, we take a look at two theoretical cancer models: the Mutational Response Model and Cancer Stem Cell (CSC) Model in addition to a simpler model for comparison. We compare the spatial patterns of these models and then proceed to quanitfy the genetic landscape of the models based on different sampling strategies that one might use in a clinical setting. With the advancement of modern technologies like deep sequencing, we are able to now obtain single-cell resolution of the genetic landscape which can be used to validate models presented in this paper. 
+
+Through this we obtain a clearer picture into the biology of how tumor heterogeneity varies with model and sampling methodology. This can be used to make more informed decisions regarding therapy and forms the basis for further work.
 
 
 % 
@@ -141,7 +153,7 @@ Here the temperature, $T$, accounts for thermal fluctuations and adds a stochast
 \begin{definition}[Monte Carlo Time Step (MCS)] One Monte Carlo Time Step is $M^2$ spin copy attempts, where $M$ is the size of the lattice.
 \end{definition}
 
-We used a software called CompuCell3D \cite{Swat2012} (version 3.7.4) which is widely adopted by computational biologists aiming to simulate many different tissue systems.
+We use CompuCell3D \cite{Swat2012} (version 3.7.4) which is widely adopted software by computational biologists aiming to simulate many different tissue systems based on the Cellular Potts Model.
 
 \subsection{The Infinite Genome}
 
