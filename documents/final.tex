@@ -60,21 +60,23 @@ Conclustions of the paper
 
 \section{Introduction}
 
-Cancer is the autonomous and uncontrolled growth of cells that forms a feed forward system to reinforce the tumors’ existence \cite{hallmarks}. Cancer originates from accumulated mutations in tumor supressor genes, proto-onco genes and DNA repair genes. These mutations hinder a cell's abillity to regulate its cell cycles, causing it to divide uncontrollably. However, for cancerous cells to keep growing and overcome the limitations of efficient diffusion of nutrients, tumors have two solutions: angiogenesis and metastasis. Angiogenesis permits a tumor to grow blood vessels and bring in nutrients. Metastasis is the migration of cancer cells to other parts of the body often via the permeable blood vessels formed during angiogenesis. It is often after metastasis that cancer becomes difficult to contain and treat despite surgical resection \cite{Demicheli2008}.
+Cancer is the autonomous and uncontrolled growth of cells that forms a feed forward system to reinforce the tumors’ existence \cite{hallmarks}. Cancer originates from accumulated mutations in tumor supressor genes, proto-onco genes and DNA repair genes. These mutations hinder a cell's abillity to regulate its cell cycles, causing it to divide uncontrollably. *** MIGHT BE UNECESSAry: However, for cancerous cells to keep growing and overcome the limitations of efficient diffusion of nutrients, tumors have two solutions: angiogenesis and metastasis. Angiogenesis permits a tumor to grow blood vessels and bring in nutrients. Metastasis is the migration of cancer cells to other parts of the body often via the permeable blood vessels formed during angiogenesis.**** It is often after metastasis that cancer becomes difficult to contain and treat despite surgical resection \cite{Demicheli2008}.
 
 \subsection{Background}
-\subsubsecton{Tumor Heterogeneity}
-Not all cancer cells have the same phenotypic characteristics. Higher mutation rates and weaker DNA repair mechanisms lead to a a wide variety of phenotypes amongsts the cells in the tumor. Cancer cells consist of subclonal populations that have different growth rates, metastaising abilities and response to therapeutic drugs \cite{Heppner1983}. This phenomenon of differing subclonal phenotypes within a tumor is known as tumor heterogeneity. If certain subclones have a mutation that gives them resistance to a therapy, these cancer cells will survive and eventually take over and lead to a therapeutically resiliant population. This proves to be a challenge for later treatment even in the context of surgery. Tumor heterogeneity develops during the mitotic events during cancer division in the form of random mutations, chromosomal rearragements and replication errors. This leads to a historical imprint within the genomes of cancer cells in the tumor that can be used to reconstruct the method of progression \cite{Naxerova2015}. 
+\subsubsection{Tumor Heterogeneity}
+Not all cancer cells have the same phenotypic characteristics. Higher mutation rates and weaker DNA repair mechanisms lead to a a wide variety of phenotypes amongsts the cells in the tumor. Cancer cells consist of subclonal populations that have different growth rates, metastaising abilities and response to therapeutic drugs \cite{Heppner1983}. This phenomenon of differing subclonal phenotypes within a tumor is known as tumor heterogeneity. If certain subclones have a mutation that gives them resistance to a therapy, these cancer cells will survive and eventually take over and lead to a therapeutically resiliant population. This proves to be a challenge for later treatment even in the context of surgery. Tumor heterogeneity develops during the mitotic events during cancer division in the form of random mutations, chromosomal rearragements and replication errors. From the mutations encoded within the genomes of cancer cells in the tumor we can reconstruct the method of progression \cite{Naxerova2015}. However, there is noise in this data presented from neutral mutations which do not provide an advantage nor a disadvantage to the cell. In small populations a neutral mutation might be prevelant due to genetic drift. ***TALK ABOUT DAVID NELSON HERE?***
 
 \subsubsection{Cancer Stem Cells (CSCs)}
-The original model of tumor progression was a linear evolutionary model having a single cell origin. This means that an originally normal cell develops a growth advantage (in the form of loss of divisional control or quicker division) amongst neighbouring normal cells. At each mitotic event, the cancer cells accumulate different mutations (see above) that leads to competition and eventual selection of a few the most advantageous mutations \cite{Nowell}. 
+The traditional view of tumor progression is a linear evolutionary model having a single cell origin. Initially, a normal cell develops a growth advantage allowing it to compete favourably against neighbouring normal cells. At each mitotic event, the cancer cells accumulate different mutations that leads to competition and eventual selection of a few of the most advantageous mutations \cite{Nowell1976}. 
 
-Another compelling model exists considering that certain cancer cells acquire unlimited proliferative potential but producing cancer cells that have limited proliferative potential \cite{Tomasson2009}. It is expect that these two models will produce vastly different spatial and genetic landscapes.
+Another compelling model exists based on evidence that certain cancer cells acquire unlimited proliferative potential but producing cancer cells that have limited proliferative potential \cite{Tomasson2009}. The cells with unlimited proliferative potential are known as Cancer Stem Cells (CSCs).
+
+It is expect that these two models will produce vastly different spatial and genetic landscapes.
 
 \subsection{Motivation and Significance}
 Understanding how tumor heterogeneity is distributed in space in a tumor during the time of therapeutic decision is of great importance. Quantification of tumor heterogeneity also proves to be a challenge as it is inherently affected by tumor sampling bias \cite{Heppner1983}\cite{Naxerova2015} which causes the decision to be made under situations where we have incomplete information. 
 
-In this paper, we take a look at two theoretical cancer models: the Mutational Response Model and Cancer Stem Cell (CSC) Model in addition to a simpler model for comparison. We compare the spatial patterns of these models and then proceed to quanitfy the genetic landscape of the models based on different sampling strategies that one might use in a clinical setting. With the advancement of modern technologies like deep sequencing, we are able to now obtain single-cell resolution of the genetic landscape which can be used to validate models presented in this paper. 
+In this paper, we take a look at two theoretical cancer models: the Mutational Response Model and Cancer Stem Cell (CSC) Model, in addition to a simpler model for comparison. We compare the spatial patterns of these models and then proceed to quanitfy their genetic landscapes based on different sampling strategies that one might use in a clinical setting. With the advancement of modern technologies like deep sequencing, we are able to now obtain single-cell resolution of the genetic landscape which can be used to validate models presented in this paper. 
 
 Through this we obtain a clearer picture into the biology of how tumor heterogeneity varies with model and sampling methodology. This can be used to make more informed decisions regarding therapy and forms the basis for further work.
 
@@ -89,76 +91,98 @@ The Cellular Potts Model (CPM) \cite{Graner1992} was used to simulate tissue cul
 
 The Cellular Potts Model consists of a $M\times M$ lattice of \emph{spins}. For a more biological interpretation, we can consider a \emph{spin} to represent an area of \emph{cell cytoplasm}. To maintain consistency with established literature, we will continue to use the term \emph{spin}. At any location of the lattice, $(x,y)$, a spin can take on a value, $\sigma(x,y) = \{0,1,\ldots N\}$. A \emph{cell}, $\sigma$, is defined as a collection of these spins; as such, this restricts same-spin values to be clustered together in the lattice. If $\sigma(x,y) = 0$, then this region is said to be the \emph{extra cellular matrix (ECM)}. To be able to simulate different \emph{types} of cells, for example proliferating and migrating cells, we introduce $\tau(\sigma)$, which returns the \emph{type} of the cell $\sigma$. Two cells can be seen in Figure \ref{basic}.
 
-For each position on the lattice, we define a \emph{Hamiltonian}, $H$, as follows:
-\begin{equation}
-	H = H_{surface} + H_{area} + H_{gradients}
-	\label{hamiltonian}
-\end{equation}
+For state of the lattice, we define a \emph{Hamiltonian}, $H$, which captures the total energy of the system. Surface tension between cells, restrictions in cell areas and volumes and effects of external potentials are amongsts the phenomenon taken into account by $H$.
 
-\begin{itemize}
-	\item $H_{surface}$ characterizes the surface tension between a cell, $\sigma$, and its neighbours, $\sigma'$.
-	\item $H_{area}$ captures the dynamics of cells being restricted to a certain size due to limitations of diffusion and cell machinery. 
-	\item $H_{gradients}$ captures any external forces applied to cells due to chemical potentials and other pertubations.
-\end{itemize}
+The simulation then proceeds via a Monte Carlo method to flip spins on the lattice in an attempt to grow and move cells. Cells will move to minimize the Hamiltonian, $H$.
 
-The simulation then proceeds via a Monte Carlo method to flip spins in the lattice in an attempt to grow and move cells. Cells will move to minimize the Hamiltonian (Equation \ref{hamiltonian}).
+% \subsubsection{Hamiltonian Equations}
+% Cells experience surface tensions when they interact with their environment. This effect is captured by the following Hamiltonian function:
 
-\subsubsection{Hamiltonian Equations}
-Cells experience surface tensions when they interact with their environment. This effect is captured by the following Hamiltonian function:
+% \begin{equation}
+% 	H_{surface} (x,y) = \sum_{\sigma' \in \text{neighbours}~\sigma} J(\tau(\sigma), \tau(\sigma'))(1-\delta(\sigma, \sigma'))
+% \end{equation}
 
-\begin{equation}
-	H_{surface} (x,y) = \sum_{\sigma' \in \text{neighbours}~\sigma} J(\tau(\sigma), \tau(\sigma'))(1-\delta(\sigma, \sigma'))
-\end{equation}
+% $J(\tau_1, \tau_2)=J(\tau_2, \tau_1)$ is the cell-interaction function that returns the surface tension between two cell types, $\tau_1$ and $\tau_2$, and $\delta$ is the Kronecker delta function, $\delta(x,y)=\{1:~\text{if }x=y;~0:~\text{otherwise}\}$. The Kronecker delta function prevents us from considering two lattice positions of the same spin to have a surface tension since these two spins are part of the same cell.
 
-$J(\tau_1, \tau_2)=J(\tau_2, \tau_1)$ is the cell-interaction function that returns the surface tension between two cell types, $\tau_1$ and $\tau_2$, and $\delta$ is the Kronecker delta function, $\delta(x,y)=\{1:~\text{if }x=y;~0:~\text{otherwise}\}$. The Kronecker delta function prevents us from considering two lattice positions of the same spin to have a surface tension since these two spins are part of the same cell.
+% Cells cannot grow indefinitely. If cells are too big, they cannot efficiently diffuse nutrients and shuttle machinery within their cell boundaries. This effect can be captured by the following Hamiltonian:
 
-Cells cannot grow indefinitely. If cells are too big, they cannot efficiently diffuse nutrients and shuttle machinery within their cell boundaries. This effect can be captured by the following Hamiltonian:
+% \begin{equation}
+% 	H_{area} = \sum_{\text{all spins }\sigma} (a_{current}(\sigma)-a_{target})^2 \cdot \theta(a_{target}(\sigma))
+% 	\label{H_area}
+% \end{equation}
 
-\begin{equation}
-	H_{area} = \sum_{\text{all spins }\sigma} (a_{current}(\sigma)-a_{target})^2 \cdot \theta(a_{target}(\sigma))
-	\label{H_area}
-\end{equation}
+% Here $a_{current}(\sigma)$ and $a_{target}(\sigma)$ are functions that return the current and target area of the cell respectively, and $\theta(x)=\{0:~\text{if}~x\leq 0;~1:~\text{if}~x>0\}$ (Here $\theta(x)$ works to prevent us from considering negative target areas. This is essential because we define $a_{target}(\sigma_{ECM}) < 0$ when implementing the model).
 
-Here $a_{current}(\sigma)$ and $a_{target}(\sigma)$ are functions that return the current and target area of the cell respectively, and $\theta(x)=\{0:~\text{if}~x\leq 0;~1:~\text{if}~x>0\}$ (Here $\theta(x)$ works to prevent us from considering negative target areas. This is essential because we define $a_{target}(\sigma_{ECM}) < 0$ when implementing the model).
+% Finally, we would like to add perturbations to our model. For example, we would like to simulate an oxygen gradient towards a blood vessel which would make it energetically favorable for cells to move away from the main tissue and toward the blood vessel. This effect can be captured with the following Hamiltonian:
+% \begin{equation}
+% 	H_{gradients}(x,y) = V(x,y)
+% \end{equation}
+% Where $V(x,y)$ is some potential that we can change to simulate a variety of different effects.
 
-Finally, we would like to add perturbations to our model. For example, we would like to simulate an oxygen gradient towards a blood vessel which would make it energetically favorable for cells to move away from the main tissue and toward the blood vessel. This effect can be captured with the following Hamiltonian:
-\begin{equation}
-	H_{gradients}(x,y) = V(x,y)
-\end{equation}
-Where $V(x,y)$ is some potential that we can change to simulate a variety of different effects.
+% \subsubsection{Monte Carlo Metropolis Algorithm}
+% Each \emph{spin copy attempt} of our simulation follows the algorithm outlined below \cite{Glazier2007}:
 
-\subsubsection{Monte Carlo Metropolis Algorithm}
-Each \emph{spin copy attempt} of our simulation follows the algorithm outlined below \cite{Glazier2007}:
+% \begin{enumerate}
+%   \item Choose a lattice site at random $(x,y)$ with a spin $\sigma_{select}$
+%   \item Pick a trial spin $\sigma_{trial}$ from the neighbors around $(x,y)$
+%   \item Calculate $H_{initial}$ using $\sigma_{select}$
+%   \item Calculate $H_{final}$ using $\sigma_{trial}$
+%   \item Calcualte energy change, $\Delta H = H_{final} - H_{intial}$
+%   \item{ Change $\sigma_{select}$ to $\sigma_{trial}$ with the probability:
+%   \begin{equation}
+%  		P(\text{Spin Copy Attempt Successful}) =
+%   	\begin{cases}
+%    		1 & \text{if } \Delta H \leq 0 \\
+%    		\exp{(-\frac{\Delta H}{T})}       & \text{if } \Delta H > 0
+%   	\end{cases}
+%   	\label{p_attempt_success}
+% 	\end{equation}
+% }
+% \end{enumerate}
 
-\begin{enumerate}
-  \item Choose a lattice site at random $(x,y)$ with a spin $\sigma_{select}$
-  \item Pick a trial spin $\sigma_{trial}$ from the neighbors around $(x,y)$
-  \item Calculate $H_{initial}$ using $\sigma_{select}$
-  \item Calculate $H_{final}$ using $\sigma_{trial}$
-  \item Calcualte energy change, $\Delta H = H_{final} - H_{intial}$
-  \item{ Change $\sigma_{select}$ to $\sigma_{trial}$ with the probability:
-  \begin{equation}
- 		P(\text{Spin Copy Attempt Successful}) =
-  	\begin{cases}
-   		1 & \text{if } \Delta H \leq 0 \\
-   		\exp{(-\frac{\Delta H}{T})}       & \text{if } \Delta H > 0
-  	\end{cases}
-  	\label{p_attempt_success}
-	\end{equation}
-}
-\end{enumerate}
+% Here the temperature, $T$, accounts for thermal fluctuations and adds a stochastic element to our algorithm. This allows for the case where an unfavourable spin copy attempt will be successful if it obtains some energy from the environment in the form of a 'thermal kick'. The higher $T$ is, the more likely an unfavorable spin copy attempt is successful.
 
-Here the temperature, $T$, accounts for thermal fluctuations and adds a stochastic element to our algorithm. This allows for the case where an unfavourable spin copy attempt will be successful if it obtains some energy from the environment in the form of a 'thermal kick'. The higher $T$ is, the more likely an unfavorable spin copy attempt is successful.
+% \begin{definition}[Monte Carlo Time Step (MCS)] One Monte Carlo Time Step is $M^2$ spin copy attempts, where $M$ is the size of the lattice.
+% \end{definition}
 
-\begin{definition}[Monte Carlo Time Step (MCS)] One Monte Carlo Time Step is $M^2$ spin copy attempts, where $M$ is the size of the lattice.
-\end{definition}
-
-We use CompuCell3D \cite{Swat2012} (version 3.7.4) which is widely adopted software by computational biologists aiming to simulate many different tissue systems based on the Cellular Potts Model.
+For simulations in this paper, we have use CompuCell3D \cite{Swat2012} (version 3.7.4) which is a widely adopted software by computational biologists aiming to simulate many different tissue systems based on the Cellular Potts Model.
 
 \subsection{The Infinite Genome}
+To simulate genomes and phenotypes of the cancer cells, we built an extension to the CompuCell3D software. The positional loci of the genome is modelled as a random variable, $L = 10^{15}\times L^*,~L^* \sim U(0,1)$, where $L^*$ is picked from the uniform distribution with parameters $a=0, b=1$. By the limitation of doubles, the number of loci are limited to $10^{15}$. Thus the probability of any mutation appearing between loci at position $l$ and $l'$ is $P( l' < L < l) = \frac{l' - l}{10^{15}}$. At each mitotic event we pick, $\lambda$, $\lambda \sim Pois(\lambda)$, loci to mutate. Once a locus is marked as mutated, it cannot switch back to an unmutated state.
 
+\subsection{The Models}
+To simulate background neutral mutations and natural cell shapes we divided our simulation into two distinc phases. In phase one, known in the literature as the \emph{naturalization period}, we grow a single normal cell to divide and accumulate a lattice of area $900\times900$ within a $1000\times1000$ lattice. To avoid edge effects, we allow the remaining space to consume cells and allow the central area to extend infinitely. In phase two, we then select a single cell within $10\times10$ square units of the lattice center to be the cancer cell and then resume the simulation this time turning of growth for normal cells. In all models, cancer cells have a lower dividing threshold and a higher mutation rate. When a single cancer cell reaches the edge of the lattice, we terminate the simulation.
 
-\subsection{}
+Three models of cancer were simulated: 
+\begin{enumerate}
+	\item The 1st Order Model only had cancer cells which have a higher mutation rate. 
+	\item The Mutational Response Model had the growth rate, $dV$, according to the logistic equation (Eq \ref{eq:1}):
+	\begin{equation} \label{eq:1}
+	dV = \frac{1}{1+\exp\big(-\big[0.01X-\ln(\frac{1}{dV_{min}}-1)\big]\big)}
+	\end{equation}
+	\[
+	X = \text{Number of mutations in the first 10\% of the genome}
+	\]\[
+	dV_{min} = \text{The minimum growth rate of the cell}
+	\]
+	\item In the cancer stem cell model, we have two cancer cell types: cancer stem cell and the regular tumor cell. The starter cancer cell is labelled as a CSC. After division, the daughter cell A inherits the CSC characteristic with probability $p_{CSC}$ or remain with a regular cancer phenotype with probability $1-p_{CSC}$, while the daugher cell B can loose its CSC phenotype with $p_{endCSC}$. 
+\end{enumerate}
+
+Exact parameters for each simulation are summarized in table ***DO TABLE*****
+
+\subsection{Sampling}
+When the simulation is completed, we need to sample from the tumor to obtain a subset of cells that we will use to quantify diversity. Cells are sampled by ellipses with varying eccentricities $0 \leq \epsilon < 1$. An ellipse with $\epsilon=0$ resembles circular patch from the tumor while $\epsilon = 0.99$, resembles rectangular slice from the tumor. We scale the area of ellipses, $A_{ellipse}$ according to the number of cells in that sample, N, and the average area of a cell $\bar{A}$: $A_{ellipse} \propto N\bar{A}$. We can write the major and minor axes, $a$ and $b$ respectively in terms of these parameters:
+\[ a^2 = \frac{\bar{A}N}{\pi\sqrt{1-\epsilon^2}};~~~ b^2 = \frac{\bar{A}N\sqrt{1-\epsilon^2}}{\pi}\]
+
+We select 20 points, $k_1,\ldots,k_{20}$, within the tumor to sample our ellipses with a random angle, $\theta$. For each point $k_i$, we select the $N$ closest cells to that point. After this, we subsample a fixed number of cells, $M$, which ensures that our statistics are not affected due to the increasing $N$ but only due to area $A_{ellipse}$.
+
+\subsection{Proportion of Pairwise Differences and Number of Segregating Sites}
+Two statistics are used to quantify diversity in tumor samples. The expected proportion of pairwise differences, $E(\pi)$, is defined in terms of the number of chromosomes, $n$, the number of mutated chromosomes at loci $l$, $m_l$, and total number of loci, $M$:
+\begin{equation} \label{eq:Epi}
+	E(\pi) = 2\sum_{l=1}^M \Big(\frac{m_l}{n}\Big) \Big( \frac{n-m_l}{n}\Big) 
+\end{equation}
+
+The number os segregating sites, $S$, is defined as the total number of mutated sites in the tumor sample. We scale $S$ using the Harmonic series, $\frac{S}{H_n}$. $H_n$ is the theoretical expected growth in the number of segregating sites given a randomly mating population.
 
 
 % 
