@@ -35,11 +35,18 @@
 \end{titlepage}
 
 \begin{abstract}
-\textbf{Background:}
-Something about the background
-\textbf{Methods:}
-We use Cellular Potts Model (CPM) to simulate tumors in their natural environments and allow them to grow under three models including the long standing traditional linear progression model and the Cancer Stem Cell (CSC) model. We emulate sampling and sequencing of their genomes to obtain the relationship between spatial expanse and the genetic landscape of the tumor.
+\textbf{Significance:}
+Tumor heterogeneity is the name given to the phenomenon of subclonal populations within a tumor having different genotypic composition. Understanding how tumor heterogeneity is distributed in space in a tumor during the time of therapeutic decision is of great importance as it changes the effectiveness of a targeted treatment. Quantification of tumor heterogeneity also proves to be a challenge as it is inherently affected by tumor sampling bias which causes the decision to be made under situations where we have incomplete information.
 
+We use Cellular Potts Model (CPM) to simulate tumors in their natural environments and allow them to grow under three models: the traditional linear progression model, the Cancer Stem Cell (CSC) model and a baseline model. We compare the spatial patterns of these models and then proceed to quanitfy their genetic landscapes based on different sampling strategies that one might use in a clinical setting.
+
+With the advancement of modern technologies like deep sequencing, we are able to now obtain single-cell resolution of the genetic landscape which can be used to validate models presented in this poster.
+
+Through this we obtain a clearer picture into the biology of how tumor heterogeneity varies with model and sampling methodology. This can be used to make better informed decisions regarding therapy and forms the basis for further work.
+
+
+\textbf{Methods:}
+We use Cellular Potts Model (CPM) to simulate tumors in their natural environments and allow them to grow under three models: long standing traditional linear progression model, the Cancer Stem Cell (CSC) model, and a baseline model. We emulate sampling and sequencing of their genomes to obtain the relationship between spatial expanse and the genetic landscape of the tumor using a custom built library. We calculate the expected proportion of pairwise differences and the number of segregating sites as popular statistics to quantify the heterogeneity.
 \textbf{Results:}
 Main results and observations
 \textbf{Limitations:}
@@ -182,7 +189,7 @@ Two statistics are used to quantify diversity in tumor samples. The expected pro
 	E(\pi) = 2\sum_{l=1}^M \Big(\frac{m_l}{n}\Big) \Big( \frac{n-m_l}{n}\Big) 
 \end{equation}
 
-The number os segregating sites, $S$, is defined as the total number of mutated sites in the tumor sample. We scale $S$ using the Harmonic series, $\frac{S}{H_n}$. $H_n$ is the theoretical expected growth in the number of segregating sites given a randomly mating population.
+The number of segregating sites, $S$, is defined as the total number of mutated sites in the tumor sample. We scale $S$ using the Harmonic series, $\frac{S}{H_n}$. $H_n$ is the theoretical expected growth in the number of segregating sites given a randomly mating population.
 
 
 % 
