@@ -1,0 +1,29 @@
+ Out [0]: Analysis Directory: /lb/project/gravel/zafarali_projects/summer15/metastasis/simulation_out/space_plots/LimboMutationResponse_Monday_14092015_184918
+ Out [1]: Output Directory: /lb/project/gravel/zafarali_projects/summer15/metastasis/simulation_out/space_plots/LimboMutationResponse_Monday_14092015_184918/pipe_out_Thursday_01102015_134535
+ Out [2]: Importing Speficiations
+ Out [3]: SPECS LOADED
+ Out [4]: File paths saved, directory created.
+ Out [5]: saving to:/lb/project/gravel/zafarali_projects/summer15/metastasis/simulation_out/space_plots/LimboMutationResponse_Monday_14092015_184918/pipe_out_Thursday_01102015_134535
+ Out [6]: There are 5910 cancer cells
+ Out [7]: saved spatial_plot
+ Out [8]: Loaded MultiLineage for cancer_cell_ids only
+ Out [9]: Number of lineages: 1
+ Out [10]: Number of cancer lineages: 1
+ Out [11]: (!) unable to save space_plot_by_initial 
+1
+ Out [12]: (!) unable to save color_by_branch for lineage: 1depth:1
+Don't know a PDF representation for <type 'numpy.ndarray'> objects.
+ Out [13]: (!) unable to save color_by_branch for lineage: 1depth:2
+Don't know a PDF representation for <type 'numpy.ndarray'> objects.
+ Out [14]: saved color_by_branch for lineage: 1depth:3
+ Out [15]: saved color_by_branch for lineage: 1depth:4
+ Out [16]: saved color_by_branch for lineage: 1depth:5
+ Out [17]: saved color_by_branch for lineage: 1depth:6
+ Out [18]: saved color_by_branch for lineage: 1depth:7
+ Out [19]: saved color_by_branch for lineage: 1depth:8
+ Out [20]: saved color_by_branch for lineage: 1depth:9
+ Out [21]: saved color_by_branch for lineage: 1depth:10
+ Out [22]: saved color_by_branch for lineage: 1depth:11
+ Out [23]: saved color_by_branch for lineage: 1depth:12
+ Out [24]: saved color_by_branch for lineage: 1depth:13
+ Out [25]: saved overall lineage for 1
