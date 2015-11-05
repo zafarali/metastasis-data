@@ -19,6 +19,7 @@ cmap = [(255,0,2),
 (0,0,255)]
 
 color = mpl.colors.ListedColormap(np.array(cmap)/float(255)).colors
+# mpl.rc('text', usetex = True)
 
 
 def H(n):
@@ -56,8 +57,8 @@ else:
 	selected_eccs = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 
 
-MODELTYPES = ['1stOrder', 'MutationResponse', 'CSC']
-TITLES = ['Baseline Model', 'Traditional Model', 'Cancer Stem Cell Model']
+MODELTYPES = ['1stOrder', 'MutationResponse', 'CSC', 'MDCSC']
+TITLES = ['Single Driver Model', 'Multiple Driver Model', 'Cancer Stem Cell Model', 'Multiple Dirver Cancer Stem Cell Model']
 RATIOS = ['base', 'cancer_80', 'cancer_90', 'cancer_only']
 RATIO_TITLES = ['0%', '80%', '90%', '100%']
 
@@ -66,6 +67,7 @@ eccentricities_to_compare = {}
 
 eccentricities_to_compare['1stOrder'] = {}
 eccentricities_to_compare['CSC'] = {}
+eccentricities_to_compare['MDCSC'] = {}
 eccentricities_to_compare['MutationResponse'] = {}
 
 # loop over all models
@@ -94,16 +96,20 @@ for model, title in zip(MODELTYPES, TITLES):
 				ratio_save = subset['S'].values / H_vectorized(subset['N'])
 				this_ylabel = 'S/H'
 
-
 			elif plot_type == 'pi':
 				y = subset['E_of_pi'] 
 				ratio_save = subset['E_of_pi'].values
-				this_ylabel = 'E(pi)'
+				this_ylabel = 'pi'
 
 			elif plot_type == 'S':
 				y = subset['S'] 
 				ratio_save = subset['S'].values
 				this_ylabel = 'S'
+			elif plot_type == 'D':
+				y = subset['E_of_pi'] - (subset['S'] / H_vectorized(subset['N']))
+				ratio_save = subset['E_of_pi'].values - (subset['S'].values / H_vectorized(subset['N']))
+				this_ylabel = 'D'
+
 
 			ecc = str(np.around(ecc, decimals=1))
 			eccentricities_to_compare[model][ecc] = eccentricities_to_compare[model].get(ecc, {})
@@ -116,25 +122,25 @@ for model, title in zip(MODELTYPES, TITLES):
 		plt.xlabel('Area of Sample')
 
 		save_fig = out_folder+model+'_'+ratio+'_'+plot_type
-		plt.savefig( save_fig+'_dpi100.png' , format='png', transparent=False, dpi=100, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi100.pdf' , format='pdf', transparent=False, dpi=100, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi100.svg' , format='svg', transparent=False, dpi=100, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi100.png' , format='png', transparent=False, dpi=100, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi100.pdf' , format='pdf', transparent=False, dpi=100, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi100.svg' , format='svg', transparent=False, dpi=100, bbox_inches='tight')
 		plt.savefig( save_fig+'_dpi200.png' , format='png', transparent=False, dpi=200, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi200.pdf' , format='pdf', transparent=False, dpi=200, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi200.svg' , format='svg', transparent=False, dpi=200, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi300.png' , format='png', transparent=False, dpi=300, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi300.pdf' , format='pdf', transparent=False, dpi=300, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi300.svg' , format='svg', transparent=False, dpi=300, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi200.pdf' , format='pdf', transparent=False, dpi=200, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi200.svg' , format='svg', transparent=False, dpi=200, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi300.png' , format='png', transparent=False, dpi=300, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi300.pdf' , format='pdf', transparent=False, dpi=300, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi300.svg' , format='svg', transparent=False, dpi=300, bbox_inches='tight')
 		print 'Saved '+save_fig
 
 
 	x = pd.unique(df['area'])
 	for ecc, obj in sorted(eccentricities_to_compare[model].items(), key=lambda x: x[0]):
 		plt.figure()
-		plt.plot(x, obj['0%'], label='0%', color='y')
-		plt.plot(x, obj['80%'], label='80%', color='g')
-		plt.plot(x, obj['90%'], label='90%', color='b')
-		plt.plot(x, obj['100%'], label='100%', color='r')
+		plt.plot(x, obj['0%'], label='0%', color='y', lw=2)
+		plt.plot(x, obj['80%'], label='80%', color='g', lw=2)
+		plt.plot(x, obj['90%'], label='90%', color='b', lw=2)
+		plt.plot(x, obj['100%'], label='100%', color='r', lw=2)
 		plt.legend(loc='lower right')
 
 		plt.title('Comparing ' + this_ylabel + ', ' + title + ' (e='+str(ecc)+')')
@@ -142,15 +148,15 @@ for model, title in zip(MODELTYPES, TITLES):
 		plt.ylabel(this_ylabel)
 		save_fig = out_folder+model+'_ecc_compare_'+str(ecc)
 
-		plt.savefig( save_fig+'_dpi100.png' , format='png', transparent=False, dpi=100, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi100.pdf' , format='pdf', transparent=False, dpi=100, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi100.svg' , format='svg', transparent=False, dpi=100, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi100.png' , format='png', transparent=False, dpi=100, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi100.pdf' , format='pdf', transparent=False, dpi=100, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi100.svg' , format='svg', transparent=False, dpi=100, bbox_inches='tight')
 		plt.savefig( save_fig+'_dpi200.png' , format='png', transparent=False, dpi=200, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi200.pdf' , format='pdf', transparent=False, dpi=200, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi200.svg' , format='svg', transparent=False, dpi=200, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi300.png' , format='png', transparent=False, dpi=300, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi300.pdf' , format='pdf', transparent=False, dpi=300, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi300.svg' , format='svg', transparent=False, dpi=300, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi200.pdf' , format='pdf', transparent=False, dpi=200, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi200.svg' , format='svg', transparent=False, dpi=200, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi300.png' , format='png', transparent=False, dpi=300, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi300.pdf' , format='pdf', transparent=False, dpi=300, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi300.svg' , format='svg', transparent=False, dpi=300, bbox_inches='tight')
 		print 'Saved '+save_fig
 
 
@@ -165,24 +171,25 @@ for model, details in eccentricities_to_compare.items():
 for ecc, data in formatter.items():
 	for ratio in RATIO_TITLES:
 		plt.figure()
-		plt.plot(x, data['1stOrder'][ratio], 'r', label='Baseline')
-		plt.plot(x, data['CSC'][ratio], 'b', label='CSC')
-		plt.plot(x, data['MutationResponse'][ratio], 'g', label='Traditional')
+		plt.plot(x, data['1stOrder'][ratio], 'r', label='SD', lw=2)
+		plt.plot(x, data['CSC'][ratio], 'b', label='CSC', lw=2)
+		plt.plot(x, data['MutationResponse'][ratio], 'g', label='MD', lw=2)
+		plt.plot(x, data['MDCSC'][ratio], 'g', label='MDCSC', lw=2)
 		plt.title('Comparison of ' + this_ylabel + ' between models (e=' + ecc + ', t='+ratio+')')
 		plt.legend(loc='lower right')
 		plt.ylabel(this_ylabel)
 		plt.xlabel('Area of Sample')
 		save_fig = out_folder+'ecc_compare_'+str(ecc)+'_multimodel_ratio'+ratio
 
-		plt.savefig( save_fig+'_dpi100.png' , format='png', transparent=False, dpi=100, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi100.pdf' , format='pdf', transparent=False, dpi=100, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi100.svg' , format='svg', transparent=False, dpi=100, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi100.png' , format='png', transparent=False, dpi=100, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi100.pdf' , format='pdf', transparent=False, dpi=100, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi100.svg' , format='svg', transparent=False, dpi=100, bbox_inches='tight')
 		plt.savefig( save_fig+'_dpi200.png' , format='png', transparent=False, dpi=200, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi200.pdf' , format='pdf', transparent=False, dpi=200, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi200.svg' , format='svg', transparent=False, dpi=200, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi300.png' , format='png', transparent=False, dpi=300, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi300.pdf' , format='pdf', transparent=False, dpi=300, bbox_inches='tight')
-		plt.savefig( save_fig+'_dpi300.svg' , format='svg', transparent=False, dpi=300, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi200.pdf' , format='pdf', transparent=False, dpi=200, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi200.svg' , format='svg', transparent=False, dpi=200, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi300.png' , format='png', transparent=False, dpi=300, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi300.pdf' , format='pdf', transparent=False, dpi=300, bbox_inches='tight')
+		# plt.savefig( save_fig+'_dpi300.svg' , format='svg', transparent=False, dpi=300, bbox_inches='tight')
 		print 'Saved '+save_fig
 
 #     plt.plot(x, data['MutationResponse']['0%'])
