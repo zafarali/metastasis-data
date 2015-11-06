@@ -1,0 +1,39 @@
+ Out [0]: Analysis Directory: /lb/project/gravel/zafarali_projects//summer15/metastasis/simulation_out/LimboMDCSC_Thursday_05112015_140456
+ Out [1]: Output Directory: /lb/project/gravel/zafarali_projects//summer15/metastasis/simulation_out/LimboMDCSC_Thursday_05112015_140456/pipe_out_Thursday_05112015_153346
+ Out [2]: Importing Speficiations
+ Out [3]: SPECS LOADED
+ Out [4]: sampling strategies loaded
+ Out [5]: File paths saved, directory created.
+ Out [6]: saving to:/lb/project/gravel/zafarali_projects//summer15/metastasis/simulation_out/LimboMDCSC_Thursday_05112015_140456/pipe_out_Thursday_05112015_153346
+ Out [7]: There are 6982 cancer cells
+ Out [8]: saved spatial_plot
+ Out [9]: Loaded MultiLineage for cancer_cell_ids only
+ Out [10]: Number of lineages: 1
+ Out [11]: Number of cancer lineages: 1
+ Out [12]: (!) unable to save space_plot_by_initial 
+5
+ Out [13]: (!) unable to save color_by_branch for lineage: 1depth:1
+Don't know a PDF representation for <type 'numpy.ndarray'> objects.
+ Out [14]: (!) unable to save color_by_branch for lineage: 1depth:2
+Don't know a PDF representation for <type 'numpy.ndarray'> objects.
+ Out [15]: saved color_by_branch for lineage: 1depth:3
+ Out [16]: saved color_by_branch for lineage: 1depth:4
+ Out [17]: saved color_by_branch for lineage: 1depth:5
+ Out [18]: saved color_by_branch for lineage: 1depth:6
+ Out [19]: saved color_by_branch for lineage: 1depth:7
+ Out [20]: saved color_by_branch for lineage: 1depth:8
+ Out [21]: saved color_by_branch for lineage: 1depth:9
+ Out [22]: saved color_by_branch for lineage: 1depth:10
+ Out [23]: saved color_by_branch for lineage: 1depth:11
+ Out [24]: saved color_by_branch for lineage: 1depth:12
+ Out [25]: saved color_by_branch for lineage: 1depth:13
+ Out [26]: saved overall lineage for 1
+ Out [27]: loading genomes from: /lb/project/gravel/zafarali_projects//summer15/metastasis/simulation_out/LimboMDCSC_Thursday_05112015_140456/genomes_Thu_Nov__5_14:04:58_2015.csv.gen2
+ Out [28]: Loaded GenomeCompare module
+ Out [29]: Loaded PostProcess module
+ Out [30]: Saving sample 1, method: eccentric
+ Out [31]: Saving sample 2, method: eccentric
+ Out [32]: Saving sample 3, method: eccentric
+ Out [33]: Saving sample 4, method: eccentric
+ Out [34]: (!) Unknown exception occured during eccentric sampling: sample larger than population
+ Out [35]: (!) Unable to conduct a sample: sample larger than population
