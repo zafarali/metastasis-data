@@ -1,6 +1,6 @@
-MODEL_TYPE MD
+MODEL_TYPE CSCMD
 ARGUMENTS {'auto_reduce_magnitude': 0.75, 'update_mean_mutations': 120, 'post_steps': 2000, 'mean_mutations': 50, 'init_steps': 100}
-Simulation started at Sat Dec 12 13:50:45 2015
+Simulation started at Sat Dec 12 15:30:56 2015
 step: 1 of 100 / Total Time: 0 / auto_reduce: True, proportion_divide: 0.5 i.e. approx 1 cells
 step: 2 of 100 / Total Time: 1 / auto_reduce: True, proportion_divide: 0.363636363636 i.e. approx 1 cells
 step: 3 of 100 / Total Time: 2 / auto_reduce: True, proportion_divide: 0.285714285714 i.e. approx 1 cells
@@ -101,9 +101,9 @@ step: 97 of 100 / Total Time: 96 / auto_reduce: True, proportion_divide: 0.01351
 step: 98 of 100 / Total Time: 97 / auto_reduce: True, proportion_divide: 0.0133779264214 i.e. approx 6 cells
 step: 99 of 100 / Total Time: 98 / auto_reduce: True, proportion_divide: 0.0132450331126 i.e. approx 6 cells
 step: 100 of 100 / Total Time: 99 / auto_reduce: True, proportion_divide: 0.0131147540984 i.e. approx 6 cells
-Simulation ended at Sat Dec 12 13:50:46 2015
-Total time taken:0.398989915848seconds
-Simulation started at Sat Dec 12 13:50:46 2015
+Simulation ended at Sat Dec 12 15:30:56 2015
+Total time taken:0.396250009537seconds
+Simulation started at Sat Dec 12 15:30:56 2015
 step: 1 of 2000 / Total Time: 100 / auto_reduce: True, proportion_divide: 0.0161290322581 i.e. approx 7 cells
 step: 2 of 2000 / Total Time: 101 / auto_reduce: True, proportion_divide: 0.0159744408946 i.e. approx 7 cells
 step: 3 of 2000 / Total Time: 102 / auto_reduce: True, proportion_divide: 0.0158227848101 i.e. approx 7 cells
@@ -120,7 +120,7 @@ step: 13 of 2000 / Total Time: 112 / auto_reduce: True, proportion_divide: 0.014
 step: 14 of 2000 / Total Time: 113 / auto_reduce: True, proportion_divide: 0.0143266475645 i.e. approx 7 cells
 step: 15 of 2000 / Total Time: 114 / auto_reduce: True, proportion_divide: 0.0142045454545 i.e. approx 7 cells
 step: 16 of 2000 / Total Time: 115 / auto_reduce: True, proportion_divide: 0.0140845070423 i.e. approx 7 cells
-step: 17 of 2000 / Total Time: 116 / auto_reduce: True, proportion_divide: 0.0139664804469 i.e. approx 8 cells
+step: 17 of 2000 / Total Time: 116 / auto_reduce: True, proportion_divide: 0.0139664804469 i.e. approx 7 cells
 step: 18 of 2000 / Total Time: 117 / auto_reduce: True, proportion_divide: 0.0138504155125 i.e. approx 8 cells
 step: 19 of 2000 / Total Time: 118 / auto_reduce: True, proportion_divide: 0.0137362637363 i.e. approx 8 cells
 step: 20 of 2000 / Total Time: 119 / auto_reduce: True, proportion_divide: 0.0136239782016 i.e. approx 8 cells
@@ -143,7 +143,7 @@ step: 36 of 2000 / Total Time: 135 / auto_reduce: True, proportion_divide: 0.012
 step: 37 of 2000 / Total Time: 136 / auto_reduce: True, proportion_divide: 0.011961722488 i.e. approx 8 cells
 step: 38 of 2000 / Total Time: 137 / auto_reduce: True, proportion_divide: 0.0118764845606 i.e. approx 8 cells
 step: 39 of 2000 / Total Time: 138 / auto_reduce: True, proportion_divide: 0.0117924528302 i.e. approx 8 cells
-step: 40 of 2000 / Total Time: 139 / auto_reduce: True, proportion_divide: 0.0117096018735 i.e. approx 9 cells
+step: 40 of 2000 / Total Time: 139 / auto_reduce: True, proportion_divide: 0.0117096018735 i.e. approx 8 cells
 step: 41 of 2000 / Total Time: 140 / auto_reduce: True, proportion_divide: 0.0116279069767 i.e. approx 9 cells
 step: 42 of 2000 / Total Time: 141 / auto_reduce: True, proportion_divide: 0.0115473441109 i.e. approx 9 cells
 step: 43 of 2000 / Total Time: 142 / auto_reduce: True, proportion_divide: 0.0114678899083 i.e. approx 9 cells
@@ -166,8 +166,8 @@ step: 59 of 2000 / Total Time: 158 / auto_reduce: True, proportion_divide: 0.010
 step: 60 of 2000 / Total Time: 159 / auto_reduce: True, proportion_divide: 0.0102669404517 i.e. approx 9 cells
 step: 61 of 2000 / Total Time: 160 / auto_reduce: True, proportion_divide: 0.0102040816327 i.e. approx 9 cells
 step: 62 of 2000 / Total Time: 161 / auto_reduce: True, proportion_divide: 0.0101419878296 i.e. approx 9 cells
-step: 63 of 2000 / Total Time: 162 / auto_reduce: True, proportion_divide: 0.0100806451613 i.e. approx 10 cells
-step: 64 of 2000 / Total Time: 163 / auto_reduce: True, proportion_divide: 0.0100200400802 i.e. approx 10 cells
+step: 63 of 2000 / Total Time: 162 / auto_reduce: True, proportion_divide: 0.0100806451613 i.e. approx 9 cells
+step: 64 of 2000 / Total Time: 163 / auto_reduce: True, proportion_divide: 0.0100200400802 i.e. approx 9 cells
 step: 65 of 2000 / Total Time: 164 / auto_reduce: True, proportion_divide: 0.00996015936255 i.e. approx 10 cells
 step: 66 of 2000 / Total Time: 165 / auto_reduce: True, proportion_divide: 0.00990099009901 i.e. approx 10 cells
 step: 67 of 2000 / Total Time: 166 / auto_reduce: True, proportion_divide: 0.00984251968504 i.e. approx 10 cells
@@ -191,8 +191,8 @@ step: 84 of 2000 / Total Time: 183 / auto_reduce: True, proportion_divide: 0.008
 step: 85 of 2000 / Total Time: 184 / auto_reduce: True, proportion_divide: 0.00889679715302 i.e. approx 10 cells
 step: 86 of 2000 / Total Time: 185 / auto_reduce: True, proportion_divide: 0.00884955752212 i.e. approx 10 cells
 step: 87 of 2000 / Total Time: 186 / auto_reduce: True, proportion_divide: 0.00880281690141 i.e. approx 10 cells
-step: 88 of 2000 / Total Time: 187 / auto_reduce: True, proportion_divide: 0.00875656742557 i.e. approx 11 cells
-step: 89 of 2000 / Total Time: 188 / auto_reduce: True, proportion_divide: 0.00871080139373 i.e. approx 11 cells
+step: 88 of 2000 / Total Time: 187 / auto_reduce: True, proportion_divide: 0.00875656742557 i.e. approx 10 cells
+step: 89 of 2000 / Total Time: 188 / auto_reduce: True, proportion_divide: 0.00871080139373 i.e. approx 10 cells
 step: 90 of 2000 / Total Time: 189 / auto_reduce: True, proportion_divide: 0.00866551126516 i.e. approx 11 cells
 step: 91 of 2000 / Total Time: 190 / auto_reduce: True, proportion_divide: 0.00862068965517 i.e. approx 11 cells
 step: 92 of 2000 / Total Time: 191 / auto_reduce: True, proportion_divide: 0.00857632933105 i.e. approx 11 cells
@@ -217,8 +217,8 @@ step: 110 of 2000 / Total Time: 209 / auto_reduce: True, proportion_divide: 0.00
 step: 111 of 2000 / Total Time: 210 / auto_reduce: True, proportion_divide: 0.0078125 i.e. approx 11 cells
 step: 112 of 2000 / Total Time: 211 / auto_reduce: True, proportion_divide: 0.00777604976672 i.e. approx 11 cells
 step: 113 of 2000 / Total Time: 212 / auto_reduce: True, proportion_divide: 0.0077399380805 i.e. approx 11 cells
-step: 114 of 2000 / Total Time: 213 / auto_reduce: True, proportion_divide: 0.00770416024653 i.e. approx 12 cells
-step: 115 of 2000 / Total Time: 214 / auto_reduce: True, proportion_divide: 0.00766871165644 i.e. approx 12 cells
+step: 114 of 2000 / Total Time: 213 / auto_reduce: True, proportion_divide: 0.00770416024653 i.e. approx 11 cells
+step: 115 of 2000 / Total Time: 214 / auto_reduce: True, proportion_divide: 0.00766871165644 i.e. approx 11 cells
 step: 116 of 2000 / Total Time: 215 / auto_reduce: True, proportion_divide: 0.00763358778626 i.e. approx 12 cells
 step: 117 of 2000 / Total Time: 216 / auto_reduce: True, proportion_divide: 0.00759878419453 i.e. approx 12 cells
 step: 118 of 2000 / Total Time: 217 / auto_reduce: True, proportion_divide: 0.00756429652042 i.e. approx 12 cells
@@ -244,9 +244,9 @@ step: 137 of 2000 / Total Time: 236 / auto_reduce: True, proportion_divide: 0.00
 step: 138 of 2000 / Total Time: 237 / auto_reduce: True, proportion_divide: 0.00693481276006 i.e. approx 12 cells
 step: 139 of 2000 / Total Time: 238 / auto_reduce: True, proportion_divide: 0.00690607734807 i.e. approx 12 cells
 step: 140 of 2000 / Total Time: 239 / auto_reduce: True, proportion_divide: 0.00687757909216 i.e. approx 12 cells
-step: 141 of 2000 / Total Time: 240 / auto_reduce: True, proportion_divide: 0.00684931506849 i.e. approx 13 cells
-step: 142 of 2000 / Total Time: 241 / auto_reduce: True, proportion_divide: 0.00682128240109 i.e. approx 13 cells
-step: 143 of 2000 / Total Time: 242 / auto_reduce: True, proportion_divide: 0.00679347826087 i.e. approx 13 cells
+step: 141 of 2000 / Total Time: 240 / auto_reduce: True, proportion_divide: 0.00684931506849 i.e. approx 12 cells
+step: 142 of 2000 / Total Time: 241 / auto_reduce: True, proportion_divide: 0.00682128240109 i.e. approx 12 cells
+step: 143 of 2000 / Total Time: 242 / auto_reduce: True, proportion_divide: 0.00679347826087 i.e. approx 12 cells
 step: 144 of 2000 / Total Time: 243 / auto_reduce: True, proportion_divide: 0.00676589986468 i.e. approx 13 cells
 step: 145 of 2000 / Total Time: 244 / auto_reduce: True, proportion_divide: 0.00673854447439 i.e. approx 13 cells
 step: 146 of 2000 / Total Time: 245 / auto_reduce: True, proportion_divide: 0.00671140939597 i.e. approx 13 cells
@@ -272,9 +272,9 @@ step: 165 of 2000 / Total Time: 264 / auto_reduce: True, proportion_divide: 0.00
 step: 166 of 2000 / Total Time: 265 / auto_reduce: True, proportion_divide: 0.00621118012422 i.e. approx 13 cells
 step: 167 of 2000 / Total Time: 266 / auto_reduce: True, proportion_divide: 0.00618811881188 i.e. approx 13 cells
 step: 168 of 2000 / Total Time: 267 / auto_reduce: True, proportion_divide: 0.00616522811344 i.e. approx 13 cells
-step: 169 of 2000 / Total Time: 268 / auto_reduce: True, proportion_divide: 0.00614250614251 i.e. approx 14 cells
-step: 170 of 2000 / Total Time: 269 / auto_reduce: True, proportion_divide: 0.00611995104039 i.e. approx 14 cells
-step: 171 of 2000 / Total Time: 270 / auto_reduce: True, proportion_divide: 0.00609756097561 i.e. approx 14 cells
+step: 169 of 2000 / Total Time: 268 / auto_reduce: True, proportion_divide: 0.00614250614251 i.e. approx 13 cells
+step: 170 of 2000 / Total Time: 269 / auto_reduce: True, proportion_divide: 0.00611995104039 i.e. approx 13 cells
+step: 171 of 2000 / Total Time: 270 / auto_reduce: True, proportion_divide: 0.00609756097561 i.e. approx 13 cells
 step: 172 of 2000 / Total Time: 271 / auto_reduce: True, proportion_divide: 0.00607533414338 i.e. approx 14 cells
 step: 173 of 2000 / Total Time: 272 / auto_reduce: True, proportion_divide: 0.00605326876513 i.e. approx 14 cells
 step: 174 of 2000 / Total Time: 273 / auto_reduce: True, proportion_divide: 0.00603136308806 i.e. approx 14 cells
@@ -301,9 +301,9 @@ step: 194 of 2000 / Total Time: 293 / auto_reduce: True, proportion_divide: 0.00
 step: 195 of 2000 / Total Time: 294 / auto_reduce: True, proportion_divide: 0.00560538116592 i.e. approx 14 cells
 step: 196 of 2000 / Total Time: 295 / auto_reduce: True, proportion_divide: 0.00558659217877 i.e. approx 14 cells
 step: 197 of 2000 / Total Time: 296 / auto_reduce: True, proportion_divide: 0.00556792873051 i.e. approx 14 cells
-step: 198 of 2000 / Total Time: 297 / auto_reduce: True, proportion_divide: 0.00554938956715 i.e. approx 15 cells
-step: 199 of 2000 / Total Time: 298 / auto_reduce: True, proportion_divide: 0.00553097345133 i.e. approx 15 cells
-step: 200 of 2000 / Total Time: 299 / auto_reduce: True, proportion_divide: 0.00551267916207 i.e. approx 15 cells
+step: 198 of 2000 / Total Time: 297 / auto_reduce: True, proportion_divide: 0.00554938956715 i.e. approx 14 cells
+step: 199 of 2000 / Total Time: 298 / auto_reduce: True, proportion_divide: 0.00553097345133 i.e. approx 14 cells
+step: 200 of 2000 / Total Time: 299 / auto_reduce: True, proportion_divide: 0.00551267916207 i.e. approx 14 cells
 step: 201 of 2000 / Total Time: 300 / auto_reduce: True, proportion_divide: 0.00549450549451 i.e. approx 15 cells
 step: 202 of 2000 / Total Time: 301 / auto_reduce: True, proportion_divide: 0.00547645125958 i.e. approx 15 cells
 step: 203 of 2000 / Total Time: 302 / auto_reduce: True, proportion_divide: 0.00545851528384 i.e. approx 15 cells
@@ -331,10 +331,10 @@ step: 224 of 2000 / Total Time: 323 / auto_reduce: True, proportion_divide: 0.00
 step: 225 of 2000 / Total Time: 324 / auto_reduce: True, proportion_divide: 0.0050916496945 i.e. approx 15 cells
 step: 226 of 2000 / Total Time: 325 / auto_reduce: True, proportion_divide: 0.00507614213198 i.e. approx 15 cells
 step: 227 of 2000 / Total Time: 326 / auto_reduce: True, proportion_divide: 0.00506072874494 i.e. approx 15 cells
-step: 228 of 2000 / Total Time: 327 / auto_reduce: True, proportion_divide: 0.0050454086781 i.e. approx 16 cells
-step: 229 of 2000 / Total Time: 328 / auto_reduce: True, proportion_divide: 0.00503018108652 i.e. approx 16 cells
-step: 230 of 2000 / Total Time: 329 / auto_reduce: True, proportion_divide: 0.00501504513541 i.e. approx 16 cells
-step: 231 of 2000 / Total Time: 330 / auto_reduce: True, proportion_divide: 0.005 i.e. approx 16 cells
+step: 228 of 2000 / Total Time: 327 / auto_reduce: True, proportion_divide: 0.0050454086781 i.e. approx 15 cells
+step: 229 of 2000 / Total Time: 328 / auto_reduce: True, proportion_divide: 0.00503018108652 i.e. approx 15 cells
+step: 230 of 2000 / Total Time: 329 / auto_reduce: True, proportion_divide: 0.00501504513541 i.e. approx 15 cells
+step: 231 of 2000 / Total Time: 330 / auto_reduce: True, proportion_divide: 0.005 i.e. approx 15 cells
 step: 232 of 2000 / Total Time: 331 / auto_reduce: True, proportion_divide: 0.0049850448654 i.e. approx 16 cells
 step: 233 of 2000 / Total Time: 332 / auto_reduce: True, proportion_divide: 0.00497017892644 i.e. approx 16 cells
 step: 234 of 2000 / Total Time: 333 / auto_reduce: True, proportion_divide: 0.00495540138751 i.e. approx 16 cells
@@ -362,10 +362,10 @@ step: 255 of 2000 / Total Time: 354 / auto_reduce: True, proportion_divide: 0.00
 step: 256 of 2000 / Total Time: 355 / auto_reduce: True, proportion_divide: 0.0046511627907 i.e. approx 16 cells
 step: 257 of 2000 / Total Time: 356 / auto_reduce: True, proportion_divide: 0.00463821892393 i.e. approx 16 cells
 step: 258 of 2000 / Total Time: 357 / auto_reduce: True, proportion_divide: 0.00462534690102 i.e. approx 16 cells
-step: 259 of 2000 / Total Time: 358 / auto_reduce: True, proportion_divide: 0.00461254612546 i.e. approx 17 cells
-step: 260 of 2000 / Total Time: 359 / auto_reduce: True, proportion_divide: 0.00459981600736 i.e. approx 17 cells
-step: 261 of 2000 / Total Time: 360 / auto_reduce: True, proportion_divide: 0.0045871559633 i.e. approx 17 cells
-step: 262 of 2000 / Total Time: 361 / auto_reduce: True, proportion_divide: 0.00457456541629 i.e. approx 17 cells
+step: 259 of 2000 / Total Time: 358 / auto_reduce: True, proportion_divide: 0.00461254612546 i.e. approx 16 cells
+step: 260 of 2000 / Total Time: 359 / auto_reduce: True, proportion_divide: 0.00459981600736 i.e. approx 16 cells
+step: 261 of 2000 / Total Time: 360 / auto_reduce: True, proportion_divide: 0.0045871559633 i.e. approx 16 cells
+step: 262 of 2000 / Total Time: 361 / auto_reduce: True, proportion_divide: 0.00457456541629 i.e. approx 16 cells
 step: 263 of 2000 / Total Time: 362 / auto_reduce: True, proportion_divide: 0.00456204379562 i.e. approx 17 cells
 step: 264 of 2000 / Total Time: 363 / auto_reduce: True, proportion_divide: 0.00454959053685 i.e. approx 17 cells
 step: 265 of 2000 / Total Time: 364 / auto_reduce: True, proportion_divide: 0.00453720508167 i.e. approx 17 cells
@@ -394,10 +394,10 @@ step: 287 of 2000 / Total Time: 386 / auto_reduce: True, proportion_divide: 0.00
 step: 288 of 2000 / Total Time: 387 / auto_reduce: True, proportion_divide: 0.00426985482494 i.e. approx 17 cells
 step: 289 of 2000 / Total Time: 388 / auto_reduce: True, proportion_divide: 0.00425894378194 i.e. approx 17 cells
 step: 290 of 2000 / Total Time: 389 / auto_reduce: True, proportion_divide: 0.00424808836024 i.e. approx 17 cells
-step: 291 of 2000 / Total Time: 390 / auto_reduce: True, proportion_divide: 0.00423728813559 i.e. approx 18 cells
-step: 292 of 2000 / Total Time: 391 / auto_reduce: True, proportion_divide: 0.00422654268808 i.e. approx 18 cells
-step: 293 of 2000 / Total Time: 392 / auto_reduce: True, proportion_divide: 0.00421585160202 i.e. approx 18 cells
-step: 294 of 2000 / Total Time: 393 / auto_reduce: True, proportion_divide: 0.00420521446594 i.e. approx 18 cells
+step: 291 of 2000 / Total Time: 390 / auto_reduce: True, proportion_divide: 0.00423728813559 i.e. approx 17 cells
+step: 292 of 2000 / Total Time: 391 / auto_reduce: True, proportion_divide: 0.00422654268808 i.e. approx 17 cells
+step: 293 of 2000 / Total Time: 392 / auto_reduce: True, proportion_divide: 0.00421585160202 i.e. approx 17 cells
+step: 294 of 2000 / Total Time: 393 / auto_reduce: True, proportion_divide: 0.00420521446594 i.e. approx 17 cells
 step: 295 of 2000 / Total Time: 394 / auto_reduce: True, proportion_divide: 0.00419463087248 i.e. approx 18 cells
 step: 296 of 2000 / Total Time: 395 / auto_reduce: True, proportion_divide: 0.00418410041841 i.e. approx 18 cells
 step: 297 of 2000 / Total Time: 396 / auto_reduce: True, proportion_divide: 0.00417362270451 i.e. approx 18 cells
@@ -427,11 +427,11 @@ step: 320 of 2000 / Total Time: 419 / auto_reduce: True, proportion_divide: 0.00
 step: 321 of 2000 / Total Time: 420 / auto_reduce: True, proportion_divide: 0.00393700787402 i.e. approx 18 cells
 step: 322 of 2000 / Total Time: 421 / auto_reduce: True, proportion_divide: 0.00392772977219 i.e. approx 18 cells
 step: 323 of 2000 / Total Time: 422 / auto_reduce: True, proportion_divide: 0.00391849529781 i.e. approx 18 cells
-step: 324 of 2000 / Total Time: 423 / auto_reduce: True, proportion_divide: 0.00390930414386 i.e. approx 19 cells
-step: 325 of 2000 / Total Time: 424 / auto_reduce: True, proportion_divide: 0.00390015600624 i.e. approx 19 cells
-step: 326 of 2000 / Total Time: 425 / auto_reduce: True, proportion_divide: 0.00389105058366 i.e. approx 19 cells
-step: 327 of 2000 / Total Time: 426 / auto_reduce: True, proportion_divide: 0.00388198757764 i.e. approx 19 cells
-step: 328 of 2000 / Total Time: 427 / auto_reduce: True, proportion_divide: 0.00387296669249 i.e. approx 19 cells
+step: 324 of 2000 / Total Time: 423 / auto_reduce: True, proportion_divide: 0.00390930414386 i.e. approx 18 cells
+step: 325 of 2000 / Total Time: 424 / auto_reduce: True, proportion_divide: 0.00390015600624 i.e. approx 18 cells
+step: 326 of 2000 / Total Time: 425 / auto_reduce: True, proportion_divide: 0.00389105058366 i.e. approx 18 cells
+step: 327 of 2000 / Total Time: 426 / auto_reduce: True, proportion_divide: 0.00388198757764 i.e. approx 18 cells
+step: 328 of 2000 / Total Time: 427 / auto_reduce: True, proportion_divide: 0.00387296669249 i.e. approx 18 cells
 step: 329 of 2000 / Total Time: 428 / auto_reduce: True, proportion_divide: 0.00386398763524 i.e. approx 19 cells
 step: 330 of 2000 / Total Time: 429 / auto_reduce: True, proportion_divide: 0.00385505011565 i.e. approx 19 cells
 step: 331 of 2000 / Total Time: 430 / auto_reduce: True, proportion_divide: 0.00384615384615 i.e. approx 19 cells
@@ -461,11 +461,11 @@ step: 354 of 2000 / Total Time: 453 / auto_reduce: True, proportion_divide: 0.00
 step: 355 of 2000 / Total Time: 454 / auto_reduce: True, proportion_divide: 0.0036443148688 i.e. approx 19 cells
 step: 356 of 2000 / Total Time: 455 / auto_reduce: True, proportion_divide: 0.00363636363636 i.e. approx 19 cells
 step: 357 of 2000 / Total Time: 456 / auto_reduce: True, proportion_divide: 0.00362844702467 i.e. approx 19 cells
-step: 358 of 2000 / Total Time: 457 / auto_reduce: True, proportion_divide: 0.00362056480811 i.e. approx 20 cells
-step: 359 of 2000 / Total Time: 458 / auto_reduce: True, proportion_divide: 0.00361271676301 i.e. approx 20 cells
-step: 360 of 2000 / Total Time: 459 / auto_reduce: True, proportion_divide: 0.00360490266763 i.e. approx 20 cells
-step: 361 of 2000 / Total Time: 460 / auto_reduce: True, proportion_divide: 0.00359712230216 i.e. approx 20 cells
-step: 362 of 2000 / Total Time: 461 / auto_reduce: True, proportion_divide: 0.00358937544867 i.e. approx 20 cells
+step: 358 of 2000 / Total Time: 457 / auto_reduce: True, proportion_divide: 0.00362056480811 i.e. approx 19 cells
+step: 359 of 2000 / Total Time: 458 / auto_reduce: True, proportion_divide: 0.00361271676301 i.e. approx 19 cells
+step: 360 of 2000 / Total Time: 459 / auto_reduce: True, proportion_divide: 0.00360490266763 i.e. approx 19 cells
+step: 361 of 2000 / Total Time: 460 / auto_reduce: True, proportion_divide: 0.00359712230216 i.e. approx 19 cells
+step: 362 of 2000 / Total Time: 461 / auto_reduce: True, proportion_divide: 0.00358937544867 i.e. approx 19 cells
 step: 363 of 2000 / Total Time: 462 / auto_reduce: True, proportion_divide: 0.00358166189112 i.e. approx 20 cells
 step: 364 of 2000 / Total Time: 463 / auto_reduce: True, proportion_divide: 0.0035739814153 i.e. approx 20 cells
 step: 365 of 2000 / Total Time: 464 / auto_reduce: True, proportion_divide: 0.00356633380884 i.e. approx 20 cells
@@ -495,12 +495,12 @@ step: 388 of 2000 / Total Time: 487 / auto_reduce: True, proportion_divide: 0.00
 step: 389 of 2000 / Total Time: 488 / auto_reduce: True, proportion_divide: 0.0033921302578 i.e. approx 20 cells
 step: 390 of 2000 / Total Time: 489 / auto_reduce: True, proportion_divide: 0.00338524035206 i.e. approx 20 cells
 step: 391 of 2000 / Total Time: 490 / auto_reduce: True, proportion_divide: 0.00337837837838 i.e. approx 20 cells
-step: 392 of 2000 / Total Time: 491 / auto_reduce: True, proportion_divide: 0.00337154416723 i.e. approx 21 cells
-step: 393 of 2000 / Total Time: 492 / auto_reduce: True, proportion_divide: 0.00336473755047 i.e. approx 21 cells
-step: 394 of 2000 / Total Time: 493 / auto_reduce: True, proportion_divide: 0.00335795836132 i.e. approx 21 cells
-step: 395 of 2000 / Total Time: 494 / auto_reduce: True, proportion_divide: 0.00335120643432 i.e. approx 21 cells
-step: 396 of 2000 / Total Time: 495 / auto_reduce: True, proportion_divide: 0.00334448160535 i.e. approx 21 cells
-step: 397 of 2000 / Total Time: 496 / auto_reduce: True, proportion_divide: 0.00333778371162 i.e. approx 21 cells
+step: 392 of 2000 / Total Time: 491 / auto_reduce: True, proportion_divide: 0.00337154416723 i.e. approx 20 cells
+step: 393 of 2000 / Total Time: 492 / auto_reduce: True, proportion_divide: 0.00336473755047 i.e. approx 20 cells
+step: 394 of 2000 / Total Time: 493 / auto_reduce: True, proportion_divide: 0.00335795836132 i.e. approx 20 cells
+step: 395 of 2000 / Total Time: 494 / auto_reduce: True, proportion_divide: 0.00335120643432 i.e. approx 20 cells
+step: 396 of 2000 / Total Time: 495 / auto_reduce: True, proportion_divide: 0.00334448160535 i.e. approx 20 cells
+step: 397 of 2000 / Total Time: 496 / auto_reduce: True, proportion_divide: 0.00333778371162 i.e. approx 20 cells
 step: 398 of 2000 / Total Time: 497 / auto_reduce: True, proportion_divide: 0.00333111259161 i.e. approx 21 cells
 step: 399 of 2000 / Total Time: 498 / auto_reduce: True, proportion_divide: 0.00332446808511 i.e. approx 21 cells
 step: 400 of 2000 / Total Time: 499 / auto_reduce: True, proportion_divide: 0.00331785003318 i.e. approx 21 cells
@@ -531,11 +531,11 @@ step: 424 of 2000 / Total Time: 523 / auto_reduce: True, proportion_divide: 0.00
 step: 425 of 2000 / Total Time: 524 / auto_reduce: True, proportion_divide: 0.0031605562579 i.e. approx 21 cells
 step: 426 of 2000 / Total Time: 525 / auto_reduce: True, proportion_divide: 0.00315457413249 i.e. approx 21 cells
 step: 427 of 2000 / Total Time: 526 / auto_reduce: True, proportion_divide: 0.00314861460957 i.e. approx 21 cells
-step: 428 of 2000 / Total Time: 527 / auto_reduce: True, proportion_divide: 0.00314267756128 i.e. approx 22 cells
-step: 429 of 2000 / Total Time: 528 / auto_reduce: True, proportion_divide: 0.00313676286073 i.e. approx 22 cells
-step: 430 of 2000 / Total Time: 529 / auto_reduce: True, proportion_divide: 0.00313087038197 i.e. approx 22 cells
-step: 431 of 2000 / Total Time: 530 / auto_reduce: True, proportion_divide: 0.003125 i.e. approx 22 cells
-step: 432 of 2000 / Total Time: 531 / auto_reduce: True, proportion_divide: 0.00311915159077 i.e. approx 22 cells
+step: 428 of 2000 / Total Time: 527 / auto_reduce: True, proportion_divide: 0.00314267756128 i.e. approx 21 cells
+step: 429 of 2000 / Total Time: 528 / auto_reduce: True, proportion_divide: 0.00313676286073 i.e. approx 21 cells
+step: 430 of 2000 / Total Time: 529 / auto_reduce: True, proportion_divide: 0.00313087038197 i.e. approx 21 cells
+step: 431 of 2000 / Total Time: 530 / auto_reduce: True, proportion_divide: 0.003125 i.e. approx 21 cells
+step: 432 of 2000 / Total Time: 531 / auto_reduce: True, proportion_divide: 0.00311915159077 i.e. approx 21 cells
 step: 433 of 2000 / Total Time: 532 / auto_reduce: True, proportion_divide: 0.00311332503113 i.e. approx 22 cells
 step: 434 of 2000 / Total Time: 533 / auto_reduce: True, proportion_divide: 0.00310752019888 i.e. approx 22 cells
 step: 435 of 2000 / Total Time: 534 / auto_reduce: True, proportion_divide: 0.0031017369727 i.e. approx 22 cells
@@ -567,12 +567,12 @@ step: 460 of 2000 / Total Time: 559 / auto_reduce: True, proportion_divide: 0.00
 step: 461 of 2000 / Total Time: 560 / auto_reduce: True, proportion_divide: 0.00295857988166 i.e. approx 22 cells
 step: 462 of 2000 / Total Time: 561 / auto_reduce: True, proportion_divide: 0.00295333727112 i.e. approx 22 cells
 step: 463 of 2000 / Total Time: 562 / auto_reduce: True, proportion_divide: 0.00294811320755 i.e. approx 22 cells
-step: 464 of 2000 / Total Time: 563 / auto_reduce: True, proportion_divide: 0.0029429075927 i.e. approx 23 cells
-step: 465 of 2000 / Total Time: 564 / auto_reduce: True, proportion_divide: 0.00293772032902 i.e. approx 23 cells
-step: 466 of 2000 / Total Time: 565 / auto_reduce: True, proportion_divide: 0.00293255131965 i.e. approx 23 cells
-step: 467 of 2000 / Total Time: 566 / auto_reduce: True, proportion_divide: 0.00292740046838 i.e. approx 23 cells
-step: 468 of 2000 / Total Time: 567 / auto_reduce: True, proportion_divide: 0.00292226767972 i.e. approx 23 cells
-step: 469 of 2000 / Total Time: 568 / auto_reduce: True, proportion_divide: 0.00291715285881 i.e. approx 23 cells
+step: 464 of 2000 / Total Time: 563 / auto_reduce: True, proportion_divide: 0.0029429075927 i.e. approx 22 cells
+step: 465 of 2000 / Total Time: 564 / auto_reduce: True, proportion_divide: 0.00293772032902 i.e. approx 22 cells
+step: 466 of 2000 / Total Time: 565 / auto_reduce: True, proportion_divide: 0.00293255131965 i.e. approx 22 cells
+step: 467 of 2000 / Total Time: 566 / auto_reduce: True, proportion_divide: 0.00292740046838 i.e. approx 22 cells
+step: 468 of 2000 / Total Time: 567 / auto_reduce: True, proportion_divide: 0.00292226767972 i.e. approx 22 cells
+step: 469 of 2000 / Total Time: 568 / auto_reduce: True, proportion_divide: 0.00291715285881 i.e. approx 22 cells
 step: 470 of 2000 / Total Time: 569 / auto_reduce: True, proportion_divide: 0.00291205591147 i.e. approx 23 cells
 step: 471 of 2000 / Total Time: 570 / auto_reduce: True, proportion_divide: 0.00290697674419 i.e. approx 23 cells
 step: 472 of 2000 / Total Time: 571 / auto_reduce: True, proportion_divide: 0.00290191526407 i.e. approx 23 cells
@@ -604,12 +604,12 @@ step: 497 of 2000 / Total Time: 596 / auto_reduce: True, proportion_divide: 0.00
 step: 498 of 2000 / Total Time: 597 / auto_reduce: True, proportion_divide: 0.00277623542476 i.e. approx 23 cells
 step: 499 of 2000 / Total Time: 598 / auto_reduce: True, proportion_divide: 0.00277161862528 i.e. approx 23 cells
 step: 500 of 2000 / Total Time: 599 / auto_reduce: True, proportion_divide: 0.00276701715551 i.e. approx 23 cells
-step: 501 of 2000 / Total Time: 600 / auto_reduce: True, proportion_divide: 0.00276243093923 i.e. approx 24 cells
-step: 502 of 2000 / Total Time: 601 / auto_reduce: True, proportion_divide: 0.00275785990072 i.e. approx 24 cells
-step: 503 of 2000 / Total Time: 602 / auto_reduce: True, proportion_divide: 0.00275330396476 i.e. approx 24 cells
-step: 504 of 2000 / Total Time: 603 / auto_reduce: True, proportion_divide: 0.00274876305662 i.e. approx 24 cells
-step: 505 of 2000 / Total Time: 604 / auto_reduce: True, proportion_divide: 0.00274423710209 i.e. approx 24 cells
-step: 506 of 2000 / Total Time: 605 / auto_reduce: True, proportion_divide: 0.0027397260274 i.e. approx 24 cells
+step: 501 of 2000 / Total Time: 600 / auto_reduce: True, proportion_divide: 0.00276243093923 i.e. approx 23 cells
+step: 502 of 2000 / Total Time: 601 / auto_reduce: True, proportion_divide: 0.00275785990072 i.e. approx 23 cells
+step: 503 of 2000 / Total Time: 602 / auto_reduce: True, proportion_divide: 0.00275330396476 i.e. approx 23 cells
+step: 504 of 2000 / Total Time: 603 / auto_reduce: True, proportion_divide: 0.00274876305662 i.e. approx 23 cells
+step: 505 of 2000 / Total Time: 604 / auto_reduce: True, proportion_divide: 0.00274423710209 i.e. approx 23 cells
+step: 506 of 2000 / Total Time: 605 / auto_reduce: True, proportion_divide: 0.0027397260274 i.e. approx 23 cells
 step: 507 of 2000 / Total Time: 606 / auto_reduce: True, proportion_divide: 0.0027352297593 i.e. approx 24 cells
 step: 508 of 2000 / Total Time: 607 / auto_reduce: True, proportion_divide: 0.00273074822501 i.e. approx 24 cells
 step: 509 of 2000 / Total Time: 608 / auto_reduce: True, proportion_divide: 0.00272628135224 i.e. approx 24 cells
@@ -642,12 +642,12 @@ step: 535 of 2000 / Total Time: 634 / auto_reduce: True, proportion_divide: 0.00
 step: 536 of 2000 / Total Time: 635 / auto_reduce: True, proportion_divide: 0.00261096605744 i.e. approx 24 cells
 step: 537 of 2000 / Total Time: 636 / auto_reduce: True, proportion_divide: 0.00260688216893 i.e. approx 24 cells
 step: 538 of 2000 / Total Time: 637 / auto_reduce: True, proportion_divide: 0.00260281103592 i.e. approx 24 cells
-step: 539 of 2000 / Total Time: 638 / auto_reduce: True, proportion_divide: 0.00259875259875 i.e. approx 25 cells
-step: 540 of 2000 / Total Time: 639 / auto_reduce: True, proportion_divide: 0.00259470679813 i.e. approx 25 cells
-step: 541 of 2000 / Total Time: 640 / auto_reduce: True, proportion_divide: 0.00259067357513 i.e. approx 25 cells
-step: 542 of 2000 / Total Time: 641 / auto_reduce: True, proportion_divide: 0.00258665287118 i.e. approx 25 cells
-step: 543 of 2000 / Total Time: 642 / auto_reduce: True, proportion_divide: 0.0025826446281 i.e. approx 25 cells
-step: 544 of 2000 / Total Time: 643 / auto_reduce: True, proportion_divide: 0.00257864878804 i.e. approx 25 cells
+step: 539 of 2000 / Total Time: 638 / auto_reduce: True, proportion_divide: 0.00259875259875 i.e. approx 24 cells
+step: 540 of 2000 / Total Time: 639 / auto_reduce: True, proportion_divide: 0.00259470679813 i.e. approx 24 cells
+step: 541 of 2000 / Total Time: 640 / auto_reduce: True, proportion_divide: 0.00259067357513 i.e. approx 24 cells
+step: 542 of 2000 / Total Time: 641 / auto_reduce: True, proportion_divide: 0.00258665287118 i.e. approx 24 cells
+step: 543 of 2000 / Total Time: 642 / auto_reduce: True, proportion_divide: 0.0025826446281 i.e. approx 24 cells
+step: 544 of 2000 / Total Time: 643 / auto_reduce: True, proportion_divide: 0.00257864878804 i.e. approx 24 cells
 step: 545 of 2000 / Total Time: 644 / auto_reduce: True, proportion_divide: 0.00257466529351 i.e. approx 25 cells
 step: 546 of 2000 / Total Time: 645 / auto_reduce: True, proportion_divide: 0.0025706940874 i.e. approx 25 cells
 step: 547 of 2000 / Total Time: 646 / auto_reduce: True, proportion_divide: 0.00256673511294 i.e. approx 25 cells
@@ -680,13 +680,13 @@ step: 573 of 2000 / Total Time: 672 / auto_reduce: True, proportion_divide: 0.00
 step: 574 of 2000 / Total Time: 673 / auto_reduce: True, proportion_divide: 0.00246426811237 i.e. approx 25 cells
 step: 575 of 2000 / Total Time: 674 / auto_reduce: True, proportion_divide: 0.00246062992126 i.e. approx 25 cells
 step: 576 of 2000 / Total Time: 675 / auto_reduce: True, proportion_divide: 0.002457002457 i.e. approx 25 cells
-step: 577 of 2000 / Total Time: 676 / auto_reduce: True, proportion_divide: 0.00245338567223 i.e. approx 26 cells
-step: 578 of 2000 / Total Time: 677 / auto_reduce: True, proportion_divide: 0.00244977951984 i.e. approx 26 cells
-step: 579 of 2000 / Total Time: 678 / auto_reduce: True, proportion_divide: 0.00244618395303 i.e. approx 26 cells
-step: 580 of 2000 / Total Time: 679 / auto_reduce: True, proportion_divide: 0.00244259892526 i.e. approx 26 cells
-step: 581 of 2000 / Total Time: 680 / auto_reduce: True, proportion_divide: 0.00243902439024 i.e. approx 26 cells
-step: 582 of 2000 / Total Time: 681 / auto_reduce: True, proportion_divide: 0.002435460302 i.e. approx 26 cells
-step: 583 of 2000 / Total Time: 682 / auto_reduce: True, proportion_divide: 0.00243190661479 i.e. approx 26 cells
+step: 577 of 2000 / Total Time: 676 / auto_reduce: True, proportion_divide: 0.00245338567223 i.e. approx 25 cells
+step: 578 of 2000 / Total Time: 677 / auto_reduce: True, proportion_divide: 0.00244977951984 i.e. approx 25 cells
+step: 579 of 2000 / Total Time: 678 / auto_reduce: True, proportion_divide: 0.00244618395303 i.e. approx 25 cells
+step: 580 of 2000 / Total Time: 679 / auto_reduce: True, proportion_divide: 0.00244259892526 i.e. approx 25 cells
+step: 581 of 2000 / Total Time: 680 / auto_reduce: True, proportion_divide: 0.00243902439024 i.e. approx 25 cells
+step: 582 of 2000 / Total Time: 681 / auto_reduce: True, proportion_divide: 0.002435460302 i.e. approx 25 cells
+step: 583 of 2000 / Total Time: 682 / auto_reduce: True, proportion_divide: 0.00243190661479 i.e. approx 25 cells
 step: 584 of 2000 / Total Time: 683 / auto_reduce: True, proportion_divide: 0.00242836328315 i.e. approx 26 cells
 step: 585 of 2000 / Total Time: 684 / auto_reduce: True, proportion_divide: 0.00242483026188 i.e. approx 26 cells
 step: 586 of 2000 / Total Time: 685 / auto_reduce: True, proportion_divide: 0.00242130750605 i.e. approx 26 cells
@@ -719,14 +719,14 @@ step: 612 of 2000 / Total Time: 711 / auto_reduce: True, proportion_divide: 0.00
 step: 613 of 2000 / Total Time: 712 / auto_reduce: True, proportion_divide: 0.00232991612302 i.e. approx 26 cells
 step: 614 of 2000 / Total Time: 713 / auto_reduce: True, proportion_divide: 0.00232666356445 i.e. approx 26 cells
 step: 615 of 2000 / Total Time: 714 / auto_reduce: True, proportion_divide: 0.00232342007435 i.e. approx 26 cells
-step: 616 of 2000 / Total Time: 715 / auto_reduce: True, proportion_divide: 0.00232018561485 i.e. approx 27 cells
-step: 617 of 2000 / Total Time: 716 / auto_reduce: True, proportion_divide: 0.00231696014829 i.e. approx 27 cells
-step: 618 of 2000 / Total Time: 717 / auto_reduce: True, proportion_divide: 0.0023137436372 i.e. approx 27 cells
-step: 619 of 2000 / Total Time: 718 / auto_reduce: True, proportion_divide: 0.00231053604436 i.e. approx 27 cells
-step: 620 of 2000 / Total Time: 719 / auto_reduce: True, proportion_divide: 0.00230733733272 i.e. approx 27 cells
-step: 621 of 2000 / Total Time: 720 / auto_reduce: True, proportion_divide: 0.00230414746544 i.e. approx 27 cells
-step: 622 of 2000 / Total Time: 721 / auto_reduce: True, proportion_divide: 0.00230096640589 i.e. approx 27 cells
-step: 623 of 2000 / Total Time: 722 / auto_reduce: True, proportion_divide: 0.00229779411765 i.e. approx 27 cells
+step: 616 of 2000 / Total Time: 715 / auto_reduce: True, proportion_divide: 0.00232018561485 i.e. approx 26 cells
+step: 617 of 2000 / Total Time: 716 / auto_reduce: True, proportion_divide: 0.00231696014829 i.e. approx 26 cells
+step: 618 of 2000 / Total Time: 717 / auto_reduce: True, proportion_divide: 0.0023137436372 i.e. approx 26 cells
+step: 619 of 2000 / Total Time: 718 / auto_reduce: True, proportion_divide: 0.00231053604436 i.e. approx 26 cells
+step: 620 of 2000 / Total Time: 719 / auto_reduce: True, proportion_divide: 0.00230733733272 i.e. approx 26 cells
+step: 621 of 2000 / Total Time: 720 / auto_reduce: True, proportion_divide: 0.00230414746544 i.e. approx 26 cells
+step: 622 of 2000 / Total Time: 721 / auto_reduce: True, proportion_divide: 0.00230096640589 i.e. approx 26 cells
+step: 623 of 2000 / Total Time: 722 / auto_reduce: True, proportion_divide: 0.00229779411765 i.e. approx 26 cells
 step: 624 of 2000 / Total Time: 723 / auto_reduce: True, proportion_divide: 0.00229463056448 i.e. approx 27 cells
 step: 625 of 2000 / Total Time: 724 / auto_reduce: True, proportion_divide: 0.00229147571036 i.e. approx 27 cells
 step: 626 of 2000 / Total Time: 725 / auto_reduce: True, proportion_divide: 0.00228832951945 i.e. approx 27 cells
@@ -759,14 +759,14 @@ step: 652 of 2000 / Total Time: 751 / auto_reduce: True, proportion_divide: 0.00
 step: 653 of 2000 / Total Time: 752 / auto_reduce: True, proportion_divide: 0.00220653133274 i.e. approx 27 cells
 step: 654 of 2000 / Total Time: 753 / auto_reduce: True, proportion_divide: 0.00220361392684 i.e. approx 27 cells
 step: 655 of 2000 / Total Time: 754 / auto_reduce: True, proportion_divide: 0.00220070422535 i.e. approx 27 cells
-step: 656 of 2000 / Total Time: 755 / auto_reduce: True, proportion_divide: 0.0021978021978 i.e. approx 28 cells
-step: 657 of 2000 / Total Time: 756 / auto_reduce: True, proportion_divide: 0.00219490781387 i.e. approx 28 cells
-step: 658 of 2000 / Total Time: 757 / auto_reduce: True, proportion_divide: 0.0021920210434 i.e. approx 28 cells
-step: 659 of 2000 / Total Time: 758 / auto_reduce: True, proportion_divide: 0.00218914185639 i.e. approx 28 cells
-step: 660 of 2000 / Total Time: 759 / auto_reduce: True, proportion_divide: 0.002186270223 i.e. approx 28 cells
-step: 661 of 2000 / Total Time: 760 / auto_reduce: True, proportion_divide: 0.00218340611354 i.e. approx 28 cells
-step: 662 of 2000 / Total Time: 761 / auto_reduce: True, proportion_divide: 0.00218054949847 i.e. approx 28 cells
-step: 663 of 2000 / Total Time: 762 / auto_reduce: True, proportion_divide: 0.00217770034843 i.e. approx 28 cells
+step: 656 of 2000 / Total Time: 755 / auto_reduce: True, proportion_divide: 0.0021978021978 i.e. approx 27 cells
+step: 657 of 2000 / Total Time: 756 / auto_reduce: True, proportion_divide: 0.00219490781387 i.e. approx 27 cells
+step: 658 of 2000 / Total Time: 757 / auto_reduce: True, proportion_divide: 0.0021920210434 i.e. approx 27 cells
+step: 659 of 2000 / Total Time: 758 / auto_reduce: True, proportion_divide: 0.00218914185639 i.e. approx 27 cells
+step: 660 of 2000 / Total Time: 759 / auto_reduce: True, proportion_divide: 0.002186270223 i.e. approx 27 cells
+step: 661 of 2000 / Total Time: 760 / auto_reduce: True, proportion_divide: 0.00218340611354 i.e. approx 27 cells
+step: 662 of 2000 / Total Time: 761 / auto_reduce: True, proportion_divide: 0.00218054949847 i.e. approx 27 cells
+step: 663 of 2000 / Total Time: 762 / auto_reduce: True, proportion_divide: 0.00217770034843 i.e. approx 27 cells
 step: 664 of 2000 / Total Time: 763 / auto_reduce: True, proportion_divide: 0.00217485863419 i.e. approx 28 cells
 step: 665 of 2000 / Total Time: 764 / auto_reduce: True, proportion_divide: 0.00217202432667 i.e. approx 28 cells
 step: 666 of 2000 / Total Time: 765 / auto_reduce: True, proportion_divide: 0.00216919739696 i.e. approx 28 cells
@@ -800,14 +800,14 @@ step: 693 of 2000 / Total Time: 792 / auto_reduce: True, proportion_divide: 0.00
 step: 694 of 2000 / Total Time: 793 / auto_reduce: True, proportion_divide: 0.00209292591042 i.e. approx 28 cells
 step: 695 of 2000 / Total Time: 794 / auto_reduce: True, proportion_divide: 0.00209030100334 i.e. approx 28 cells
 step: 696 of 2000 / Total Time: 795 / auto_reduce: True, proportion_divide: 0.00208768267223 i.e. approx 28 cells
-step: 697 of 2000 / Total Time: 796 / auto_reduce: True, proportion_divide: 0.00208507089241 i.e. approx 29 cells
-step: 698 of 2000 / Total Time: 797 / auto_reduce: True, proportion_divide: 0.00208246563932 i.e. approx 29 cells
-step: 699 of 2000 / Total Time: 798 / auto_reduce: True, proportion_divide: 0.00207986688852 i.e. approx 29 cells
-step: 700 of 2000 / Total Time: 799 / auto_reduce: True, proportion_divide: 0.0020772746157 i.e. approx 29 cells
-step: 701 of 2000 / Total Time: 800 / auto_reduce: True, proportion_divide: 0.00207468879668 i.e. approx 29 cells
-step: 702 of 2000 / Total Time: 801 / auto_reduce: True, proportion_divide: 0.00207210940738 i.e. approx 29 cells
-step: 703 of 2000 / Total Time: 802 / auto_reduce: True, proportion_divide: 0.00206953642384 i.e. approx 29 cells
-step: 704 of 2000 / Total Time: 803 / auto_reduce: True, proportion_divide: 0.00206696982224 i.e. approx 29 cells
+step: 697 of 2000 / Total Time: 796 / auto_reduce: True, proportion_divide: 0.00208507089241 i.e. approx 28 cells
+step: 698 of 2000 / Total Time: 797 / auto_reduce: True, proportion_divide: 0.00208246563932 i.e. approx 28 cells
+step: 699 of 2000 / Total Time: 798 / auto_reduce: True, proportion_divide: 0.00207986688852 i.e. approx 28 cells
+step: 700 of 2000 / Total Time: 799 / auto_reduce: True, proportion_divide: 0.0020772746157 i.e. approx 28 cells
+step: 701 of 2000 / Total Time: 800 / auto_reduce: True, proportion_divide: 0.00207468879668 i.e. approx 28 cells
+step: 702 of 2000 / Total Time: 801 / auto_reduce: True, proportion_divide: 0.00207210940738 i.e. approx 28 cells
+step: 703 of 2000 / Total Time: 802 / auto_reduce: True, proportion_divide: 0.00206953642384 i.e. approx 28 cells
+step: 704 of 2000 / Total Time: 803 / auto_reduce: True, proportion_divide: 0.00206696982224 i.e. approx 28 cells
 step: 705 of 2000 / Total Time: 804 / auto_reduce: True, proportion_divide: 0.00206440957886 i.e. approx 29 cells
 step: 706 of 2000 / Total Time: 805 / auto_reduce: True, proportion_divide: 0.0020618556701 i.e. approx 29 cells
 step: 707 of 2000 / Total Time: 806 / auto_reduce: True, proportion_divide: 0.00205930807249 i.e. approx 29 cells
@@ -841,15 +841,15 @@ step: 734 of 2000 / Total Time: 833 / auto_reduce: True, proportion_divide: 0.00
 step: 735 of 2000 / Total Time: 834 / auto_reduce: True, proportion_divide: 0.00199044585987 i.e. approx 29 cells
 step: 736 of 2000 / Total Time: 835 / auto_reduce: True, proportion_divide: 0.00198807157058 i.e. approx 29 cells
 step: 737 of 2000 / Total Time: 836 / auto_reduce: True, proportion_divide: 0.00198570293884 i.e. approx 29 cells
-step: 738 of 2000 / Total Time: 837 / auto_reduce: True, proportion_divide: 0.00198333994447 i.e. approx 30 cells
-step: 739 of 2000 / Total Time: 838 / auto_reduce: True, proportion_divide: 0.00198098256735 i.e. approx 30 cells
-step: 740 of 2000 / Total Time: 839 / auto_reduce: True, proportion_divide: 0.0019786307875 i.e. approx 30 cells
-step: 741 of 2000 / Total Time: 840 / auto_reduce: True, proportion_divide: 0.00197628458498 i.e. approx 30 cells
-step: 742 of 2000 / Total Time: 841 / auto_reduce: True, proportion_divide: 0.00197394393999 i.e. approx 30 cells
-step: 743 of 2000 / Total Time: 842 / auto_reduce: True, proportion_divide: 0.00197160883281 i.e. approx 30 cells
-step: 744 of 2000 / Total Time: 843 / auto_reduce: True, proportion_divide: 0.0019692792438 i.e. approx 30 cells
-step: 745 of 2000 / Total Time: 844 / auto_reduce: True, proportion_divide: 0.00196695515342 i.e. approx 30 cells
-step: 746 of 2000 / Total Time: 845 / auto_reduce: True, proportion_divide: 0.00196463654224 i.e. approx 30 cells
+step: 738 of 2000 / Total Time: 837 / auto_reduce: True, proportion_divide: 0.00198333994447 i.e. approx 29 cells
+step: 739 of 2000 / Total Time: 838 / auto_reduce: True, proportion_divide: 0.00198098256735 i.e. approx 29 cells
+step: 740 of 2000 / Total Time: 839 / auto_reduce: True, proportion_divide: 0.0019786307875 i.e. approx 29 cells
+step: 741 of 2000 / Total Time: 840 / auto_reduce: True, proportion_divide: 0.00197628458498 i.e. approx 29 cells
+step: 742 of 2000 / Total Time: 841 / auto_reduce: True, proportion_divide: 0.00197394393999 i.e. approx 29 cells
+step: 743 of 2000 / Total Time: 842 / auto_reduce: True, proportion_divide: 0.00197160883281 i.e. approx 29 cells
+step: 744 of 2000 / Total Time: 843 / auto_reduce: True, proportion_divide: 0.0019692792438 i.e. approx 29 cells
+step: 745 of 2000 / Total Time: 844 / auto_reduce: True, proportion_divide: 0.00196695515342 i.e. approx 29 cells
+step: 746 of 2000 / Total Time: 845 / auto_reduce: True, proportion_divide: 0.00196463654224 i.e. approx 29 cells
 step: 747 of 2000 / Total Time: 846 / auto_reduce: True, proportion_divide: 0.00196232339089 i.e. approx 30 cells
 step: 748 of 2000 / Total Time: 847 / auto_reduce: True, proportion_divide: 0.00196001568013 i.e. approx 30 cells
 step: 749 of 2000 / Total Time: 848 / auto_reduce: True, proportion_divide: 0.00195771339076 i.e. approx 30 cells
@@ -883,15 +883,15 @@ step: 776 of 2000 / Total Time: 875 / auto_reduce: True, proportion_divide: 0.00
 step: 777 of 2000 / Total Time: 876 / auto_reduce: True, proportion_divide: 0.00189537528431 i.e. approx 30 cells
 step: 778 of 2000 / Total Time: 877 / auto_reduce: True, proportion_divide: 0.00189322226429 i.e. approx 30 cells
 step: 779 of 2000 / Total Time: 878 / auto_reduce: True, proportion_divide: 0.00189107413011 i.e. approx 30 cells
-step: 780 of 2000 / Total Time: 879 / auto_reduce: True, proportion_divide: 0.00188893086513 i.e. approx 31 cells
-step: 781 of 2000 / Total Time: 880 / auto_reduce: True, proportion_divide: 0.00188679245283 i.e. approx 31 cells
-step: 782 of 2000 / Total Time: 881 / auto_reduce: True, proportion_divide: 0.00188465887674 i.e. approx 31 cells
-step: 783 of 2000 / Total Time: 882 / auto_reduce: True, proportion_divide: 0.00188253012048 i.e. approx 31 cells
-step: 784 of 2000 / Total Time: 883 / auto_reduce: True, proportion_divide: 0.00188040616773 i.e. approx 31 cells
-step: 785 of 2000 / Total Time: 884 / auto_reduce: True, proportion_divide: 0.00187828700225 i.e. approx 31 cells
-step: 786 of 2000 / Total Time: 885 / auto_reduce: True, proportion_divide: 0.00187617260788 i.e. approx 31 cells
-step: 787 of 2000 / Total Time: 886 / auto_reduce: True, proportion_divide: 0.00187406296852 i.e. approx 31 cells
-step: 788 of 2000 / Total Time: 887 / auto_reduce: True, proportion_divide: 0.00187195806814 i.e. approx 31 cells
+step: 780 of 2000 / Total Time: 879 / auto_reduce: True, proportion_divide: 0.00188893086513 i.e. approx 30 cells
+step: 781 of 2000 / Total Time: 880 / auto_reduce: True, proportion_divide: 0.00188679245283 i.e. approx 30 cells
+step: 782 of 2000 / Total Time: 881 / auto_reduce: True, proportion_divide: 0.00188465887674 i.e. approx 30 cells
+step: 783 of 2000 / Total Time: 882 / auto_reduce: True, proportion_divide: 0.00188253012048 i.e. approx 30 cells
+step: 784 of 2000 / Total Time: 883 / auto_reduce: True, proportion_divide: 0.00188040616773 i.e. approx 30 cells
+step: 785 of 2000 / Total Time: 884 / auto_reduce: True, proportion_divide: 0.00187828700225 i.e. approx 30 cells
+step: 786 of 2000 / Total Time: 885 / auto_reduce: True, proportion_divide: 0.00187617260788 i.e. approx 30 cells
+step: 787 of 2000 / Total Time: 886 / auto_reduce: True, proportion_divide: 0.00187406296852 i.e. approx 30 cells
+step: 788 of 2000 / Total Time: 887 / auto_reduce: True, proportion_divide: 0.00187195806814 i.e. approx 30 cells
 step: 789 of 2000 / Total Time: 888 / auto_reduce: True, proportion_divide: 0.0018698578908 i.e. approx 31 cells
 step: 790 of 2000 / Total Time: 889 / auto_reduce: True, proportion_divide: 0.00186776242062 i.e. approx 31 cells
 step: 791 of 2000 / Total Time: 890 / auto_reduce: True, proportion_divide: 0.00186567164179 i.e. approx 31 cells
@@ -926,16 +926,16 @@ step: 819 of 2000 / Total Time: 918 / auto_reduce: True, proportion_divide: 0.00
 step: 820 of 2000 / Total Time: 919 / auto_reduce: True, proportion_divide: 0.00180701120347 i.e. approx 31 cells
 step: 821 of 2000 / Total Time: 920 / auto_reduce: True, proportion_divide: 0.00180505415162 i.e. approx 31 cells
 step: 822 of 2000 / Total Time: 921 / auto_reduce: True, proportion_divide: 0.00180310133429 i.e. approx 31 cells
-step: 823 of 2000 / Total Time: 922 / auto_reduce: True, proportion_divide: 0.00180115273775 i.e. approx 32 cells
-step: 824 of 2000 / Total Time: 923 / auto_reduce: True, proportion_divide: 0.00179920834833 i.e. approx 32 cells
-step: 825 of 2000 / Total Time: 924 / auto_reduce: True, proportion_divide: 0.00179726815241 i.e. approx 32 cells
-step: 826 of 2000 / Total Time: 925 / auto_reduce: True, proportion_divide: 0.00179533213645 i.e. approx 32 cells
-step: 827 of 2000 / Total Time: 926 / auto_reduce: True, proportion_divide: 0.00179340028694 i.e. approx 32 cells
-step: 828 of 2000 / Total Time: 927 / auto_reduce: True, proportion_divide: 0.00179147259047 i.e. approx 32 cells
-step: 829 of 2000 / Total Time: 928 / auto_reduce: True, proportion_divide: 0.00178954903364 i.e. approx 32 cells
-step: 830 of 2000 / Total Time: 929 / auto_reduce: True, proportion_divide: 0.00178762960315 i.e. approx 32 cells
-step: 831 of 2000 / Total Time: 930 / auto_reduce: True, proportion_divide: 0.00178571428571 i.e. approx 32 cells
-step: 832 of 2000 / Total Time: 931 / auto_reduce: True, proportion_divide: 0.00178380306814 i.e. approx 32 cells
+step: 823 of 2000 / Total Time: 922 / auto_reduce: True, proportion_divide: 0.00180115273775 i.e. approx 31 cells
+step: 824 of 2000 / Total Time: 923 / auto_reduce: True, proportion_divide: 0.00179920834833 i.e. approx 31 cells
+step: 825 of 2000 / Total Time: 924 / auto_reduce: True, proportion_divide: 0.00179726815241 i.e. approx 31 cells
+step: 826 of 2000 / Total Time: 925 / auto_reduce: True, proportion_divide: 0.00179533213645 i.e. approx 31 cells
+step: 827 of 2000 / Total Time: 926 / auto_reduce: True, proportion_divide: 0.00179340028694 i.e. approx 31 cells
+step: 828 of 2000 / Total Time: 927 / auto_reduce: True, proportion_divide: 0.00179147259047 i.e. approx 31 cells
+step: 829 of 2000 / Total Time: 928 / auto_reduce: True, proportion_divide: 0.00178954903364 i.e. approx 31 cells
+step: 830 of 2000 / Total Time: 929 / auto_reduce: True, proportion_divide: 0.00178762960315 i.e. approx 31 cells
+step: 831 of 2000 / Total Time: 930 / auto_reduce: True, proportion_divide: 0.00178571428571 i.e. approx 31 cells
+step: 832 of 2000 / Total Time: 931 / auto_reduce: True, proportion_divide: 0.00178380306814 i.e. approx 31 cells
 step: 833 of 2000 / Total Time: 932 / auto_reduce: True, proportion_divide: 0.00178189593728 i.e. approx 32 cells
 step: 834 of 2000 / Total Time: 933 / auto_reduce: True, proportion_divide: 0.00177999288003 i.e. approx 32 cells
 step: 835 of 2000 / Total Time: 934 / auto_reduce: True, proportion_divide: 0.00177809388336 i.e. approx 32 cells
@@ -969,16 +969,16 @@ step: 862 of 2000 / Total Time: 961 / auto_reduce: True, proportion_divide: 0.00
 step: 863 of 2000 / Total Time: 962 / auto_reduce: True, proportion_divide: 0.00172651933702 i.e. approx 32 cells
 step: 864 of 2000 / Total Time: 963 / auto_reduce: True, proportion_divide: 0.00172473266644 i.e. approx 32 cells
 step: 865 of 2000 / Total Time: 964 / auto_reduce: True, proportion_divide: 0.00172294968987 i.e. approx 32 cells
-step: 866 of 2000 / Total Time: 965 / auto_reduce: True, proportion_divide: 0.00172117039587 i.e. approx 33 cells
-step: 867 of 2000 / Total Time: 966 / auto_reduce: True, proportion_divide: 0.00171939477304 i.e. approx 33 cells
-step: 868 of 2000 / Total Time: 967 / auto_reduce: True, proportion_divide: 0.00171762281003 i.e. approx 33 cells
-step: 869 of 2000 / Total Time: 968 / auto_reduce: True, proportion_divide: 0.00171585449554 i.e. approx 33 cells
-step: 870 of 2000 / Total Time: 969 / auto_reduce: True, proportion_divide: 0.00171408981831 i.e. approx 33 cells
-step: 871 of 2000 / Total Time: 970 / auto_reduce: True, proportion_divide: 0.00171232876712 i.e. approx 33 cells
-step: 872 of 2000 / Total Time: 971 / auto_reduce: True, proportion_divide: 0.00171057133082 i.e. approx 33 cells
-step: 873 of 2000 / Total Time: 972 / auto_reduce: True, proportion_divide: 0.00170881749829 i.e. approx 33 cells
-step: 874 of 2000 / Total Time: 973 / auto_reduce: True, proportion_divide: 0.00170706725845 i.e. approx 33 cells
-step: 875 of 2000 / Total Time: 974 / auto_reduce: True, proportion_divide: 0.00170532060027 i.e. approx 33 cells
+step: 866 of 2000 / Total Time: 965 / auto_reduce: True, proportion_divide: 0.00172117039587 i.e. approx 32 cells
+step: 867 of 2000 / Total Time: 966 / auto_reduce: True, proportion_divide: 0.00171939477304 i.e. approx 32 cells
+step: 868 of 2000 / Total Time: 967 / auto_reduce: True, proportion_divide: 0.00171762281003 i.e. approx 32 cells
+step: 869 of 2000 / Total Time: 968 / auto_reduce: True, proportion_divide: 0.00171585449554 i.e. approx 32 cells
+step: 870 of 2000 / Total Time: 969 / auto_reduce: True, proportion_divide: 0.00171408981831 i.e. approx 32 cells
+step: 871 of 2000 / Total Time: 970 / auto_reduce: True, proportion_divide: 0.00171232876712 i.e. approx 32 cells
+step: 872 of 2000 / Total Time: 971 / auto_reduce: True, proportion_divide: 0.00171057133082 i.e. approx 32 cells
+step: 873 of 2000 / Total Time: 972 / auto_reduce: True, proportion_divide: 0.00170881749829 i.e. approx 32 cells
+step: 874 of 2000 / Total Time: 973 / auto_reduce: True, proportion_divide: 0.00170706725845 i.e. approx 32 cells
+step: 875 of 2000 / Total Time: 974 / auto_reduce: True, proportion_divide: 0.00170532060027 i.e. approx 32 cells
 step: 876 of 2000 / Total Time: 975 / auto_reduce: True, proportion_divide: 0.00170357751278 i.e. approx 33 cells
 step: 877 of 2000 / Total Time: 976 / auto_reduce: True, proportion_divide: 0.00170183798502 i.e. approx 33 cells
 step: 878 of 2000 / Total Time: 977 / auto_reduce: True, proportion_divide: 0.00170010200612 i.e. approx 33 cells
@@ -1013,17 +1013,17 @@ step: 906 of 2000 / Total Time: 1005 / auto_reduce: True, proportion_divide: 0.0
 step: 907 of 2000 / Total Time: 1006 / auto_reduce: True, proportion_divide: 0.00165125495376 i.e. approx 33 cells
 step: 908 of 2000 / Total Time: 1007 / auto_reduce: True, proportion_divide: 0.00164962058726 i.e. approx 33 cells
 step: 909 of 2000 / Total Time: 1008 / auto_reduce: True, proportion_divide: 0.00164798945287 i.e. approx 33 cells
-step: 910 of 2000 / Total Time: 1009 / auto_reduce: True, proportion_divide: 0.00164636154099 i.e. approx 34 cells
-step: 911 of 2000 / Total Time: 1010 / auto_reduce: True, proportion_divide: 0.00164473684211 i.e. approx 34 cells
-step: 912 of 2000 / Total Time: 1011 / auto_reduce: True, proportion_divide: 0.0016431153467 i.e. approx 34 cells
-step: 913 of 2000 / Total Time: 1012 / auto_reduce: True, proportion_divide: 0.00164149704531 i.e. approx 34 cells
-step: 914 of 2000 / Total Time: 1013 / auto_reduce: True, proportion_divide: 0.0016398819285 i.e. approx 34 cells
-step: 915 of 2000 / Total Time: 1014 / auto_reduce: True, proportion_divide: 0.00163826998689 i.e. approx 34 cells
-step: 916 of 2000 / Total Time: 1015 / auto_reduce: True, proportion_divide: 0.00163666121113 i.e. approx 34 cells
-step: 917 of 2000 / Total Time: 1016 / auto_reduce: True, proportion_divide: 0.00163505559189 i.e. approx 34 cells
-step: 918 of 2000 / Total Time: 1017 / auto_reduce: True, proportion_divide: 0.0016334531199 i.e. approx 34 cells
-step: 919 of 2000 / Total Time: 1018 / auto_reduce: True, proportion_divide: 0.0016318537859 i.e. approx 34 cells
-step: 920 of 2000 / Total Time: 1019 / auto_reduce: True, proportion_divide: 0.0016302575807 i.e. approx 34 cells
+step: 910 of 2000 / Total Time: 1009 / auto_reduce: True, proportion_divide: 0.00164636154099 i.e. approx 33 cells
+step: 911 of 2000 / Total Time: 1010 / auto_reduce: True, proportion_divide: 0.00164473684211 i.e. approx 33 cells
+step: 912 of 2000 / Total Time: 1011 / auto_reduce: True, proportion_divide: 0.0016431153467 i.e. approx 33 cells
+step: 913 of 2000 / Total Time: 1012 / auto_reduce: True, proportion_divide: 0.00164149704531 i.e. approx 33 cells
+step: 914 of 2000 / Total Time: 1013 / auto_reduce: True, proportion_divide: 0.0016398819285 i.e. approx 33 cells
+step: 915 of 2000 / Total Time: 1014 / auto_reduce: True, proportion_divide: 0.00163826998689 i.e. approx 33 cells
+step: 916 of 2000 / Total Time: 1015 / auto_reduce: True, proportion_divide: 0.00163666121113 i.e. approx 33 cells
+step: 917 of 2000 / Total Time: 1016 / auto_reduce: True, proportion_divide: 0.00163505559189 i.e. approx 33 cells
+step: 918 of 2000 / Total Time: 1017 / auto_reduce: True, proportion_divide: 0.0016334531199 i.e. approx 33 cells
+step: 919 of 2000 / Total Time: 1018 / auto_reduce: True, proportion_divide: 0.0016318537859 i.e. approx 33 cells
+step: 920 of 2000 / Total Time: 1019 / auto_reduce: True, proportion_divide: 0.0016302575807 i.e. approx 33 cells
 step: 921 of 2000 / Total Time: 1020 / auto_reduce: True, proportion_divide: 0.00162866449511 i.e. approx 34 cells
 step: 922 of 2000 / Total Time: 1021 / auto_reduce: True, proportion_divide: 0.00162707452001 i.e. approx 34 cells
 step: 923 of 2000 / Total Time: 1022 / auto_reduce: True, proportion_divide: 0.00162548764629 i.e. approx 34 cells
@@ -1058,17 +1058,17 @@ step: 951 of 2000 / Total Time: 1050 / auto_reduce: True, proportion_divide: 0.0
 step: 952 of 2000 / Total Time: 1051 / auto_reduce: True, proportion_divide: 0.00158077774265 i.e. approx 34 cells
 step: 953 of 2000 / Total Time: 1052 / auto_reduce: True, proportion_divide: 0.00157927984839 i.e. approx 34 cells
 step: 954 of 2000 / Total Time: 1053 / auto_reduce: True, proportion_divide: 0.00157778479015 i.e. approx 34 cells
-step: 955 of 2000 / Total Time: 1054 / auto_reduce: True, proportion_divide: 0.0015762925599 i.e. approx 35 cells
-step: 956 of 2000 / Total Time: 1055 / auto_reduce: True, proportion_divide: 0.00157480314961 i.e. approx 35 cells
-step: 957 of 2000 / Total Time: 1056 / auto_reduce: True, proportion_divide: 0.00157331655129 i.e. approx 35 cells
-step: 958 of 2000 / Total Time: 1057 / auto_reduce: True, proportion_divide: 0.00157183275699 i.e. approx 35 cells
-step: 959 of 2000 / Total Time: 1058 / auto_reduce: True, proportion_divide: 0.00157035175879 i.e. approx 35 cells
-step: 960 of 2000 / Total Time: 1059 / auto_reduce: True, proportion_divide: 0.00156887354879 i.e. approx 35 cells
-step: 961 of 2000 / Total Time: 1060 / auto_reduce: True, proportion_divide: 0.00156739811912 i.e. approx 35 cells
-step: 962 of 2000 / Total Time: 1061 / auto_reduce: True, proportion_divide: 0.00156592546195 i.e. approx 35 cells
-step: 963 of 2000 / Total Time: 1062 / auto_reduce: True, proportion_divide: 0.00156445556946 i.e. approx 35 cells
-step: 964 of 2000 / Total Time: 1063 / auto_reduce: True, proportion_divide: 0.00156298843389 i.e. approx 35 cells
-step: 965 of 2000 / Total Time: 1064 / auto_reduce: True, proportion_divide: 0.00156152404747 i.e. approx 35 cells
+step: 955 of 2000 / Total Time: 1054 / auto_reduce: True, proportion_divide: 0.0015762925599 i.e. approx 34 cells
+step: 956 of 2000 / Total Time: 1055 / auto_reduce: True, proportion_divide: 0.00157480314961 i.e. approx 34 cells
+step: 957 of 2000 / Total Time: 1056 / auto_reduce: True, proportion_divide: 0.00157331655129 i.e. approx 34 cells
+step: 958 of 2000 / Total Time: 1057 / auto_reduce: True, proportion_divide: 0.00157183275699 i.e. approx 34 cells
+step: 959 of 2000 / Total Time: 1058 / auto_reduce: True, proportion_divide: 0.00157035175879 i.e. approx 34 cells
+step: 960 of 2000 / Total Time: 1059 / auto_reduce: True, proportion_divide: 0.00156887354879 i.e. approx 34 cells
+step: 961 of 2000 / Total Time: 1060 / auto_reduce: True, proportion_divide: 0.00156739811912 i.e. approx 34 cells
+step: 962 of 2000 / Total Time: 1061 / auto_reduce: True, proportion_divide: 0.00156592546195 i.e. approx 34 cells
+step: 963 of 2000 / Total Time: 1062 / auto_reduce: True, proportion_divide: 0.00156445556946 i.e. approx 34 cells
+step: 964 of 2000 / Total Time: 1063 / auto_reduce: True, proportion_divide: 0.00156298843389 i.e. approx 34 cells
+step: 965 of 2000 / Total Time: 1064 / auto_reduce: True, proportion_divide: 0.00156152404747 i.e. approx 34 cells
 step: 966 of 2000 / Total Time: 1065 / auto_reduce: True, proportion_divide: 0.0015600624025 i.e. approx 35 cells
 step: 967 of 2000 / Total Time: 1066 / auto_reduce: True, proportion_divide: 0.00155860349127 i.e. approx 35 cells
 step: 968 of 2000 / Total Time: 1067 / auto_reduce: True, proportion_divide: 0.00155714730614 i.e. approx 35 cells
@@ -1103,18 +1103,18 @@ step: 996 of 2000 / Total Time: 1095 / auto_reduce: True, proportion_divide: 0.0
 step: 997 of 2000 / Total Time: 1096 / auto_reduce: True, proportion_divide: 0.00151607034566 i.e. approx 35 cells
 step: 998 of 2000 / Total Time: 1097 / auto_reduce: True, proportion_divide: 0.00151469251742 i.e. approx 35 cells
 step: 999 of 2000 / Total Time: 1098 / auto_reduce: True, proportion_divide: 0.00151331719128 i.e. approx 35 cells
-step: 1000 of 2000 / Total Time: 1099 / auto_reduce: True, proportion_divide: 0.00151194436045 i.e. approx 36 cells
-step: 1001 of 2000 / Total Time: 1100 / auto_reduce: True, proportion_divide: 0.00151057401813 i.e. approx 36 cells
-step: 1002 of 2000 / Total Time: 1101 / auto_reduce: True, proportion_divide: 0.00150920615756 i.e. approx 36 cells
-step: 1003 of 2000 / Total Time: 1102 / auto_reduce: True, proportion_divide: 0.00150784077201 i.e. approx 36 cells
-step: 1004 of 2000 / Total Time: 1103 / auto_reduce: True, proportion_divide: 0.00150647785478 i.e. approx 36 cells
-step: 1005 of 2000 / Total Time: 1104 / auto_reduce: True, proportion_divide: 0.00150511739916 i.e. approx 36 cells
-step: 1006 of 2000 / Total Time: 1105 / auto_reduce: True, proportion_divide: 0.0015037593985 i.e. approx 36 cells
-step: 1007 of 2000 / Total Time: 1106 / auto_reduce: True, proportion_divide: 0.00150240384615 i.e. approx 36 cells
-step: 1008 of 2000 / Total Time: 1107 / auto_reduce: True, proportion_divide: 0.00150105073551 i.e. approx 36 cells
-step: 1009 of 2000 / Total Time: 1108 / auto_reduce: True, proportion_divide: 0.00149970005999 i.e. approx 36 cells
-step: 1010 of 2000 / Total Time: 1109 / auto_reduce: True, proportion_divide: 0.00149835181301 i.e. approx 36 cells
-step: 1011 of 2000 / Total Time: 1110 / auto_reduce: True, proportion_divide: 0.00149700598802 i.e. approx 36 cells
+step: 1000 of 2000 / Total Time: 1099 / auto_reduce: True, proportion_divide: 0.00151194436045 i.e. approx 35 cells
+step: 1001 of 2000 / Total Time: 1100 / auto_reduce: True, proportion_divide: 0.00151057401813 i.e. approx 35 cells
+step: 1002 of 2000 / Total Time: 1101 / auto_reduce: True, proportion_divide: 0.00150920615756 i.e. approx 35 cells
+step: 1003 of 2000 / Total Time: 1102 / auto_reduce: True, proportion_divide: 0.00150784077201 i.e. approx 35 cells
+step: 1004 of 2000 / Total Time: 1103 / auto_reduce: True, proportion_divide: 0.00150647785478 i.e. approx 35 cells
+step: 1005 of 2000 / Total Time: 1104 / auto_reduce: True, proportion_divide: 0.00150511739916 i.e. approx 35 cells
+step: 1006 of 2000 / Total Time: 1105 / auto_reduce: True, proportion_divide: 0.0015037593985 i.e. approx 35 cells
+step: 1007 of 2000 / Total Time: 1106 / auto_reduce: True, proportion_divide: 0.00150240384615 i.e. approx 35 cells
+step: 1008 of 2000 / Total Time: 1107 / auto_reduce: True, proportion_divide: 0.00150105073551 i.e. approx 35 cells
+step: 1009 of 2000 / Total Time: 1108 / auto_reduce: True, proportion_divide: 0.00149970005999 i.e. approx 35 cells
+step: 1010 of 2000 / Total Time: 1109 / auto_reduce: True, proportion_divide: 0.00149835181301 i.e. approx 35 cells
+step: 1011 of 2000 / Total Time: 1110 / auto_reduce: True, proportion_divide: 0.00149700598802 i.e. approx 35 cells
 step: 1012 of 2000 / Total Time: 1111 / auto_reduce: True, proportion_divide: 0.00149566257852 i.e. approx 36 cells
 step: 1013 of 2000 / Total Time: 1112 / auto_reduce: True, proportion_divide: 0.001494321578 i.e. approx 36 cells
 step: 1014 of 2000 / Total Time: 1113 / auto_reduce: True, proportion_divide: 0.00149298297999 i.e. approx 36 cells
@@ -1149,18 +1149,18 @@ step: 1042 of 2000 / Total Time: 1141 / auto_reduce: True, proportion_divide: 0.
 step: 1043 of 2000 / Total Time: 1142 / auto_reduce: True, proportion_divide: 0.00145518044237 i.e. approx 36 cells
 step: 1044 of 2000 / Total Time: 1143 / auto_reduce: True, proportion_divide: 0.00145391102065 i.e. approx 36 cells
 step: 1045 of 2000 / Total Time: 1144 / auto_reduce: True, proportion_divide: 0.00145264381174 i.e. approx 36 cells
-step: 1046 of 2000 / Total Time: 1145 / auto_reduce: True, proportion_divide: 0.00145137880987 i.e. approx 37 cells
-step: 1047 of 2000 / Total Time: 1146 / auto_reduce: True, proportion_divide: 0.00145011600928 i.e. approx 37 cells
-step: 1048 of 2000 / Total Time: 1147 / auto_reduce: True, proportion_divide: 0.00144885540423 i.e. approx 37 cells
-step: 1049 of 2000 / Total Time: 1148 / auto_reduce: True, proportion_divide: 0.001447596989 i.e. approx 37 cells
-step: 1050 of 2000 / Total Time: 1149 / auto_reduce: True, proportion_divide: 0.00144634075788 i.e. approx 37 cells
-step: 1051 of 2000 / Total Time: 1150 / auto_reduce: True, proportion_divide: 0.0014450867052 i.e. approx 37 cells
-step: 1052 of 2000 / Total Time: 1151 / auto_reduce: True, proportion_divide: 0.0014438348253 i.e. approx 37 cells
-step: 1053 of 2000 / Total Time: 1152 / auto_reduce: True, proportion_divide: 0.00144258511252 i.e. approx 37 cells
-step: 1054 of 2000 / Total Time: 1153 / auto_reduce: True, proportion_divide: 0.00144133756126 i.e. approx 37 cells
-step: 1055 of 2000 / Total Time: 1154 / auto_reduce: True, proportion_divide: 0.0014400921659 i.e. approx 37 cells
-step: 1056 of 2000 / Total Time: 1155 / auto_reduce: True, proportion_divide: 0.00143884892086 i.e. approx 37 cells
-step: 1057 of 2000 / Total Time: 1156 / auto_reduce: True, proportion_divide: 0.00143760782059 i.e. approx 37 cells
+step: 1046 of 2000 / Total Time: 1145 / auto_reduce: True, proportion_divide: 0.00145137880987 i.e. approx 36 cells
+step: 1047 of 2000 / Total Time: 1146 / auto_reduce: True, proportion_divide: 0.00145011600928 i.e. approx 36 cells
+step: 1048 of 2000 / Total Time: 1147 / auto_reduce: True, proportion_divide: 0.00144885540423 i.e. approx 36 cells
+step: 1049 of 2000 / Total Time: 1148 / auto_reduce: True, proportion_divide: 0.001447596989 i.e. approx 36 cells
+step: 1050 of 2000 / Total Time: 1149 / auto_reduce: True, proportion_divide: 0.00144634075788 i.e. approx 36 cells
+step: 1051 of 2000 / Total Time: 1150 / auto_reduce: True, proportion_divide: 0.0014450867052 i.e. approx 36 cells
+step: 1052 of 2000 / Total Time: 1151 / auto_reduce: True, proportion_divide: 0.0014438348253 i.e. approx 36 cells
+step: 1053 of 2000 / Total Time: 1152 / auto_reduce: True, proportion_divide: 0.00144258511252 i.e. approx 36 cells
+step: 1054 of 2000 / Total Time: 1153 / auto_reduce: True, proportion_divide: 0.00144133756126 i.e. approx 36 cells
+step: 1055 of 2000 / Total Time: 1154 / auto_reduce: True, proportion_divide: 0.0014400921659 i.e. approx 36 cells
+step: 1056 of 2000 / Total Time: 1155 / auto_reduce: True, proportion_divide: 0.00143884892086 i.e. approx 36 cells
+step: 1057 of 2000 / Total Time: 1156 / auto_reduce: True, proportion_divide: 0.00143760782059 i.e. approx 36 cells
 step: 1058 of 2000 / Total Time: 1157 / auto_reduce: True, proportion_divide: 0.00143636885952 i.e. approx 37 cells
 step: 1059 of 2000 / Total Time: 1158 / auto_reduce: True, proportion_divide: 0.00143513203215 i.e. approx 37 cells
 step: 1060 of 2000 / Total Time: 1159 / auto_reduce: True, proportion_divide: 0.00143389733295 i.e. approx 37 cells
@@ -1196,18 +1196,18 @@ step: 1089 of 2000 / Total Time: 1188 / auto_reduce: True, proportion_divide: 0.
 step: 1090 of 2000 / Total Time: 1189 / auto_reduce: True, proportion_divide: 0.00139781940173 i.e. approx 37 cells
 step: 1091 of 2000 / Total Time: 1190 / auto_reduce: True, proportion_divide: 0.00139664804469 i.e. approx 37 cells
 step: 1092 of 2000 / Total Time: 1191 / auto_reduce: True, proportion_divide: 0.00139547864918 i.e. approx 37 cells
-step: 1093 of 2000 / Total Time: 1192 / auto_reduce: True, proportion_divide: 0.00139431121026 i.e. approx 38 cells
-step: 1094 of 2000 / Total Time: 1193 / auto_reduce: True, proportion_divide: 0.00139314572304 i.e. approx 38 cells
-step: 1095 of 2000 / Total Time: 1194 / auto_reduce: True, proportion_divide: 0.00139198218263 i.e. approx 38 cells
-step: 1096 of 2000 / Total Time: 1195 / auto_reduce: True, proportion_divide: 0.00139082058414 i.e. approx 38 cells
-step: 1097 of 2000 / Total Time: 1196 / auto_reduce: True, proportion_divide: 0.00138966092273 i.e. approx 38 cells
-step: 1098 of 2000 / Total Time: 1197 / auto_reduce: True, proportion_divide: 0.00138850319356 i.e. approx 38 cells
-step: 1099 of 2000 / Total Time: 1198 / auto_reduce: True, proportion_divide: 0.00138734739179 i.e. approx 38 cells
-step: 1100 of 2000 / Total Time: 1199 / auto_reduce: True, proportion_divide: 0.00138619351261 i.e. approx 38 cells
-step: 1101 of 2000 / Total Time: 1200 / auto_reduce: True, proportion_divide: 0.00138504155125 i.e. approx 38 cells
-step: 1102 of 2000 / Total Time: 1201 / auto_reduce: True, proportion_divide: 0.00138389150291 i.e. approx 38 cells
-step: 1103 of 2000 / Total Time: 1202 / auto_reduce: True, proportion_divide: 0.00138274336283 i.e. approx 38 cells
-step: 1104 of 2000 / Total Time: 1203 / auto_reduce: True, proportion_divide: 0.00138159712628 i.e. approx 38 cells
+step: 1093 of 2000 / Total Time: 1192 / auto_reduce: True, proportion_divide: 0.00139431121026 i.e. approx 37 cells
+step: 1094 of 2000 / Total Time: 1193 / auto_reduce: True, proportion_divide: 0.00139314572304 i.e. approx 37 cells
+step: 1095 of 2000 / Total Time: 1194 / auto_reduce: True, proportion_divide: 0.00139198218263 i.e. approx 37 cells
+step: 1096 of 2000 / Total Time: 1195 / auto_reduce: True, proportion_divide: 0.00139082058414 i.e. approx 37 cells
+step: 1097 of 2000 / Total Time: 1196 / auto_reduce: True, proportion_divide: 0.00138966092273 i.e. approx 37 cells
+step: 1098 of 2000 / Total Time: 1197 / auto_reduce: True, proportion_divide: 0.00138850319356 i.e. approx 37 cells
+step: 1099 of 2000 / Total Time: 1198 / auto_reduce: True, proportion_divide: 0.00138734739179 i.e. approx 37 cells
+step: 1100 of 2000 / Total Time: 1199 / auto_reduce: True, proportion_divide: 0.00138619351261 i.e. approx 37 cells
+step: 1101 of 2000 / Total Time: 1200 / auto_reduce: True, proportion_divide: 0.00138504155125 i.e. approx 37 cells
+step: 1102 of 2000 / Total Time: 1201 / auto_reduce: True, proportion_divide: 0.00138389150291 i.e. approx 37 cells
+step: 1103 of 2000 / Total Time: 1202 / auto_reduce: True, proportion_divide: 0.00138274336283 i.e. approx 37 cells
+step: 1104 of 2000 / Total Time: 1203 / auto_reduce: True, proportion_divide: 0.00138159712628 i.e. approx 37 cells
 step: 1105 of 2000 / Total Time: 1204 / auto_reduce: True, proportion_divide: 0.00138045278851 i.e. approx 38 cells
 step: 1106 of 2000 / Total Time: 1205 / auto_reduce: True, proportion_divide: 0.00137931034483 i.e. approx 38 cells
 step: 1107 of 2000 / Total Time: 1206 / auto_reduce: True, proportion_divide: 0.00137816979052 i.e. approx 38 cells
@@ -1243,19 +1243,19 @@ step: 1136 of 2000 / Total Time: 1235 / auto_reduce: True, proportion_divide: 0.
 step: 1137 of 2000 / Total Time: 1236 / auto_reduce: True, proportion_divide: 0.00134480903712 i.e. approx 38 cells
 step: 1138 of 2000 / Total Time: 1237 / auto_reduce: True, proportion_divide: 0.00134372480516 i.e. approx 38 cells
 step: 1139 of 2000 / Total Time: 1238 / auto_reduce: True, proportion_divide: 0.00134264232009 i.e. approx 38 cells
-step: 1140 of 2000 / Total Time: 1239 / auto_reduce: True, proportion_divide: 0.00134156157768 i.e. approx 39 cells
-step: 1141 of 2000 / Total Time: 1240 / auto_reduce: True, proportion_divide: 0.00134048257373 i.e. approx 39 cells
-step: 1142 of 2000 / Total Time: 1241 / auto_reduce: True, proportion_divide: 0.00133940530405 i.e. approx 39 cells
-step: 1143 of 2000 / Total Time: 1242 / auto_reduce: True, proportion_divide: 0.00133832976445 i.e. approx 39 cells
-step: 1144 of 2000 / Total Time: 1243 / auto_reduce: True, proportion_divide: 0.00133725595079 i.e. approx 39 cells
-step: 1145 of 2000 / Total Time: 1244 / auto_reduce: True, proportion_divide: 0.0013361838589 i.e. approx 39 cells
-step: 1146 of 2000 / Total Time: 1245 / auto_reduce: True, proportion_divide: 0.00133511348465 i.e. approx 39 cells
-step: 1147 of 2000 / Total Time: 1246 / auto_reduce: True, proportion_divide: 0.00133404482391 i.e. approx 39 cells
-step: 1148 of 2000 / Total Time: 1247 / auto_reduce: True, proportion_divide: 0.00133297787257 i.e. approx 39 cells
-step: 1149 of 2000 / Total Time: 1248 / auto_reduce: True, proportion_divide: 0.00133191262653 i.e. approx 39 cells
-step: 1150 of 2000 / Total Time: 1249 / auto_reduce: True, proportion_divide: 0.00133084908171 i.e. approx 39 cells
-step: 1151 of 2000 / Total Time: 1250 / auto_reduce: True, proportion_divide: 0.00132978723404 i.e. approx 39 cells
-step: 1152 of 2000 / Total Time: 1251 / auto_reduce: True, proportion_divide: 0.00132872707946 i.e. approx 39 cells
+step: 1140 of 2000 / Total Time: 1239 / auto_reduce: True, proportion_divide: 0.00134156157768 i.e. approx 38 cells
+step: 1141 of 2000 / Total Time: 1240 / auto_reduce: True, proportion_divide: 0.00134048257373 i.e. approx 38 cells
+step: 1142 of 2000 / Total Time: 1241 / auto_reduce: True, proportion_divide: 0.00133940530405 i.e. approx 38 cells
+step: 1143 of 2000 / Total Time: 1242 / auto_reduce: True, proportion_divide: 0.00133832976445 i.e. approx 38 cells
+step: 1144 of 2000 / Total Time: 1243 / auto_reduce: True, proportion_divide: 0.00133725595079 i.e. approx 38 cells
+step: 1145 of 2000 / Total Time: 1244 / auto_reduce: True, proportion_divide: 0.0013361838589 i.e. approx 38 cells
+step: 1146 of 2000 / Total Time: 1245 / auto_reduce: True, proportion_divide: 0.00133511348465 i.e. approx 38 cells
+step: 1147 of 2000 / Total Time: 1246 / auto_reduce: True, proportion_divide: 0.00133404482391 i.e. approx 38 cells
+step: 1148 of 2000 / Total Time: 1247 / auto_reduce: True, proportion_divide: 0.00133297787257 i.e. approx 38 cells
+step: 1149 of 2000 / Total Time: 1248 / auto_reduce: True, proportion_divide: 0.00133191262653 i.e. approx 38 cells
+step: 1150 of 2000 / Total Time: 1249 / auto_reduce: True, proportion_divide: 0.00133084908171 i.e. approx 38 cells
+step: 1151 of 2000 / Total Time: 1250 / auto_reduce: True, proportion_divide: 0.00132978723404 i.e. approx 38 cells
+step: 1152 of 2000 / Total Time: 1251 / auto_reduce: True, proportion_divide: 0.00132872707946 i.e. approx 38 cells
 step: 1153 of 2000 / Total Time: 1252 / auto_reduce: True, proportion_divide: 0.00132766861391 i.e. approx 39 cells
 step: 1154 of 2000 / Total Time: 1253 / auto_reduce: True, proportion_divide: 0.00132661183338 i.e. approx 39 cells
 step: 1155 of 2000 / Total Time: 1254 / auto_reduce: True, proportion_divide: 0.00132555673383 i.e. approx 39 cells
@@ -1291,19 +1291,19 @@ step: 1184 of 2000 / Total Time: 1283 / auto_reduce: True, proportion_divide: 0.
 step: 1185 of 2000 / Total Time: 1284 / auto_reduce: True, proportion_divide: 0.00129466597618 i.e. approx 39 cells
 step: 1186 of 2000 / Total Time: 1285 / auto_reduce: True, proportion_divide: 0.0012936610608 i.e. approx 39 cells
 step: 1187 of 2000 / Total Time: 1286 / auto_reduce: True, proportion_divide: 0.00129265770424 i.e. approx 39 cells
-step: 1188 of 2000 / Total Time: 1287 / auto_reduce: True, proportion_divide: 0.00129165590287 i.e. approx 40 cells
-step: 1189 of 2000 / Total Time: 1288 / auto_reduce: True, proportion_divide: 0.00129065565307 i.e. approx 40 cells
-step: 1190 of 2000 / Total Time: 1289 / auto_reduce: True, proportion_divide: 0.00128965695125 i.e. approx 40 cells
-step: 1191 of 2000 / Total Time: 1290 / auto_reduce: True, proportion_divide: 0.00128865979381 i.e. approx 40 cells
-step: 1192 of 2000 / Total Time: 1291 / auto_reduce: True, proportion_divide: 0.00128766417718 i.e. approx 40 cells
-step: 1193 of 2000 / Total Time: 1292 / auto_reduce: True, proportion_divide: 0.00128667009779 i.e. approx 40 cells
-step: 1194 of 2000 / Total Time: 1293 / auto_reduce: True, proportion_divide: 0.00128567755207 i.e. approx 40 cells
-step: 1195 of 2000 / Total Time: 1294 / auto_reduce: True, proportion_divide: 0.00128468653649 i.e. approx 40 cells
-step: 1196 of 2000 / Total Time: 1295 / auto_reduce: True, proportion_divide: 0.0012836970475 i.e. approx 40 cells
-step: 1197 of 2000 / Total Time: 1296 / auto_reduce: True, proportion_divide: 0.00128270908158 i.e. approx 40 cells
-step: 1198 of 2000 / Total Time: 1297 / auto_reduce: True, proportion_divide: 0.00128172263522 i.e. approx 40 cells
-step: 1199 of 2000 / Total Time: 1298 / auto_reduce: True, proportion_divide: 0.00128073770492 i.e. approx 40 cells
-step: 1200 of 2000 / Total Time: 1299 / auto_reduce: True, proportion_divide: 0.00127975428718 i.e. approx 40 cells
+step: 1188 of 2000 / Total Time: 1287 / auto_reduce: True, proportion_divide: 0.00129165590287 i.e. approx 39 cells
+step: 1189 of 2000 / Total Time: 1288 / auto_reduce: True, proportion_divide: 0.00129065565307 i.e. approx 39 cells
+step: 1190 of 2000 / Total Time: 1289 / auto_reduce: True, proportion_divide: 0.00128965695125 i.e. approx 39 cells
+step: 1191 of 2000 / Total Time: 1290 / auto_reduce: True, proportion_divide: 0.00128865979381 i.e. approx 39 cells
+step: 1192 of 2000 / Total Time: 1291 / auto_reduce: True, proportion_divide: 0.00128766417718 i.e. approx 39 cells
+step: 1193 of 2000 / Total Time: 1292 / auto_reduce: True, proportion_divide: 0.00128667009779 i.e. approx 39 cells
+step: 1194 of 2000 / Total Time: 1293 / auto_reduce: True, proportion_divide: 0.00128567755207 i.e. approx 39 cells
+step: 1195 of 2000 / Total Time: 1294 / auto_reduce: True, proportion_divide: 0.00128468653649 i.e. approx 39 cells
+step: 1196 of 2000 / Total Time: 1295 / auto_reduce: True, proportion_divide: 0.0012836970475 i.e. approx 39 cells
+step: 1197 of 2000 / Total Time: 1296 / auto_reduce: True, proportion_divide: 0.00128270908158 i.e. approx 39 cells
+step: 1198 of 2000 / Total Time: 1297 / auto_reduce: True, proportion_divide: 0.00128172263522 i.e. approx 39 cells
+step: 1199 of 2000 / Total Time: 1298 / auto_reduce: True, proportion_divide: 0.00128073770492 i.e. approx 39 cells
+step: 1200 of 2000 / Total Time: 1299 / auto_reduce: True, proportion_divide: 0.00127975428718 i.e. approx 39 cells
 step: 1201 of 2000 / Total Time: 1300 / auto_reduce: True, proportion_divide: 0.00127877237852 i.e. approx 40 cells
 step: 1202 of 2000 / Total Time: 1301 / auto_reduce: True, proportion_divide: 0.00127779197547 i.e. approx 40 cells
 step: 1203 of 2000 / Total Time: 1302 / auto_reduce: True, proportion_divide: 0.00127681307457 i.e. approx 40 cells
@@ -1339,20 +1339,20 @@ step: 1232 of 2000 / Total Time: 1331 / auto_reduce: True, proportion_divide: 0.
 step: 1233 of 2000 / Total Time: 1332 / auto_reduce: True, proportion_divide: 0.00124812780829 i.e. approx 40 cells
 step: 1234 of 2000 / Total Time: 1333 / auto_reduce: True, proportion_divide: 0.00124719381392 i.e. approx 40 cells
 step: 1235 of 2000 / Total Time: 1334 / auto_reduce: True, proportion_divide: 0.00124626121635 i.e. approx 40 cells
-step: 1236 of 2000 / Total Time: 1335 / auto_reduce: True, proportion_divide: 0.00124533001245 i.e. approx 41 cells
-step: 1237 of 2000 / Total Time: 1336 / auto_reduce: True, proportion_divide: 0.0012444001991 i.e. approx 41 cells
-step: 1238 of 2000 / Total Time: 1337 / auto_reduce: True, proportion_divide: 0.00124347177319 i.e. approx 41 cells
-step: 1239 of 2000 / Total Time: 1338 / auto_reduce: True, proportion_divide: 0.00124254473161 i.e. approx 41 cells
-step: 1240 of 2000 / Total Time: 1339 / auto_reduce: True, proportion_divide: 0.00124161907127 i.e. approx 41 cells
-step: 1241 of 2000 / Total Time: 1340 / auto_reduce: True, proportion_divide: 0.00124069478908 i.e. approx 41 cells
-step: 1242 of 2000 / Total Time: 1341 / auto_reduce: True, proportion_divide: 0.00123977188197 i.e. approx 41 cells
-step: 1243 of 2000 / Total Time: 1342 / auto_reduce: True, proportion_divide: 0.00123885034688 i.e. approx 41 cells
-step: 1244 of 2000 / Total Time: 1343 / auto_reduce: True, proportion_divide: 0.00123793018074 i.e. approx 41 cells
-step: 1245 of 2000 / Total Time: 1344 / auto_reduce: True, proportion_divide: 0.0012370113805 i.e. approx 41 cells
-step: 1246 of 2000 / Total Time: 1345 / auto_reduce: True, proportion_divide: 0.00123609394314 i.e. approx 41 cells
-step: 1247 of 2000 / Total Time: 1346 / auto_reduce: True, proportion_divide: 0.00123517786561 i.e. approx 41 cells
-step: 1248 of 2000 / Total Time: 1347 / auto_reduce: True, proportion_divide: 0.0012342631449 i.e. approx 41 cells
-step: 1249 of 2000 / Total Time: 1348 / auto_reduce: True, proportion_divide: 0.001233349778 i.e. approx 41 cells
+step: 1236 of 2000 / Total Time: 1335 / auto_reduce: True, proportion_divide: 0.00124533001245 i.e. approx 40 cells
+step: 1237 of 2000 / Total Time: 1336 / auto_reduce: True, proportion_divide: 0.0012444001991 i.e. approx 40 cells
+step: 1238 of 2000 / Total Time: 1337 / auto_reduce: True, proportion_divide: 0.00124347177319 i.e. approx 40 cells
+step: 1239 of 2000 / Total Time: 1338 / auto_reduce: True, proportion_divide: 0.00124254473161 i.e. approx 40 cells
+step: 1240 of 2000 / Total Time: 1339 / auto_reduce: True, proportion_divide: 0.00124161907127 i.e. approx 40 cells
+step: 1241 of 2000 / Total Time: 1340 / auto_reduce: True, proportion_divide: 0.00124069478908 i.e. approx 40 cells
+step: 1242 of 2000 / Total Time: 1341 / auto_reduce: True, proportion_divide: 0.00123977188197 i.e. approx 40 cells
+step: 1243 of 2000 / Total Time: 1342 / auto_reduce: True, proportion_divide: 0.00123885034688 i.e. approx 40 cells
+step: 1244 of 2000 / Total Time: 1343 / auto_reduce: True, proportion_divide: 0.00123793018074 i.e. approx 40 cells
+step: 1245 of 2000 / Total Time: 1344 / auto_reduce: True, proportion_divide: 0.0012370113805 i.e. approx 40 cells
+step: 1246 of 2000 / Total Time: 1345 / auto_reduce: True, proportion_divide: 0.00123609394314 i.e. approx 40 cells
+step: 1247 of 2000 / Total Time: 1346 / auto_reduce: True, proportion_divide: 0.00123517786561 i.e. approx 40 cells
+step: 1248 of 2000 / Total Time: 1347 / auto_reduce: True, proportion_divide: 0.0012342631449 i.e. approx 40 cells
+step: 1249 of 2000 / Total Time: 1348 / auto_reduce: True, proportion_divide: 0.001233349778 i.e. approx 40 cells
 step: 1250 of 2000 / Total Time: 1349 / auto_reduce: True, proportion_divide: 0.00123243776189 i.e. approx 41 cells
 step: 1251 of 2000 / Total Time: 1350 / auto_reduce: True, proportion_divide: 0.0012315270936 i.e. approx 41 cells
 step: 1252 of 2000 / Total Time: 1351 / auto_reduce: True, proportion_divide: 0.00123061777012 i.e. approx 41 cells
@@ -1388,21 +1388,21 @@ step: 1281 of 2000 / Total Time: 1380 / auto_reduce: True, proportion_divide: 0.
 step: 1282 of 2000 / Total Time: 1381 / auto_reduce: True, proportion_divide: 0.00120394895256 i.e. approx 41 cells
 step: 1283 of 2000 / Total Time: 1382 / auto_reduce: True, proportion_divide: 0.0012030798845 i.e. approx 41 cells
 step: 1284 of 2000 / Total Time: 1383 / auto_reduce: True, proportion_divide: 0.00120221207021 i.e. approx 41 cells
-step: 1285 of 2000 / Total Time: 1384 / auto_reduce: True, proportion_divide: 0.00120134550697 i.e. approx 42 cells
-step: 1286 of 2000 / Total Time: 1385 / auto_reduce: True, proportion_divide: 0.00120048019208 i.e. approx 42 cells
-step: 1287 of 2000 / Total Time: 1386 / auto_reduce: True, proportion_divide: 0.00119961612284 i.e. approx 42 cells
-step: 1288 of 2000 / Total Time: 1387 / auto_reduce: True, proportion_divide: 0.00119875329657 i.e. approx 42 cells
-step: 1289 of 2000 / Total Time: 1388 / auto_reduce: True, proportion_divide: 0.00119789171059 i.e. approx 42 cells
-step: 1290 of 2000 / Total Time: 1389 / auto_reduce: True, proportion_divide: 0.00119703136222 i.e. approx 42 cells
-step: 1291 of 2000 / Total Time: 1390 / auto_reduce: True, proportion_divide: 0.0011961722488 i.e. approx 42 cells
-step: 1292 of 2000 / Total Time: 1391 / auto_reduce: True, proportion_divide: 0.00119531436768 i.e. approx 42 cells
-step: 1293 of 2000 / Total Time: 1392 / auto_reduce: True, proportion_divide: 0.0011944577162 i.e. approx 42 cells
-step: 1294 of 2000 / Total Time: 1393 / auto_reduce: True, proportion_divide: 0.00119360229172 i.e. approx 42 cells
-step: 1295 of 2000 / Total Time: 1394 / auto_reduce: True, proportion_divide: 0.0011927480916 i.e. approx 42 cells
-step: 1296 of 2000 / Total Time: 1395 / auto_reduce: True, proportion_divide: 0.00119189511323 i.e. approx 42 cells
-step: 1297 of 2000 / Total Time: 1396 / auto_reduce: True, proportion_divide: 0.00119104335398 i.e. approx 42 cells
-step: 1298 of 2000 / Total Time: 1397 / auto_reduce: True, proportion_divide: 0.00119019281124 i.e. approx 42 cells
-step: 1299 of 2000 / Total Time: 1398 / auto_reduce: True, proportion_divide: 0.0011893434824 i.e. approx 42 cells
+step: 1285 of 2000 / Total Time: 1384 / auto_reduce: True, proportion_divide: 0.00120134550697 i.e. approx 41 cells
+step: 1286 of 2000 / Total Time: 1385 / auto_reduce: True, proportion_divide: 0.00120048019208 i.e. approx 41 cells
+step: 1287 of 2000 / Total Time: 1386 / auto_reduce: True, proportion_divide: 0.00119961612284 i.e. approx 41 cells
+step: 1288 of 2000 / Total Time: 1387 / auto_reduce: True, proportion_divide: 0.00119875329657 i.e. approx 41 cells
+step: 1289 of 2000 / Total Time: 1388 / auto_reduce: True, proportion_divide: 0.00119789171059 i.e. approx 41 cells
+step: 1290 of 2000 / Total Time: 1389 / auto_reduce: True, proportion_divide: 0.00119703136222 i.e. approx 41 cells
+step: 1291 of 2000 / Total Time: 1390 / auto_reduce: True, proportion_divide: 0.0011961722488 i.e. approx 41 cells
+step: 1292 of 2000 / Total Time: 1391 / auto_reduce: True, proportion_divide: 0.00119531436768 i.e. approx 41 cells
+step: 1293 of 2000 / Total Time: 1392 / auto_reduce: True, proportion_divide: 0.0011944577162 i.e. approx 41 cells
+step: 1294 of 2000 / Total Time: 1393 / auto_reduce: True, proportion_divide: 0.00119360229172 i.e. approx 41 cells
+step: 1295 of 2000 / Total Time: 1394 / auto_reduce: True, proportion_divide: 0.0011927480916 i.e. approx 41 cells
+step: 1296 of 2000 / Total Time: 1395 / auto_reduce: True, proportion_divide: 0.00119189511323 i.e. approx 41 cells
+step: 1297 of 2000 / Total Time: 1396 / auto_reduce: True, proportion_divide: 0.00119104335398 i.e. approx 41 cells
+step: 1298 of 2000 / Total Time: 1397 / auto_reduce: True, proportion_divide: 0.00119019281124 i.e. approx 41 cells
+step: 1299 of 2000 / Total Time: 1398 / auto_reduce: True, proportion_divide: 0.0011893434824 i.e. approx 41 cells
 step: 1300 of 2000 / Total Time: 1399 / auto_reduce: True, proportion_divide: 0.00118849536487 i.e. approx 42 cells
 step: 1301 of 2000 / Total Time: 1400 / auto_reduce: True, proportion_divide: 0.00118764845606 i.e. approx 42 cells
 step: 1302 of 2000 / Total Time: 1401 / auto_reduce: True, proportion_divide: 0.00118680275338 i.e. approx 42 cells
@@ -1438,21 +1438,21 @@ step: 1331 of 2000 / Total Time: 1430 / auto_reduce: True, proportion_divide: 0.
 step: 1332 of 2000 / Total Time: 1431 / auto_reduce: True, proportion_divide: 0.00116198001394 i.e. approx 42 cells
 step: 1333 of 2000 / Total Time: 1432 / auto_reduce: True, proportion_divide: 0.00116117045982 i.e. approx 42 cells
 step: 1334 of 2000 / Total Time: 1433 / auto_reduce: True, proportion_divide: 0.00116036203295 i.e. approx 42 cells
-step: 1335 of 2000 / Total Time: 1434 / auto_reduce: True, proportion_divide: 0.00115955473098 i.e. approx 43 cells
-step: 1336 of 2000 / Total Time: 1435 / auto_reduce: True, proportion_divide: 0.00115874855156 i.e. approx 43 cells
-step: 1337 of 2000 / Total Time: 1436 / auto_reduce: True, proportion_divide: 0.00115794349236 i.e. approx 43 cells
-step: 1338 of 2000 / Total Time: 1437 / auto_reduce: True, proportion_divide: 0.00115713955103 i.e. approx 43 cells
-step: 1339 of 2000 / Total Time: 1438 / auto_reduce: True, proportion_divide: 0.00115633672525 i.e. approx 43 cells
-step: 1340 of 2000 / Total Time: 1439 / auto_reduce: True, proportion_divide: 0.00115553501271 i.e. approx 43 cells
-step: 1341 of 2000 / Total Time: 1440 / auto_reduce: True, proportion_divide: 0.00115473441109 i.e. approx 43 cells
-step: 1342 of 2000 / Total Time: 1441 / auto_reduce: True, proportion_divide: 0.00115393491807 i.e. approx 43 cells
-step: 1343 of 2000 / Total Time: 1442 / auto_reduce: True, proportion_divide: 0.00115313653137 i.e. approx 43 cells
-step: 1344 of 2000 / Total Time: 1443 / auto_reduce: True, proportion_divide: 0.00115233924867 i.e. approx 43 cells
-step: 1345 of 2000 / Total Time: 1444 / auto_reduce: True, proportion_divide: 0.00115154306771 i.e. approx 43 cells
-step: 1346 of 2000 / Total Time: 1445 / auto_reduce: True, proportion_divide: 0.00115074798619 i.e. approx 43 cells
-step: 1347 of 2000 / Total Time: 1446 / auto_reduce: True, proportion_divide: 0.00114995400184 i.e. approx 43 cells
-step: 1348 of 2000 / Total Time: 1447 / auto_reduce: True, proportion_divide: 0.00114916111239 i.e. approx 43 cells
-step: 1349 of 2000 / Total Time: 1448 / auto_reduce: True, proportion_divide: 0.00114836931557 i.e. approx 43 cells
+step: 1335 of 2000 / Total Time: 1434 / auto_reduce: True, proportion_divide: 0.00115955473098 i.e. approx 42 cells
+step: 1336 of 2000 / Total Time: 1435 / auto_reduce: True, proportion_divide: 0.00115874855156 i.e. approx 42 cells
+step: 1337 of 2000 / Total Time: 1436 / auto_reduce: True, proportion_divide: 0.00115794349236 i.e. approx 42 cells
+step: 1338 of 2000 / Total Time: 1437 / auto_reduce: True, proportion_divide: 0.00115713955103 i.e. approx 42 cells
+step: 1339 of 2000 / Total Time: 1438 / auto_reduce: True, proportion_divide: 0.00115633672525 i.e. approx 42 cells
+step: 1340 of 2000 / Total Time: 1439 / auto_reduce: True, proportion_divide: 0.00115553501271 i.e. approx 42 cells
+step: 1341 of 2000 / Total Time: 1440 / auto_reduce: True, proportion_divide: 0.00115473441109 i.e. approx 42 cells
+step: 1342 of 2000 / Total Time: 1441 / auto_reduce: True, proportion_divide: 0.00115393491807 i.e. approx 42 cells
+step: 1343 of 2000 / Total Time: 1442 / auto_reduce: True, proportion_divide: 0.00115313653137 i.e. approx 42 cells
+step: 1344 of 2000 / Total Time: 1443 / auto_reduce: True, proportion_divide: 0.00115233924867 i.e. approx 42 cells
+step: 1345 of 2000 / Total Time: 1444 / auto_reduce: True, proportion_divide: 0.00115154306771 i.e. approx 42 cells
+step: 1346 of 2000 / Total Time: 1445 / auto_reduce: True, proportion_divide: 0.00115074798619 i.e. approx 42 cells
+step: 1347 of 2000 / Total Time: 1446 / auto_reduce: True, proportion_divide: 0.00114995400184 i.e. approx 42 cells
+step: 1348 of 2000 / Total Time: 1447 / auto_reduce: True, proportion_divide: 0.00114916111239 i.e. approx 42 cells
+step: 1349 of 2000 / Total Time: 1448 / auto_reduce: True, proportion_divide: 0.00114836931557 i.e. approx 42 cells
 step: 1350 of 2000 / Total Time: 1449 / auto_reduce: True, proportion_divide: 0.00114757860913 i.e. approx 43 cells
 step: 1351 of 2000 / Total Time: 1450 / auto_reduce: True, proportion_divide: 0.00114678899083 i.e. approx 43 cells
 step: 1352 of 2000 / Total Time: 1451 / auto_reduce: True, proportion_divide: 0.0011460004584 i.e. approx 43 cells
@@ -1488,22 +1488,22 @@ step: 1381 of 2000 / Total Time: 1480 / auto_reduce: True, proportion_divide: 0.
 step: 1382 of 2000 / Total Time: 1481 / auto_reduce: True, proportion_divide: 0.00112283853582 i.e. approx 43 cells
 step: 1383 of 2000 / Total Time: 1482 / auto_reduce: True, proportion_divide: 0.00112208258528 i.e. approx 43 cells
 step: 1384 of 2000 / Total Time: 1483 / auto_reduce: True, proportion_divide: 0.00112132765194 i.e. approx 43 cells
-step: 1385 of 2000 / Total Time: 1484 / auto_reduce: True, proportion_divide: 0.00112057373375 i.e. approx 44 cells
-step: 1386 of 2000 / Total Time: 1485 / auto_reduce: True, proportion_divide: 0.00111982082867 i.e. approx 44 cells
-step: 1387 of 2000 / Total Time: 1486 / auto_reduce: True, proportion_divide: 0.00111906893465 i.e. approx 44 cells
-step: 1388 of 2000 / Total Time: 1487 / auto_reduce: True, proportion_divide: 0.00111831804965 i.e. approx 44 cells
-step: 1389 of 2000 / Total Time: 1488 / auto_reduce: True, proportion_divide: 0.00111756817166 i.e. approx 44 cells
-step: 1390 of 2000 / Total Time: 1489 / auto_reduce: True, proportion_divide: 0.00111681929864 i.e. approx 44 cells
-step: 1391 of 2000 / Total Time: 1490 / auto_reduce: True, proportion_divide: 0.00111607142857 i.e. approx 44 cells
-step: 1392 of 2000 / Total Time: 1491 / auto_reduce: True, proportion_divide: 0.00111532455945 i.e. approx 44 cells
-step: 1393 of 2000 / Total Time: 1492 / auto_reduce: True, proportion_divide: 0.00111457868926 i.e. approx 44 cells
-step: 1394 of 2000 / Total Time: 1493 / auto_reduce: True, proportion_divide: 0.00111383381599 i.e. approx 44 cells
-step: 1395 of 2000 / Total Time: 1494 / auto_reduce: True, proportion_divide: 0.00111308993767 i.e. approx 44 cells
-step: 1396 of 2000 / Total Time: 1495 / auto_reduce: True, proportion_divide: 0.00111234705228 i.e. approx 44 cells
-step: 1397 of 2000 / Total Time: 1496 / auto_reduce: True, proportion_divide: 0.00111160515785 i.e. approx 44 cells
-step: 1398 of 2000 / Total Time: 1497 / auto_reduce: True, proportion_divide: 0.00111086425239 i.e. approx 44 cells
-step: 1399 of 2000 / Total Time: 1498 / auto_reduce: True, proportion_divide: 0.00111012433393 i.e. approx 44 cells
-step: 1400 of 2000 / Total Time: 1499 / auto_reduce: True, proportion_divide: 0.00110938540049 i.e. approx 44 cells
+step: 1385 of 2000 / Total Time: 1484 / auto_reduce: True, proportion_divide: 0.00112057373375 i.e. approx 43 cells
+step: 1386 of 2000 / Total Time: 1485 / auto_reduce: True, proportion_divide: 0.00111982082867 i.e. approx 43 cells
+step: 1387 of 2000 / Total Time: 1486 / auto_reduce: True, proportion_divide: 0.00111906893465 i.e. approx 43 cells
+step: 1388 of 2000 / Total Time: 1487 / auto_reduce: True, proportion_divide: 0.00111831804965 i.e. approx 43 cells
+step: 1389 of 2000 / Total Time: 1488 / auto_reduce: True, proportion_divide: 0.00111756817166 i.e. approx 43 cells
+step: 1390 of 2000 / Total Time: 1489 / auto_reduce: True, proportion_divide: 0.00111681929864 i.e. approx 43 cells
+step: 1391 of 2000 / Total Time: 1490 / auto_reduce: True, proportion_divide: 0.00111607142857 i.e. approx 43 cells
+step: 1392 of 2000 / Total Time: 1491 / auto_reduce: True, proportion_divide: 0.00111532455945 i.e. approx 43 cells
+step: 1393 of 2000 / Total Time: 1492 / auto_reduce: True, proportion_divide: 0.00111457868926 i.e. approx 43 cells
+step: 1394 of 2000 / Total Time: 1493 / auto_reduce: True, proportion_divide: 0.00111383381599 i.e. approx 43 cells
+step: 1395 of 2000 / Total Time: 1494 / auto_reduce: True, proportion_divide: 0.00111308993767 i.e. approx 43 cells
+step: 1396 of 2000 / Total Time: 1495 / auto_reduce: True, proportion_divide: 0.00111234705228 i.e. approx 43 cells
+step: 1397 of 2000 / Total Time: 1496 / auto_reduce: True, proportion_divide: 0.00111160515785 i.e. approx 43 cells
+step: 1398 of 2000 / Total Time: 1497 / auto_reduce: True, proportion_divide: 0.00111086425239 i.e. approx 43 cells
+step: 1399 of 2000 / Total Time: 1498 / auto_reduce: True, proportion_divide: 0.00111012433393 i.e. approx 43 cells
+step: 1400 of 2000 / Total Time: 1499 / auto_reduce: True, proportion_divide: 0.00110938540049 i.e. approx 43 cells
 step: 1401 of 2000 / Total Time: 1500 / auto_reduce: True, proportion_divide: 0.00110864745011 i.e. approx 44 cells
 step: 1402 of 2000 / Total Time: 1501 / auto_reduce: True, proportion_divide: 0.00110791048083 i.e. approx 44 cells
 step: 1403 of 2000 / Total Time: 1502 / auto_reduce: True, proportion_divide: 0.0011071744907 i.e. approx 44 cells
@@ -1539,22 +1539,22 @@ step: 1432 of 2000 / Total Time: 1531 / auto_reduce: True, proportion_divide: 0.
 step: 1433 of 2000 / Total Time: 1532 / auto_reduce: True, proportion_divide: 0.00108554059922 i.e. approx 44 cells
 step: 1434 of 2000 / Total Time: 1533 / auto_reduce: True, proportion_divide: 0.00108483402039 i.e. approx 44 cells
 step: 1435 of 2000 / Total Time: 1534 / auto_reduce: True, proportion_divide: 0.0010841283608 i.e. approx 44 cells
-step: 1436 of 2000 / Total Time: 1535 / auto_reduce: True, proportion_divide: 0.00108342361863 i.e. approx 45 cells
-step: 1437 of 2000 / Total Time: 1536 / auto_reduce: True, proportion_divide: 0.00108271979212 i.e. approx 45 cells
-step: 1438 of 2000 / Total Time: 1537 / auto_reduce: True, proportion_divide: 0.00108201687946 i.e. approx 45 cells
-step: 1439 of 2000 / Total Time: 1538 / auto_reduce: True, proportion_divide: 0.00108131487889 i.e. approx 45 cells
-step: 1440 of 2000 / Total Time: 1539 / auto_reduce: True, proportion_divide: 0.00108061378863 i.e. approx 45 cells
-step: 1441 of 2000 / Total Time: 1540 / auto_reduce: True, proportion_divide: 0.00107991360691 i.e. approx 45 cells
-step: 1442 of 2000 / Total Time: 1541 / auto_reduce: True, proportion_divide: 0.00107921433197 i.e. approx 45 cells
-step: 1443 of 2000 / Total Time: 1542 / auto_reduce: True, proportion_divide: 0.00107851596204 i.e. approx 45 cells
-step: 1444 of 2000 / Total Time: 1543 / auto_reduce: True, proportion_divide: 0.00107781849537 i.e. approx 45 cells
-step: 1445 of 2000 / Total Time: 1544 / auto_reduce: True, proportion_divide: 0.0010771219302 i.e. approx 45 cells
-step: 1446 of 2000 / Total Time: 1545 / auto_reduce: True, proportion_divide: 0.0010764262648 i.e. approx 45 cells
-step: 1447 of 2000 / Total Time: 1546 / auto_reduce: True, proportion_divide: 0.00107573149742 i.e. approx 45 cells
-step: 1448 of 2000 / Total Time: 1547 / auto_reduce: True, proportion_divide: 0.00107503762632 i.e. approx 45 cells
-step: 1449 of 2000 / Total Time: 1548 / auto_reduce: True, proportion_divide: 0.00107434464976 i.e. approx 45 cells
-step: 1450 of 2000 / Total Time: 1549 / auto_reduce: True, proportion_divide: 0.00107365256603 i.e. approx 45 cells
-step: 1451 of 2000 / Total Time: 1550 / auto_reduce: True, proportion_divide: 0.00107296137339 i.e. approx 45 cells
+step: 1436 of 2000 / Total Time: 1535 / auto_reduce: True, proportion_divide: 0.00108342361863 i.e. approx 44 cells
+step: 1437 of 2000 / Total Time: 1536 / auto_reduce: True, proportion_divide: 0.00108271979212 i.e. approx 44 cells
+step: 1438 of 2000 / Total Time: 1537 / auto_reduce: True, proportion_divide: 0.00108201687946 i.e. approx 44 cells
+step: 1439 of 2000 / Total Time: 1538 / auto_reduce: True, proportion_divide: 0.00108131487889 i.e. approx 44 cells
+step: 1440 of 2000 / Total Time: 1539 / auto_reduce: True, proportion_divide: 0.00108061378863 i.e. approx 44 cells
+step: 1441 of 2000 / Total Time: 1540 / auto_reduce: True, proportion_divide: 0.00107991360691 i.e. approx 44 cells
+step: 1442 of 2000 / Total Time: 1541 / auto_reduce: True, proportion_divide: 0.00107921433197 i.e. approx 44 cells
+step: 1443 of 2000 / Total Time: 1542 / auto_reduce: True, proportion_divide: 0.00107851596204 i.e. approx 44 cells
+step: 1444 of 2000 / Total Time: 1543 / auto_reduce: True, proportion_divide: 0.00107781849537 i.e. approx 44 cells
+step: 1445 of 2000 / Total Time: 1544 / auto_reduce: True, proportion_divide: 0.0010771219302 i.e. approx 44 cells
+step: 1446 of 2000 / Total Time: 1545 / auto_reduce: True, proportion_divide: 0.0010764262648 i.e. approx 44 cells
+step: 1447 of 2000 / Total Time: 1546 / auto_reduce: True, proportion_divide: 0.00107573149742 i.e. approx 44 cells
+step: 1448 of 2000 / Total Time: 1547 / auto_reduce: True, proportion_divide: 0.00107503762632 i.e. approx 44 cells
+step: 1449 of 2000 / Total Time: 1548 / auto_reduce: True, proportion_divide: 0.00107434464976 i.e. approx 44 cells
+step: 1450 of 2000 / Total Time: 1549 / auto_reduce: True, proportion_divide: 0.00107365256603 i.e. approx 44 cells
+step: 1451 of 2000 / Total Time: 1550 / auto_reduce: True, proportion_divide: 0.00107296137339 i.e. approx 44 cells
 step: 1452 of 2000 / Total Time: 1551 / auto_reduce: True, proportion_divide: 0.00107227107013 i.e. approx 45 cells
 step: 1453 of 2000 / Total Time: 1552 / auto_reduce: True, proportion_divide: 0.00107158165452 i.e. approx 45 cells
 step: 1454 of 2000 / Total Time: 1553 / auto_reduce: True, proportion_divide: 0.00107089312487 i.e. approx 45 cells
@@ -1590,23 +1590,23 @@ step: 1483 of 2000 / Total Time: 1582 / auto_reduce: True, proportion_divide: 0.
 step: 1484 of 2000 / Total Time: 1583 / auto_reduce: True, proportion_divide: 0.00105064089094 i.e. approx 45 cells
 step: 1485 of 2000 / Total Time: 1584 / auto_reduce: True, proportion_divide: 0.00104997900042 i.e. approx 45 cells
 step: 1486 of 2000 / Total Time: 1585 / auto_reduce: True, proportion_divide: 0.00104931794334 i.e. approx 45 cells
-step: 1487 of 2000 / Total Time: 1586 / auto_reduce: True, proportion_divide: 0.00104865771812 i.e. approx 46 cells
-step: 1488 of 2000 / Total Time: 1587 / auto_reduce: True, proportion_divide: 0.0010479983232 i.e. approx 46 cells
-step: 1489 of 2000 / Total Time: 1588 / auto_reduce: True, proportion_divide: 0.00104733975702 i.e. approx 46 cells
-step: 1490 of 2000 / Total Time: 1589 / auto_reduce: True, proportion_divide: 0.001046682018 i.e. approx 46 cells
-step: 1491 of 2000 / Total Time: 1590 / auto_reduce: True, proportion_divide: 0.0010460251046 i.e. approx 46 cells
-step: 1492 of 2000 / Total Time: 1591 / auto_reduce: True, proportion_divide: 0.00104536901526 i.e. approx 46 cells
-step: 1493 of 2000 / Total Time: 1592 / auto_reduce: True, proportion_divide: 0.00104471374843 i.e. approx 46 cells
-step: 1494 of 2000 / Total Time: 1593 / auto_reduce: True, proportion_divide: 0.00104405930257 i.e. approx 46 cells
-step: 1495 of 2000 / Total Time: 1594 / auto_reduce: True, proportion_divide: 0.00104340567613 i.e. approx 46 cells
-step: 1496 of 2000 / Total Time: 1595 / auto_reduce: True, proportion_divide: 0.00104275286757 i.e. approx 46 cells
-step: 1497 of 2000 / Total Time: 1596 / auto_reduce: True, proportion_divide: 0.00104210087536 i.e. approx 46 cells
-step: 1498 of 2000 / Total Time: 1597 / auto_reduce: True, proportion_divide: 0.00104144969798 i.e. approx 46 cells
-step: 1499 of 2000 / Total Time: 1598 / auto_reduce: True, proportion_divide: 0.00104079933389 i.e. approx 46 cells
-step: 1500 of 2000 / Total Time: 1599 / auto_reduce: True, proportion_divide: 0.00104014978157 i.e. approx 46 cells
-step: 1501 of 2000 / Total Time: 1600 / auto_reduce: True, proportion_divide: 0.0010395010395 i.e. approx 46 cells
-step: 1502 of 2000 / Total Time: 1601 / auto_reduce: True, proportion_divide: 0.00103885310617 i.e. approx 46 cells
-step: 1503 of 2000 / Total Time: 1602 / auto_reduce: True, proportion_divide: 0.00103820598007 i.e. approx 46 cells
+step: 1487 of 2000 / Total Time: 1586 / auto_reduce: True, proportion_divide: 0.00104865771812 i.e. approx 45 cells
+step: 1488 of 2000 / Total Time: 1587 / auto_reduce: True, proportion_divide: 0.0010479983232 i.e. approx 45 cells
+step: 1489 of 2000 / Total Time: 1588 / auto_reduce: True, proportion_divide: 0.00104733975702 i.e. approx 45 cells
+step: 1490 of 2000 / Total Time: 1589 / auto_reduce: True, proportion_divide: 0.001046682018 i.e. approx 45 cells
+step: 1491 of 2000 / Total Time: 1590 / auto_reduce: True, proportion_divide: 0.0010460251046 i.e. approx 45 cells
+step: 1492 of 2000 / Total Time: 1591 / auto_reduce: True, proportion_divide: 0.00104536901526 i.e. approx 45 cells
+step: 1493 of 2000 / Total Time: 1592 / auto_reduce: True, proportion_divide: 0.00104471374843 i.e. approx 45 cells
+step: 1494 of 2000 / Total Time: 1593 / auto_reduce: True, proportion_divide: 0.00104405930257 i.e. approx 45 cells
+step: 1495 of 2000 / Total Time: 1594 / auto_reduce: True, proportion_divide: 0.00104340567613 i.e. approx 45 cells
+step: 1496 of 2000 / Total Time: 1595 / auto_reduce: True, proportion_divide: 0.00104275286757 i.e. approx 45 cells
+step: 1497 of 2000 / Total Time: 1596 / auto_reduce: True, proportion_divide: 0.00104210087536 i.e. approx 45 cells
+step: 1498 of 2000 / Total Time: 1597 / auto_reduce: True, proportion_divide: 0.00104144969798 i.e. approx 45 cells
+step: 1499 of 2000 / Total Time: 1598 / auto_reduce: True, proportion_divide: 0.00104079933389 i.e. approx 45 cells
+step: 1500 of 2000 / Total Time: 1599 / auto_reduce: True, proportion_divide: 0.00104014978157 i.e. approx 45 cells
+step: 1501 of 2000 / Total Time: 1600 / auto_reduce: True, proportion_divide: 0.0010395010395 i.e. approx 45 cells
+step: 1502 of 2000 / Total Time: 1601 / auto_reduce: True, proportion_divide: 0.00103885310617 i.e. approx 45 cells
+step: 1503 of 2000 / Total Time: 1602 / auto_reduce: True, proportion_divide: 0.00103820598007 i.e. approx 45 cells
 step: 1504 of 2000 / Total Time: 1603 / auto_reduce: True, proportion_divide: 0.00103755965968 i.e. approx 46 cells
 step: 1505 of 2000 / Total Time: 1604 / auto_reduce: True, proportion_divide: 0.00103691414351 i.e. approx 46 cells
 step: 1506 of 2000 / Total Time: 1605 / auto_reduce: True, proportion_divide: 0.00103626943005 i.e. approx 46 cells
@@ -1642,23 +1642,23 @@ step: 1535 of 2000 / Total Time: 1634 / auto_reduce: True, proportion_divide: 0.
 step: 1536 of 2000 / Total Time: 1635 / auto_reduce: True, proportion_divide: 0.00101729399797 i.e. approx 46 cells
 step: 1537 of 2000 / Total Time: 1636 / auto_reduce: True, proportion_divide: 0.00101667344449 i.e. approx 46 cells
 step: 1538 of 2000 / Total Time: 1637 / auto_reduce: True, proportion_divide: 0.00101605364763 i.e. approx 46 cells
-step: 1539 of 2000 / Total Time: 1638 / auto_reduce: True, proportion_divide: 0.00101543460601 i.e. approx 47 cells
-step: 1540 of 2000 / Total Time: 1639 / auto_reduce: True, proportion_divide: 0.00101481631825 i.e. approx 47 cells
-step: 1541 of 2000 / Total Time: 1640 / auto_reduce: True, proportion_divide: 0.00101419878296 i.e. approx 47 cells
-step: 1542 of 2000 / Total Time: 1641 / auto_reduce: True, proportion_divide: 0.00101358199878 i.e. approx 47 cells
-step: 1543 of 2000 / Total Time: 1642 / auto_reduce: True, proportion_divide: 0.00101296596434 i.e. approx 47 cells
-step: 1544 of 2000 / Total Time: 1643 / auto_reduce: True, proportion_divide: 0.00101235067827 i.e. approx 47 cells
-step: 1545 of 2000 / Total Time: 1644 / auto_reduce: True, proportion_divide: 0.00101173613921 i.e. approx 47 cells
-step: 1546 of 2000 / Total Time: 1645 / auto_reduce: True, proportion_divide: 0.0010111223458 i.e. approx 47 cells
-step: 1547 of 2000 / Total Time: 1646 / auto_reduce: True, proportion_divide: 0.00101050929669 i.e. approx 47 cells
-step: 1548 of 2000 / Total Time: 1647 / auto_reduce: True, proportion_divide: 0.00100989699051 i.e. approx 47 cells
-step: 1549 of 2000 / Total Time: 1648 / auto_reduce: True, proportion_divide: 0.00100928542592 i.e. approx 47 cells
-step: 1550 of 2000 / Total Time: 1649 / auto_reduce: True, proportion_divide: 0.00100867460157 i.e. approx 47 cells
-step: 1551 of 2000 / Total Time: 1650 / auto_reduce: True, proportion_divide: 0.00100806451613 i.e. approx 47 cells
-step: 1552 of 2000 / Total Time: 1651 / auto_reduce: True, proportion_divide: 0.00100745516825 i.e. approx 47 cells
-step: 1553 of 2000 / Total Time: 1652 / auto_reduce: True, proportion_divide: 0.00100684655658 i.e. approx 47 cells
-step: 1554 of 2000 / Total Time: 1653 / auto_reduce: True, proportion_divide: 0.00100623867981 i.e. approx 47 cells
-step: 1555 of 2000 / Total Time: 1654 / auto_reduce: True, proportion_divide: 0.0010056315366 i.e. approx 47 cells
+step: 1539 of 2000 / Total Time: 1638 / auto_reduce: True, proportion_divide: 0.00101543460601 i.e. approx 46 cells
+step: 1540 of 2000 / Total Time: 1639 / auto_reduce: True, proportion_divide: 0.00101481631825 i.e. approx 46 cells
+step: 1541 of 2000 / Total Time: 1640 / auto_reduce: True, proportion_divide: 0.00101419878296 i.e. approx 46 cells
+step: 1542 of 2000 / Total Time: 1641 / auto_reduce: True, proportion_divide: 0.00101358199878 i.e. approx 46 cells
+step: 1543 of 2000 / Total Time: 1642 / auto_reduce: True, proportion_divide: 0.00101296596434 i.e. approx 46 cells
+step: 1544 of 2000 / Total Time: 1643 / auto_reduce: True, proportion_divide: 0.00101235067827 i.e. approx 46 cells
+step: 1545 of 2000 / Total Time: 1644 / auto_reduce: True, proportion_divide: 0.00101173613921 i.e. approx 46 cells
+step: 1546 of 2000 / Total Time: 1645 / auto_reduce: True, proportion_divide: 0.0010111223458 i.e. approx 46 cells
+step: 1547 of 2000 / Total Time: 1646 / auto_reduce: True, proportion_divide: 0.00101050929669 i.e. approx 46 cells
+step: 1548 of 2000 / Total Time: 1647 / auto_reduce: True, proportion_divide: 0.00100989699051 i.e. approx 46 cells
+step: 1549 of 2000 / Total Time: 1648 / auto_reduce: True, proportion_divide: 0.00100928542592 i.e. approx 46 cells
+step: 1550 of 2000 / Total Time: 1649 / auto_reduce: True, proportion_divide: 0.00100867460157 i.e. approx 46 cells
+step: 1551 of 2000 / Total Time: 1650 / auto_reduce: True, proportion_divide: 0.00100806451613 i.e. approx 46 cells
+step: 1552 of 2000 / Total Time: 1651 / auto_reduce: True, proportion_divide: 0.00100745516825 i.e. approx 46 cells
+step: 1553 of 2000 / Total Time: 1652 / auto_reduce: True, proportion_divide: 0.00100684655658 i.e. approx 46 cells
+step: 1554 of 2000 / Total Time: 1653 / auto_reduce: True, proportion_divide: 0.00100623867981 i.e. approx 46 cells
+step: 1555 of 2000 / Total Time: 1654 / auto_reduce: True, proportion_divide: 0.0010056315366 i.e. approx 46 cells
 step: 1556 of 2000 / Total Time: 1655 / auto_reduce: True, proportion_divide: 0.00100502512563 i.e. approx 47 cells
 step: 1557 of 2000 / Total Time: 1656 / auto_reduce: True, proportion_divide: 0.00100441944556 i.e. approx 47 cells
 step: 1558 of 2000 / Total Time: 1657 / auto_reduce: True, proportion_divide: 0.00100381449508 i.e. approx 47 cells
@@ -1694,24 +1694,24 @@ step: 1587 of 2000 / Total Time: 1686 / auto_reduce: True, proportion_divide: 0.
 step: 1588 of 2000 / Total Time: 1687 / auto_reduce: True, proportion_divide: 0.000985998816801 i.e. approx 47 cells
 step: 1589 of 2000 / Total Time: 1688 / auto_reduce: True, proportion_divide: 0.000985415845487 i.e. approx 47 cells
 step: 1590 of 2000 / Total Time: 1689 / auto_reduce: True, proportion_divide: 0.000984833563128 i.e. approx 47 cells
-step: 1591 of 2000 / Total Time: 1690 / auto_reduce: True, proportion_divide: 0.000984251968504 i.e. approx 48 cells
-step: 1592 of 2000 / Total Time: 1691 / auto_reduce: True, proportion_divide: 0.000983671060397 i.e. approx 48 cells
-step: 1593 of 2000 / Total Time: 1692 / auto_reduce: True, proportion_divide: 0.000983090837593 i.e. approx 48 cells
-step: 1594 of 2000 / Total Time: 1693 / auto_reduce: True, proportion_divide: 0.00098251129888 i.e. approx 48 cells
-step: 1595 of 2000 / Total Time: 1694 / auto_reduce: True, proportion_divide: 0.000981932443048 i.e. approx 48 cells
-step: 1596 of 2000 / Total Time: 1695 / auto_reduce: True, proportion_divide: 0.000981354268891 i.e. approx 48 cells
-step: 1597 of 2000 / Total Time: 1696 / auto_reduce: True, proportion_divide: 0.000980776775206 i.e. approx 48 cells
-step: 1598 of 2000 / Total Time: 1697 / auto_reduce: True, proportion_divide: 0.000980199960792 i.e. approx 48 cells
-step: 1599 of 2000 / Total Time: 1698 / auto_reduce: True, proportion_divide: 0.000979623824451 i.e. approx 48 cells
-step: 1600 of 2000 / Total Time: 1699 / auto_reduce: True, proportion_divide: 0.000979048364989 i.e. approx 48 cells
-step: 1601 of 2000 / Total Time: 1700 / auto_reduce: True, proportion_divide: 0.000978473581213 i.e. approx 48 cells
-step: 1602 of 2000 / Total Time: 1701 / auto_reduce: True, proportion_divide: 0.000977899471934 i.e. approx 48 cells
-step: 1603 of 2000 / Total Time: 1702 / auto_reduce: True, proportion_divide: 0.000977326035966 i.e. approx 48 cells
-step: 1604 of 2000 / Total Time: 1703 / auto_reduce: True, proportion_divide: 0.000976753272123 i.e. approx 48 cells
-step: 1605 of 2000 / Total Time: 1704 / auto_reduce: True, proportion_divide: 0.000976181179227 i.e. approx 48 cells
-step: 1606 of 2000 / Total Time: 1705 / auto_reduce: True, proportion_divide: 0.000975609756098 i.e. approx 48 cells
-step: 1607 of 2000 / Total Time: 1706 / auto_reduce: True, proportion_divide: 0.00097503900156 i.e. approx 48 cells
-step: 1608 of 2000 / Total Time: 1707 / auto_reduce: True, proportion_divide: 0.000974468914442 i.e. approx 48 cells
+step: 1591 of 2000 / Total Time: 1690 / auto_reduce: True, proportion_divide: 0.000984251968504 i.e. approx 47 cells
+step: 1592 of 2000 / Total Time: 1691 / auto_reduce: True, proportion_divide: 0.000983671060397 i.e. approx 47 cells
+step: 1593 of 2000 / Total Time: 1692 / auto_reduce: True, proportion_divide: 0.000983090837593 i.e. approx 47 cells
+step: 1594 of 2000 / Total Time: 1693 / auto_reduce: True, proportion_divide: 0.00098251129888 i.e. approx 47 cells
+step: 1595 of 2000 / Total Time: 1694 / auto_reduce: True, proportion_divide: 0.000981932443048 i.e. approx 47 cells
+step: 1596 of 2000 / Total Time: 1695 / auto_reduce: True, proportion_divide: 0.000981354268891 i.e. approx 47 cells
+step: 1597 of 2000 / Total Time: 1696 / auto_reduce: True, proportion_divide: 0.000980776775206 i.e. approx 47 cells
+step: 1598 of 2000 / Total Time: 1697 / auto_reduce: True, proportion_divide: 0.000980199960792 i.e. approx 47 cells
+step: 1599 of 2000 / Total Time: 1698 / auto_reduce: True, proportion_divide: 0.000979623824451 i.e. approx 47 cells
+step: 1600 of 2000 / Total Time: 1699 / auto_reduce: True, proportion_divide: 0.000979048364989 i.e. approx 47 cells
+step: 1601 of 2000 / Total Time: 1700 / auto_reduce: True, proportion_divide: 0.000978473581213 i.e. approx 47 cells
+step: 1602 of 2000 / Total Time: 1701 / auto_reduce: True, proportion_divide: 0.000977899471934 i.e. approx 47 cells
+step: 1603 of 2000 / Total Time: 1702 / auto_reduce: True, proportion_divide: 0.000977326035966 i.e. approx 47 cells
+step: 1604 of 2000 / Total Time: 1703 / auto_reduce: True, proportion_divide: 0.000976753272123 i.e. approx 47 cells
+step: 1605 of 2000 / Total Time: 1704 / auto_reduce: True, proportion_divide: 0.000976181179227 i.e. approx 47 cells
+step: 1606 of 2000 / Total Time: 1705 / auto_reduce: True, proportion_divide: 0.000975609756098 i.e. approx 47 cells
+step: 1607 of 2000 / Total Time: 1706 / auto_reduce: True, proportion_divide: 0.00097503900156 i.e. approx 47 cells
+step: 1608 of 2000 / Total Time: 1707 / auto_reduce: True, proportion_divide: 0.000974468914442 i.e. approx 47 cells
 step: 1609 of 2000 / Total Time: 1708 / auto_reduce: True, proportion_divide: 0.000973899493572 i.e. approx 48 cells
 step: 1610 of 2000 / Total Time: 1709 / auto_reduce: True, proportion_divide: 0.000973330737785 i.e. approx 48 cells
 step: 1611 of 2000 / Total Time: 1710 / auto_reduce: True, proportion_divide: 0.000972762645914 i.e. approx 48 cells
@@ -1747,24 +1747,24 @@ step: 1640 of 2000 / Total Time: 1739 / auto_reduce: True, proportion_divide: 0.
 step: 1641 of 2000 / Total Time: 1740 / auto_reduce: True, proportion_divide: 0.000956022944551 i.e. approx 48 cells
 step: 1642 of 2000 / Total Time: 1741 / auto_reduce: True, proportion_divide: 0.000955474871011 i.e. approx 48 cells
 step: 1643 of 2000 / Total Time: 1742 / auto_reduce: True, proportion_divide: 0.000954927425516 i.e. approx 48 cells
-step: 1644 of 2000 / Total Time: 1743 / auto_reduce: True, proportion_divide: 0.000954380606986 i.e. approx 49 cells
-step: 1645 of 2000 / Total Time: 1744 / auto_reduce: True, proportion_divide: 0.000953834414346 i.e. approx 49 cells
-step: 1646 of 2000 / Total Time: 1745 / auto_reduce: True, proportion_divide: 0.00095328884652 i.e. approx 49 cells
-step: 1647 of 2000 / Total Time: 1746 / auto_reduce: True, proportion_divide: 0.000952743902439 i.e. approx 49 cells
-step: 1648 of 2000 / Total Time: 1747 / auto_reduce: True, proportion_divide: 0.000952199581032 i.e. approx 49 cells
-step: 1649 of 2000 / Total Time: 1748 / auto_reduce: True, proportion_divide: 0.000951655881233 i.e. approx 49 cells
-step: 1650 of 2000 / Total Time: 1749 / auto_reduce: True, proportion_divide: 0.000951112801978 i.e. approx 49 cells
-step: 1651 of 2000 / Total Time: 1750 / auto_reduce: True, proportion_divide: 0.000950570342205 i.e. approx 49 cells
-step: 1652 of 2000 / Total Time: 1751 / auto_reduce: True, proportion_divide: 0.000950028500855 i.e. approx 49 cells
-step: 1653 of 2000 / Total Time: 1752 / auto_reduce: True, proportion_divide: 0.00094948727687 i.e. approx 49 cells
-step: 1654 of 2000 / Total Time: 1753 / auto_reduce: True, proportion_divide: 0.000948946669197 i.e. approx 49 cells
-step: 1655 of 2000 / Total Time: 1754 / auto_reduce: True, proportion_divide: 0.000948406676783 i.e. approx 49 cells
-step: 1656 of 2000 / Total Time: 1755 / auto_reduce: True, proportion_divide: 0.000947867298578 i.e. approx 49 cells
-step: 1657 of 2000 / Total Time: 1756 / auto_reduce: True, proportion_divide: 0.000947328533535 i.e. approx 49 cells
-step: 1658 of 2000 / Total Time: 1757 / auto_reduce: True, proportion_divide: 0.00094679038061 i.e. approx 49 cells
-step: 1659 of 2000 / Total Time: 1758 / auto_reduce: True, proportion_divide: 0.000946252838759 i.e. approx 49 cells
-step: 1660 of 2000 / Total Time: 1759 / auto_reduce: True, proportion_divide: 0.000945715906942 i.e. approx 49 cells
-step: 1661 of 2000 / Total Time: 1760 / auto_reduce: True, proportion_divide: 0.000945179584121 i.e. approx 49 cells
+step: 1644 of 2000 / Total Time: 1743 / auto_reduce: True, proportion_divide: 0.000954380606986 i.e. approx 48 cells
+step: 1645 of 2000 / Total Time: 1744 / auto_reduce: True, proportion_divide: 0.000953834414346 i.e. approx 48 cells
+step: 1646 of 2000 / Total Time: 1745 / auto_reduce: True, proportion_divide: 0.00095328884652 i.e. approx 48 cells
+step: 1647 of 2000 / Total Time: 1746 / auto_reduce: True, proportion_divide: 0.000952743902439 i.e. approx 48 cells
+step: 1648 of 2000 / Total Time: 1747 / auto_reduce: True, proportion_divide: 0.000952199581032 i.e. approx 48 cells
+step: 1649 of 2000 / Total Time: 1748 / auto_reduce: True, proportion_divide: 0.000951655881233 i.e. approx 48 cells
+step: 1650 of 2000 / Total Time: 1749 / auto_reduce: True, proportion_divide: 0.000951112801978 i.e. approx 48 cells
+step: 1651 of 2000 / Total Time: 1750 / auto_reduce: True, proportion_divide: 0.000950570342205 i.e. approx 48 cells
+step: 1652 of 2000 / Total Time: 1751 / auto_reduce: True, proportion_divide: 0.000950028500855 i.e. approx 48 cells
+step: 1653 of 2000 / Total Time: 1752 / auto_reduce: True, proportion_divide: 0.00094948727687 i.e. approx 48 cells
+step: 1654 of 2000 / Total Time: 1753 / auto_reduce: True, proportion_divide: 0.000948946669197 i.e. approx 48 cells
+step: 1655 of 2000 / Total Time: 1754 / auto_reduce: True, proportion_divide: 0.000948406676783 i.e. approx 48 cells
+step: 1656 of 2000 / Total Time: 1755 / auto_reduce: True, proportion_divide: 0.000947867298578 i.e. approx 48 cells
+step: 1657 of 2000 / Total Time: 1756 / auto_reduce: True, proportion_divide: 0.000947328533535 i.e. approx 48 cells
+step: 1658 of 2000 / Total Time: 1757 / auto_reduce: True, proportion_divide: 0.00094679038061 i.e. approx 48 cells
+step: 1659 of 2000 / Total Time: 1758 / auto_reduce: True, proportion_divide: 0.000946252838759 i.e. approx 48 cells
+step: 1660 of 2000 / Total Time: 1759 / auto_reduce: True, proportion_divide: 0.000945715906942 i.e. approx 48 cells
+step: 1661 of 2000 / Total Time: 1760 / auto_reduce: True, proportion_divide: 0.000945179584121 i.e. approx 48 cells
 step: 1662 of 2000 / Total Time: 1761 / auto_reduce: True, proportion_divide: 0.000944643869261 i.e. approx 49 cells
 step: 1663 of 2000 / Total Time: 1762 / auto_reduce: True, proportion_divide: 0.000944108761329 i.e. approx 49 cells
 step: 1664 of 2000 / Total Time: 1763 / auto_reduce: True, proportion_divide: 0.000943574259294 i.e. approx 49 cells
@@ -1801,24 +1801,24 @@ step: 1694 of 2000 / Total Time: 1793 / auto_reduce: True, proportion_divide: 0.
 step: 1695 of 2000 / Total Time: 1794 / auto_reduce: True, proportion_divide: 0.000927299703264 i.e. approx 49 cells
 step: 1696 of 2000 / Total Time: 1795 / auto_reduce: True, proportion_divide: 0.000926784059314 i.e. approx 49 cells
 step: 1697 of 2000 / Total Time: 1796 / auto_reduce: True, proportion_divide: 0.000926268988514 i.e. approx 49 cells
-step: 1698 of 2000 / Total Time: 1797 / auto_reduce: True, proportion_divide: 0.000925754489909 i.e. approx 50 cells
-step: 1699 of 2000 / Total Time: 1798 / auto_reduce: True, proportion_divide: 0.000925240562546 i.e. approx 50 cells
-step: 1700 of 2000 / Total Time: 1799 / auto_reduce: True, proportion_divide: 0.000924727205474 i.e. approx 50 cells
-step: 1701 of 2000 / Total Time: 1800 / auto_reduce: True, proportion_divide: 0.000924214417745 i.e. approx 50 cells
-step: 1702 of 2000 / Total Time: 1801 / auto_reduce: True, proportion_divide: 0.000923702198411 i.e. approx 50 cells
-step: 1703 of 2000 / Total Time: 1802 / auto_reduce: True, proportion_divide: 0.000923190546529 i.e. approx 50 cells
-step: 1704 of 2000 / Total Time: 1803 / auto_reduce: True, proportion_divide: 0.000922679461155 i.e. approx 50 cells
-step: 1705 of 2000 / Total Time: 1804 / auto_reduce: True, proportion_divide: 0.00092216894135 i.e. approx 50 cells
-step: 1706 of 2000 / Total Time: 1805 / auto_reduce: True, proportion_divide: 0.000921658986175 i.e. approx 50 cells
-step: 1707 of 2000 / Total Time: 1806 / auto_reduce: True, proportion_divide: 0.000921149594694 i.e. approx 50 cells
-step: 1708 of 2000 / Total Time: 1807 / auto_reduce: True, proportion_divide: 0.000920640765973 i.e. approx 50 cells
-step: 1709 of 2000 / Total Time: 1808 / auto_reduce: True, proportion_divide: 0.00092013249908 i.e. approx 50 cells
-step: 1710 of 2000 / Total Time: 1809 / auto_reduce: True, proportion_divide: 0.000919624793084 i.e. approx 50 cells
-step: 1711 of 2000 / Total Time: 1810 / auto_reduce: True, proportion_divide: 0.000919117647059 i.e. approx 50 cells
-step: 1712 of 2000 / Total Time: 1811 / auto_reduce: True, proportion_divide: 0.000918611060077 i.e. approx 50 cells
-step: 1713 of 2000 / Total Time: 1812 / auto_reduce: True, proportion_divide: 0.000918105031216 i.e. approx 50 cells
-step: 1714 of 2000 / Total Time: 1813 / auto_reduce: True, proportion_divide: 0.000917599559552 i.e. approx 50 cells
-step: 1715 of 2000 / Total Time: 1814 / auto_reduce: True, proportion_divide: 0.000917094644167 i.e. approx 50 cells
+step: 1698 of 2000 / Total Time: 1797 / auto_reduce: True, proportion_divide: 0.000925754489909 i.e. approx 49 cells
+step: 1699 of 2000 / Total Time: 1798 / auto_reduce: True, proportion_divide: 0.000925240562546 i.e. approx 49 cells
+step: 1700 of 2000 / Total Time: 1799 / auto_reduce: True, proportion_divide: 0.000924727205474 i.e. approx 49 cells
+step: 1701 of 2000 / Total Time: 1800 / auto_reduce: True, proportion_divide: 0.000924214417745 i.e. approx 49 cells
+step: 1702 of 2000 / Total Time: 1801 / auto_reduce: True, proportion_divide: 0.000923702198411 i.e. approx 49 cells
+step: 1703 of 2000 / Total Time: 1802 / auto_reduce: True, proportion_divide: 0.000923190546529 i.e. approx 49 cells
+step: 1704 of 2000 / Total Time: 1803 / auto_reduce: True, proportion_divide: 0.000922679461155 i.e. approx 49 cells
+step: 1705 of 2000 / Total Time: 1804 / auto_reduce: True, proportion_divide: 0.00092216894135 i.e. approx 49 cells
+step: 1706 of 2000 / Total Time: 1805 / auto_reduce: True, proportion_divide: 0.000921658986175 i.e. approx 49 cells
+step: 1707 of 2000 / Total Time: 1806 / auto_reduce: True, proportion_divide: 0.000921149594694 i.e. approx 49 cells
+step: 1708 of 2000 / Total Time: 1807 / auto_reduce: True, proportion_divide: 0.000920640765973 i.e. approx 49 cells
+step: 1709 of 2000 / Total Time: 1808 / auto_reduce: True, proportion_divide: 0.00092013249908 i.e. approx 49 cells
+step: 1710 of 2000 / Total Time: 1809 / auto_reduce: True, proportion_divide: 0.000919624793084 i.e. approx 49 cells
+step: 1711 of 2000 / Total Time: 1810 / auto_reduce: True, proportion_divide: 0.000919117647059 i.e. approx 49 cells
+step: 1712 of 2000 / Total Time: 1811 / auto_reduce: True, proportion_divide: 0.000918611060077 i.e. approx 49 cells
+step: 1713 of 2000 / Total Time: 1812 / auto_reduce: True, proportion_divide: 0.000918105031216 i.e. approx 49 cells
+step: 1714 of 2000 / Total Time: 1813 / auto_reduce: True, proportion_divide: 0.000917599559552 i.e. approx 49 cells
+step: 1715 of 2000 / Total Time: 1814 / auto_reduce: True, proportion_divide: 0.000917094644167 i.e. approx 49 cells
 step: 1716 of 2000 / Total Time: 1815 / auto_reduce: True, proportion_divide: 0.000916590284143 i.e. approx 50 cells
 step: 1717 of 2000 / Total Time: 1816 / auto_reduce: True, proportion_divide: 0.000916086478564 i.e. approx 50 cells
 step: 1718 of 2000 / Total Time: 1817 / auto_reduce: True, proportion_divide: 0.000915583226515 i.e. approx 50 cells
@@ -1855,25 +1855,25 @@ step: 1748 of 2000 / Total Time: 1847 / auto_reduce: True, proportion_divide: 0.
 step: 1749 of 2000 / Total Time: 1848 / auto_reduce: True, proportion_divide: 0.00090025207058 i.e. approx 50 cells
 step: 1750 of 2000 / Total Time: 1849 / auto_reduce: True, proportion_divide: 0.000899766060824 i.e. approx 50 cells
 step: 1751 of 2000 / Total Time: 1850 / auto_reduce: True, proportion_divide: 0.00089928057554 i.e. approx 50 cells
-step: 1752 of 2000 / Total Time: 1851 / auto_reduce: True, proportion_divide: 0.000898795613877 i.e. approx 51 cells
-step: 1753 of 2000 / Total Time: 1852 / auto_reduce: True, proportion_divide: 0.000898311174991 i.e. approx 51 cells
-step: 1754 of 2000 / Total Time: 1853 / auto_reduce: True, proportion_divide: 0.000897827258036 i.e. approx 51 cells
-step: 1755 of 2000 / Total Time: 1854 / auto_reduce: True, proportion_divide: 0.000897343862168 i.e. approx 51 cells
-step: 1756 of 2000 / Total Time: 1855 / auto_reduce: True, proportion_divide: 0.000896860986547 i.e. approx 51 cells
-step: 1757 of 2000 / Total Time: 1856 / auto_reduce: True, proportion_divide: 0.000896378630333 i.e. approx 51 cells
-step: 1758 of 2000 / Total Time: 1857 / auto_reduce: True, proportion_divide: 0.000895896792689 i.e. approx 51 cells
-step: 1759 of 2000 / Total Time: 1858 / auto_reduce: True, proportion_divide: 0.000895415472779 i.e. approx 51 cells
-step: 1760 of 2000 / Total Time: 1859 / auto_reduce: True, proportion_divide: 0.000894934669769 i.e. approx 51 cells
-step: 1761 of 2000 / Total Time: 1860 / auto_reduce: True, proportion_divide: 0.000894454382826 i.e. approx 51 cells
-step: 1762 of 2000 / Total Time: 1861 / auto_reduce: True, proportion_divide: 0.000893974611121 i.e. approx 51 cells
-step: 1763 of 2000 / Total Time: 1862 / auto_reduce: True, proportion_divide: 0.000893495353824 i.e. approx 51 cells
-step: 1764 of 2000 / Total Time: 1863 / auto_reduce: True, proportion_divide: 0.000893016610109 i.e. approx 51 cells
-step: 1765 of 2000 / Total Time: 1864 / auto_reduce: True, proportion_divide: 0.00089253837915 i.e. approx 51 cells
-step: 1766 of 2000 / Total Time: 1865 / auto_reduce: True, proportion_divide: 0.000892060660125 i.e. approx 51 cells
-step: 1767 of 2000 / Total Time: 1866 / auto_reduce: True, proportion_divide: 0.000891583452211 i.e. approx 51 cells
-step: 1768 of 2000 / Total Time: 1867 / auto_reduce: True, proportion_divide: 0.000891106754589 i.e. approx 51 cells
-step: 1769 of 2000 / Total Time: 1868 / auto_reduce: True, proportion_divide: 0.000890630566441 i.e. approx 51 cells
-step: 1770 of 2000 / Total Time: 1869 / auto_reduce: True, proportion_divide: 0.00089015488695 i.e. approx 51 cells
+step: 1752 of 2000 / Total Time: 1851 / auto_reduce: True, proportion_divide: 0.000898795613877 i.e. approx 50 cells
+step: 1753 of 2000 / Total Time: 1852 / auto_reduce: True, proportion_divide: 0.000898311174991 i.e. approx 50 cells
+step: 1754 of 2000 / Total Time: 1853 / auto_reduce: True, proportion_divide: 0.000897827258036 i.e. approx 50 cells
+step: 1755 of 2000 / Total Time: 1854 / auto_reduce: True, proportion_divide: 0.000897343862168 i.e. approx 50 cells
+step: 1756 of 2000 / Total Time: 1855 / auto_reduce: True, proportion_divide: 0.000896860986547 i.e. approx 50 cells
+step: 1757 of 2000 / Total Time: 1856 / auto_reduce: True, proportion_divide: 0.000896378630333 i.e. approx 50 cells
+step: 1758 of 2000 / Total Time: 1857 / auto_reduce: True, proportion_divide: 0.000895896792689 i.e. approx 50 cells
+step: 1759 of 2000 / Total Time: 1858 / auto_reduce: True, proportion_divide: 0.000895415472779 i.e. approx 50 cells
+step: 1760 of 2000 / Total Time: 1859 / auto_reduce: True, proportion_divide: 0.000894934669769 i.e. approx 50 cells
+step: 1761 of 2000 / Total Time: 1860 / auto_reduce: True, proportion_divide: 0.000894454382826 i.e. approx 50 cells
+step: 1762 of 2000 / Total Time: 1861 / auto_reduce: True, proportion_divide: 0.000893974611121 i.e. approx 50 cells
+step: 1763 of 2000 / Total Time: 1862 / auto_reduce: True, proportion_divide: 0.000893495353824 i.e. approx 50 cells
+step: 1764 of 2000 / Total Time: 1863 / auto_reduce: True, proportion_divide: 0.000893016610109 i.e. approx 50 cells
+step: 1765 of 2000 / Total Time: 1864 / auto_reduce: True, proportion_divide: 0.00089253837915 i.e. approx 50 cells
+step: 1766 of 2000 / Total Time: 1865 / auto_reduce: True, proportion_divide: 0.000892060660125 i.e. approx 50 cells
+step: 1767 of 2000 / Total Time: 1866 / auto_reduce: True, proportion_divide: 0.000891583452211 i.e. approx 50 cells
+step: 1768 of 2000 / Total Time: 1867 / auto_reduce: True, proportion_divide: 0.000891106754589 i.e. approx 50 cells
+step: 1769 of 2000 / Total Time: 1868 / auto_reduce: True, proportion_divide: 0.000890630566441 i.e. approx 50 cells
+step: 1770 of 2000 / Total Time: 1869 / auto_reduce: True, proportion_divide: 0.00089015488695 i.e. approx 50 cells
 step: 1771 of 2000 / Total Time: 1870 / auto_reduce: True, proportion_divide: 0.000889679715302 i.e. approx 51 cells
 step: 1772 of 2000 / Total Time: 1871 / auto_reduce: True, proportion_divide: 0.000889205050685 i.e. approx 51 cells
 step: 1773 of 2000 / Total Time: 1872 / auto_reduce: True, proportion_divide: 0.000888730892286 i.e. approx 51 cells
@@ -1909,26 +1909,26 @@ step: 1802 of 2000 / Total Time: 1901 / auto_reduce: True, proportion_divide: 0.
 step: 1803 of 2000 / Total Time: 1902 / auto_reduce: True, proportion_divide: 0.000874737578726 i.e. approx 51 cells
 step: 1804 of 2000 / Total Time: 1903 / auto_reduce: True, proportion_divide: 0.000874278720056 i.e. approx 51 cells
 step: 1805 of 2000 / Total Time: 1904 / auto_reduce: True, proportion_divide: 0.000873820342538 i.e. approx 51 cells
-step: 1806 of 2000 / Total Time: 1905 / auto_reduce: True, proportion_divide: 0.000873362445415 i.e. approx 52 cells
-step: 1807 of 2000 / Total Time: 1906 / auto_reduce: True, proportion_divide: 0.000872905027933 i.e. approx 52 cells
-step: 1808 of 2000 / Total Time: 1907 / auto_reduce: True, proportion_divide: 0.000872448089339 i.e. approx 52 cells
-step: 1809 of 2000 / Total Time: 1908 / auto_reduce: True, proportion_divide: 0.00087199162888 i.e. approx 52 cells
-step: 1810 of 2000 / Total Time: 1909 / auto_reduce: True, proportion_divide: 0.000871535645808 i.e. approx 52 cells
-step: 1811 of 2000 / Total Time: 1910 / auto_reduce: True, proportion_divide: 0.000871080139373 i.e. approx 52 cells
-step: 1812 of 2000 / Total Time: 1911 / auto_reduce: True, proportion_divide: 0.000870625108828 i.e. approx 52 cells
-step: 1813 of 2000 / Total Time: 1912 / auto_reduce: True, proportion_divide: 0.000870170553428 i.e. approx 52 cells
-step: 1814 of 2000 / Total Time: 1913 / auto_reduce: True, proportion_divide: 0.00086971647243 i.e. approx 52 cells
-step: 1815 of 2000 / Total Time: 1914 / auto_reduce: True, proportion_divide: 0.00086926286509 i.e. approx 52 cells
-step: 1816 of 2000 / Total Time: 1915 / auto_reduce: True, proportion_divide: 0.000868809730669 i.e. approx 52 cells
-step: 1817 of 2000 / Total Time: 1916 / auto_reduce: True, proportion_divide: 0.000868357068427 i.e. approx 52 cells
-step: 1818 of 2000 / Total Time: 1917 / auto_reduce: True, proportion_divide: 0.000867904877625 i.e. approx 52 cells
-step: 1819 of 2000 / Total Time: 1918 / auto_reduce: True, proportion_divide: 0.000867453157529 i.e. approx 52 cells
-step: 1820 of 2000 / Total Time: 1919 / auto_reduce: True, proportion_divide: 0.000867001907404 i.e. approx 52 cells
-step: 1821 of 2000 / Total Time: 1920 / auto_reduce: True, proportion_divide: 0.000866551126516 i.e. approx 52 cells
-step: 1822 of 2000 / Total Time: 1921 / auto_reduce: True, proportion_divide: 0.000866100814135 i.e. approx 52 cells
-step: 1823 of 2000 / Total Time: 1922 / auto_reduce: True, proportion_divide: 0.000865650969529 i.e. approx 52 cells
-step: 1824 of 2000 / Total Time: 1923 / auto_reduce: True, proportion_divide: 0.000865201591971 i.e. approx 52 cells
-step: 1825 of 2000 / Total Time: 1924 / auto_reduce: True, proportion_divide: 0.000864752680733 i.e. approx 52 cells
+step: 1806 of 2000 / Total Time: 1905 / auto_reduce: True, proportion_divide: 0.000873362445415 i.e. approx 51 cells
+step: 1807 of 2000 / Total Time: 1906 / auto_reduce: True, proportion_divide: 0.000872905027933 i.e. approx 51 cells
+step: 1808 of 2000 / Total Time: 1907 / auto_reduce: True, proportion_divide: 0.000872448089339 i.e. approx 51 cells
+step: 1809 of 2000 / Total Time: 1908 / auto_reduce: True, proportion_divide: 0.00087199162888 i.e. approx 51 cells
+step: 1810 of 2000 / Total Time: 1909 / auto_reduce: True, proportion_divide: 0.000871535645808 i.e. approx 51 cells
+step: 1811 of 2000 / Total Time: 1910 / auto_reduce: True, proportion_divide: 0.000871080139373 i.e. approx 51 cells
+step: 1812 of 2000 / Total Time: 1911 / auto_reduce: True, proportion_divide: 0.000870625108828 i.e. approx 51 cells
+step: 1813 of 2000 / Total Time: 1912 / auto_reduce: True, proportion_divide: 0.000870170553428 i.e. approx 51 cells
+step: 1814 of 2000 / Total Time: 1913 / auto_reduce: True, proportion_divide: 0.00086971647243 i.e. approx 51 cells
+step: 1815 of 2000 / Total Time: 1914 / auto_reduce: True, proportion_divide: 0.00086926286509 i.e. approx 51 cells
+step: 1816 of 2000 / Total Time: 1915 / auto_reduce: True, proportion_divide: 0.000868809730669 i.e. approx 51 cells
+step: 1817 of 2000 / Total Time: 1916 / auto_reduce: True, proportion_divide: 0.000868357068427 i.e. approx 51 cells
+step: 1818 of 2000 / Total Time: 1917 / auto_reduce: True, proportion_divide: 0.000867904877625 i.e. approx 51 cells
+step: 1819 of 2000 / Total Time: 1918 / auto_reduce: True, proportion_divide: 0.000867453157529 i.e. approx 51 cells
+step: 1820 of 2000 / Total Time: 1919 / auto_reduce: True, proportion_divide: 0.000867001907404 i.e. approx 51 cells
+step: 1821 of 2000 / Total Time: 1920 / auto_reduce: True, proportion_divide: 0.000866551126516 i.e. approx 51 cells
+step: 1822 of 2000 / Total Time: 1921 / auto_reduce: True, proportion_divide: 0.000866100814135 i.e. approx 51 cells
+step: 1823 of 2000 / Total Time: 1922 / auto_reduce: True, proportion_divide: 0.000865650969529 i.e. approx 51 cells
+step: 1824 of 2000 / Total Time: 1923 / auto_reduce: True, proportion_divide: 0.000865201591971 i.e. approx 51 cells
+step: 1825 of 2000 / Total Time: 1924 / auto_reduce: True, proportion_divide: 0.000864752680733 i.e. approx 51 cells
 step: 1826 of 2000 / Total Time: 1925 / auto_reduce: True, proportion_divide: 0.000864304235091 i.e. approx 52 cells
 step: 1827 of 2000 / Total Time: 1926 / auto_reduce: True, proportion_divide: 0.000863856254319 i.e. approx 52 cells
 step: 1828 of 2000 / Total Time: 1927 / auto_reduce: True, proportion_divide: 0.000863408737696 i.e. approx 52 cells
@@ -1964,27 +1964,27 @@ step: 1857 of 2000 / Total Time: 1956 / auto_reduce: True, proportion_divide: 0.
 step: 1858 of 2000 / Total Time: 1957 / auto_reduce: True, proportion_divide: 0.000850195544975 i.e. approx 52 cells
 step: 1859 of 2000 / Total Time: 1958 / auto_reduce: True, proportion_divide: 0.000849762066621 i.e. approx 52 cells
 step: 1860 of 2000 / Total Time: 1959 / auto_reduce: True, proportion_divide: 0.000849329030066 i.e. approx 52 cells
-step: 1861 of 2000 / Total Time: 1960 / auto_reduce: True, proportion_divide: 0.000848896434635 i.e. approx 53 cells
-step: 1862 of 2000 / Total Time: 1961 / auto_reduce: True, proportion_divide: 0.000848464279654 i.e. approx 53 cells
-step: 1863 of 2000 / Total Time: 1962 / auto_reduce: True, proportion_divide: 0.00084803256445 i.e. approx 53 cells
-step: 1864 of 2000 / Total Time: 1963 / auto_reduce: True, proportion_divide: 0.000847601288354 i.e. approx 53 cells
-step: 1865 of 2000 / Total Time: 1964 / auto_reduce: True, proportion_divide: 0.000847170450695 i.e. approx 53 cells
-step: 1866 of 2000 / Total Time: 1965 / auto_reduce: True, proportion_divide: 0.000846740050804 i.e. approx 53 cells
-step: 1867 of 2000 / Total Time: 1966 / auto_reduce: True, proportion_divide: 0.000846310088016 i.e. approx 53 cells
-step: 1868 of 2000 / Total Time: 1967 / auto_reduce: True, proportion_divide: 0.000845880561665 i.e. approx 53 cells
-step: 1869 of 2000 / Total Time: 1968 / auto_reduce: True, proportion_divide: 0.000845451471086 i.e. approx 53 cells
-step: 1870 of 2000 / Total Time: 1969 / auto_reduce: True, proportion_divide: 0.000845022815616 i.e. approx 53 cells
-step: 1871 of 2000 / Total Time: 1970 / auto_reduce: True, proportion_divide: 0.000844594594595 i.e. approx 53 cells
-step: 1872 of 2000 / Total Time: 1971 / auto_reduce: True, proportion_divide: 0.000844166807361 i.e. approx 53 cells
-step: 1873 of 2000 / Total Time: 1972 / auto_reduce: True, proportion_divide: 0.000843739453257 i.e. approx 53 cells
-step: 1874 of 2000 / Total Time: 1973 / auto_reduce: True, proportion_divide: 0.000843312531624 i.e. approx 53 cells
-step: 1875 of 2000 / Total Time: 1974 / auto_reduce: True, proportion_divide: 0.000842886041807 i.e. approx 53 cells
-step: 1876 of 2000 / Total Time: 1975 / auto_reduce: True, proportion_divide: 0.000842459983151 i.e. approx 53 cells
-step: 1877 of 2000 / Total Time: 1976 / auto_reduce: True, proportion_divide: 0.000842034355002 i.e. approx 53 cells
-step: 1878 of 2000 / Total Time: 1977 / auto_reduce: True, proportion_divide: 0.000841609156708 i.e. approx 53 cells
-step: 1879 of 2000 / Total Time: 1978 / auto_reduce: True, proportion_divide: 0.000841184387618 i.e. approx 53 cells
-step: 1880 of 2000 / Total Time: 1979 / auto_reduce: True, proportion_divide: 0.000840760047083 i.e. approx 53 cells
-step: 1881 of 2000 / Total Time: 1980 / auto_reduce: True, proportion_divide: 0.000840336134454 i.e. approx 53 cells
+step: 1861 of 2000 / Total Time: 1960 / auto_reduce: True, proportion_divide: 0.000848896434635 i.e. approx 52 cells
+step: 1862 of 2000 / Total Time: 1961 / auto_reduce: True, proportion_divide: 0.000848464279654 i.e. approx 52 cells
+step: 1863 of 2000 / Total Time: 1962 / auto_reduce: True, proportion_divide: 0.00084803256445 i.e. approx 52 cells
+step: 1864 of 2000 / Total Time: 1963 / auto_reduce: True, proportion_divide: 0.000847601288354 i.e. approx 52 cells
+step: 1865 of 2000 / Total Time: 1964 / auto_reduce: True, proportion_divide: 0.000847170450695 i.e. approx 52 cells
+step: 1866 of 2000 / Total Time: 1965 / auto_reduce: True, proportion_divide: 0.000846740050804 i.e. approx 52 cells
+step: 1867 of 2000 / Total Time: 1966 / auto_reduce: True, proportion_divide: 0.000846310088016 i.e. approx 52 cells
+step: 1868 of 2000 / Total Time: 1967 / auto_reduce: True, proportion_divide: 0.000845880561665 i.e. approx 52 cells
+step: 1869 of 2000 / Total Time: 1968 / auto_reduce: True, proportion_divide: 0.000845451471086 i.e. approx 52 cells
+step: 1870 of 2000 / Total Time: 1969 / auto_reduce: True, proportion_divide: 0.000845022815616 i.e. approx 52 cells
+step: 1871 of 2000 / Total Time: 1970 / auto_reduce: True, proportion_divide: 0.000844594594595 i.e. approx 52 cells
+step: 1872 of 2000 / Total Time: 1971 / auto_reduce: True, proportion_divide: 0.000844166807361 i.e. approx 52 cells
+step: 1873 of 2000 / Total Time: 1972 / auto_reduce: True, proportion_divide: 0.000843739453257 i.e. approx 52 cells
+step: 1874 of 2000 / Total Time: 1973 / auto_reduce: True, proportion_divide: 0.000843312531624 i.e. approx 52 cells
+step: 1875 of 2000 / Total Time: 1974 / auto_reduce: True, proportion_divide: 0.000842886041807 i.e. approx 52 cells
+step: 1876 of 2000 / Total Time: 1975 / auto_reduce: True, proportion_divide: 0.000842459983151 i.e. approx 52 cells
+step: 1877 of 2000 / Total Time: 1976 / auto_reduce: True, proportion_divide: 0.000842034355002 i.e. approx 52 cells
+step: 1878 of 2000 / Total Time: 1977 / auto_reduce: True, proportion_divide: 0.000841609156708 i.e. approx 52 cells
+step: 1879 of 2000 / Total Time: 1978 / auto_reduce: True, proportion_divide: 0.000841184387618 i.e. approx 52 cells
+step: 1880 of 2000 / Total Time: 1979 / auto_reduce: True, proportion_divide: 0.000840760047083 i.e. approx 52 cells
+step: 1881 of 2000 / Total Time: 1980 / auto_reduce: True, proportion_divide: 0.000840336134454 i.e. approx 52 cells
 step: 1882 of 2000 / Total Time: 1981 / auto_reduce: True, proportion_divide: 0.000839912649084 i.e. approx 53 cells
 step: 1883 of 2000 / Total Time: 1982 / auto_reduce: True, proportion_divide: 0.000839489590329 i.e. approx 53 cells
 step: 1884 of 2000 / Total Time: 1983 / auto_reduce: True, proportion_divide: 0.000839066957543 i.e. approx 53 cells
@@ -2020,27 +2020,27 @@ step: 1913 of 2000 / Total Time: 2012 / auto_reduce: True, proportion_divide: 0.
 step: 1914 of 2000 / Total Time: 2013 / auto_reduce: True, proportion_divide: 0.000826582906265 i.e. approx 53 cells
 step: 1915 of 2000 / Total Time: 2014 / auto_reduce: True, proportion_divide: 0.000826173165896 i.e. approx 53 cells
 step: 1916 of 2000 / Total Time: 2015 / auto_reduce: True, proportion_divide: 0.000825763831544 i.e. approx 53 cells
-step: 1917 of 2000 / Total Time: 2016 / auto_reduce: True, proportion_divide: 0.000825354902608 i.e. approx 54 cells
-step: 1918 of 2000 / Total Time: 2017 / auto_reduce: True, proportion_divide: 0.000824946378485 i.e. approx 54 cells
-step: 1919 of 2000 / Total Time: 2018 / auto_reduce: True, proportion_divide: 0.000824538258575 i.e. approx 54 cells
-step: 1920 of 2000 / Total Time: 2019 / auto_reduce: True, proportion_divide: 0.000824130542278 i.e. approx 54 cells
-step: 1921 of 2000 / Total Time: 2020 / auto_reduce: True, proportion_divide: 0.000823723228995 i.e. approx 54 cells
-step: 1922 of 2000 / Total Time: 2021 / auto_reduce: True, proportion_divide: 0.000823316318129 i.e. approx 54 cells
-step: 1923 of 2000 / Total Time: 2022 / auto_reduce: True, proportion_divide: 0.000822909809085 i.e. approx 54 cells
-step: 1924 of 2000 / Total Time: 2023 / auto_reduce: True, proportion_divide: 0.000822503701267 i.e. approx 54 cells
-step: 1925 of 2000 / Total Time: 2024 / auto_reduce: True, proportion_divide: 0.000822097994081 i.e. approx 54 cells
-step: 1926 of 2000 / Total Time: 2025 / auto_reduce: True, proportion_divide: 0.000821692686935 i.e. approx 54 cells
-step: 1927 of 2000 / Total Time: 2026 / auto_reduce: True, proportion_divide: 0.000821287779238 i.e. approx 54 cells
-step: 1928 of 2000 / Total Time: 2027 / auto_reduce: True, proportion_divide: 0.000820883270399 i.e. approx 54 cells
-step: 1929 of 2000 / Total Time: 2028 / auto_reduce: True, proportion_divide: 0.000820479159829 i.e. approx 54 cells
-step: 1930 of 2000 / Total Time: 2029 / auto_reduce: True, proportion_divide: 0.000820075446941 i.e. approx 54 cells
-step: 1931 of 2000 / Total Time: 2030 / auto_reduce: True, proportion_divide: 0.000819672131148 i.e. approx 54 cells
-step: 1932 of 2000 / Total Time: 2031 / auto_reduce: True, proportion_divide: 0.000819269211863 i.e. approx 54 cells
-step: 1933 of 2000 / Total Time: 2032 / auto_reduce: True, proportion_divide: 0.000818866688503 i.e. approx 54 cells
-step: 1934 of 2000 / Total Time: 2033 / auto_reduce: True, proportion_divide: 0.000818464560485 i.e. approx 54 cells
-step: 1935 of 2000 / Total Time: 2034 / auto_reduce: True, proportion_divide: 0.000818062827225 i.e. approx 54 cells
-step: 1936 of 2000 / Total Time: 2035 / auto_reduce: True, proportion_divide: 0.000817661488144 i.e. approx 54 cells
-step: 1937 of 2000 / Total Time: 2036 / auto_reduce: True, proportion_divide: 0.000817260542661 i.e. approx 54 cells
+step: 1917 of 2000 / Total Time: 2016 / auto_reduce: True, proportion_divide: 0.000825354902608 i.e. approx 53 cells
+step: 1918 of 2000 / Total Time: 2017 / auto_reduce: True, proportion_divide: 0.000824946378485 i.e. approx 53 cells
+step: 1919 of 2000 / Total Time: 2018 / auto_reduce: True, proportion_divide: 0.000824538258575 i.e. approx 53 cells
+step: 1920 of 2000 / Total Time: 2019 / auto_reduce: True, proportion_divide: 0.000824130542278 i.e. approx 53 cells
+step: 1921 of 2000 / Total Time: 2020 / auto_reduce: True, proportion_divide: 0.000823723228995 i.e. approx 53 cells
+step: 1922 of 2000 / Total Time: 2021 / auto_reduce: True, proportion_divide: 0.000823316318129 i.e. approx 53 cells
+step: 1923 of 2000 / Total Time: 2022 / auto_reduce: True, proportion_divide: 0.000822909809085 i.e. approx 53 cells
+step: 1924 of 2000 / Total Time: 2023 / auto_reduce: True, proportion_divide: 0.000822503701267 i.e. approx 53 cells
+step: 1925 of 2000 / Total Time: 2024 / auto_reduce: True, proportion_divide: 0.000822097994081 i.e. approx 53 cells
+step: 1926 of 2000 / Total Time: 2025 / auto_reduce: True, proportion_divide: 0.000821692686935 i.e. approx 53 cells
+step: 1927 of 2000 / Total Time: 2026 / auto_reduce: True, proportion_divide: 0.000821287779238 i.e. approx 53 cells
+step: 1928 of 2000 / Total Time: 2027 / auto_reduce: True, proportion_divide: 0.000820883270399 i.e. approx 53 cells
+step: 1929 of 2000 / Total Time: 2028 / auto_reduce: True, proportion_divide: 0.000820479159829 i.e. approx 53 cells
+step: 1930 of 2000 / Total Time: 2029 / auto_reduce: True, proportion_divide: 0.000820075446941 i.e. approx 53 cells
+step: 1931 of 2000 / Total Time: 2030 / auto_reduce: True, proportion_divide: 0.000819672131148 i.e. approx 53 cells
+step: 1932 of 2000 / Total Time: 2031 / auto_reduce: True, proportion_divide: 0.000819269211863 i.e. approx 53 cells
+step: 1933 of 2000 / Total Time: 2032 / auto_reduce: True, proportion_divide: 0.000818866688503 i.e. approx 53 cells
+step: 1934 of 2000 / Total Time: 2033 / auto_reduce: True, proportion_divide: 0.000818464560485 i.e. approx 53 cells
+step: 1935 of 2000 / Total Time: 2034 / auto_reduce: True, proportion_divide: 0.000818062827225 i.e. approx 53 cells
+step: 1936 of 2000 / Total Time: 2035 / auto_reduce: True, proportion_divide: 0.000817661488144 i.e. approx 53 cells
+step: 1937 of 2000 / Total Time: 2036 / auto_reduce: True, proportion_divide: 0.000817260542661 i.e. approx 53 cells
 step: 1938 of 2000 / Total Time: 2037 / auto_reduce: True, proportion_divide: 0.000816859990198 i.e. approx 54 cells
 step: 1939 of 2000 / Total Time: 2038 / auto_reduce: True, proportion_divide: 0.000816459830176 i.e. approx 54 cells
 step: 1940 of 2000 / Total Time: 2039 / auto_reduce: True, proportion_divide: 0.000816060062021 i.e. approx 54 cells
@@ -2076,82 +2076,172 @@ step: 1969 of 2000 / Total Time: 2068 / auto_reduce: True, proportion_divide: 0.
 step: 1970 of 2000 / Total Time: 2069 / auto_reduce: True, proportion_divide: 0.000804246421103 i.e. approx 54 cells
 step: 1971 of 2000 / Total Time: 2070 / auto_reduce: True, proportion_divide: 0.0008038585209 i.e. approx 54 cells
 step: 1972 of 2000 / Total Time: 2071 / auto_reduce: True, proportion_divide: 0.000803470994697 i.e. approx 54 cells
-step: 1973 of 2000 / Total Time: 2072 / auto_reduce: True, proportion_divide: 0.000803083841953 i.e. approx 55 cells
-step: 1974 of 2000 / Total Time: 2073 / auto_reduce: True, proportion_divide: 0.000802697062129 i.e. approx 55 cells
-step: 1975 of 2000 / Total Time: 2074 / auto_reduce: True, proportion_divide: 0.000802310654685 i.e. approx 55 cells
-step: 1976 of 2000 / Total Time: 2075 / auto_reduce: True, proportion_divide: 0.000801924619086 i.e. approx 55 cells
-step: 1977 of 2000 / Total Time: 2076 / auto_reduce: True, proportion_divide: 0.000801538954793 i.e. approx 55 cells
-step: 1978 of 2000 / Total Time: 2077 / auto_reduce: True, proportion_divide: 0.000801153661272 i.e. approx 55 cells
-step: 1979 of 2000 / Total Time: 2078 / auto_reduce: True, proportion_divide: 0.000800768737988 i.e. approx 55 cells
-step: 1980 of 2000 / Total Time: 2079 / auto_reduce: True, proportion_divide: 0.000800384184409 i.e. approx 55 cells
-step: 1981 of 2000 / Total Time: 2080 / auto_reduce: True, proportion_divide: 0.0008 i.e. approx 55 cells
-step: 1982 of 2000 / Total Time: 2081 / auto_reduce: True, proportion_divide: 0.000799616184232 i.e. approx 55 cells
-step: 1983 of 2000 / Total Time: 2082 / auto_reduce: True, proportion_divide: 0.000799232736573 i.e. approx 55 cells
-step: 1984 of 2000 / Total Time: 2083 / auto_reduce: True, proportion_divide: 0.000798849656495 i.e. approx 55 cells
-step: 1985 of 2000 / Total Time: 2084 / auto_reduce: True, proportion_divide: 0.000798466943469 i.e. approx 55 cells
-step: 1986 of 2000 / Total Time: 2085 / auto_reduce: True, proportion_divide: 0.000798084596967 i.e. approx 55 cells
-step: 1987 of 2000 / Total Time: 2086 / auto_reduce: True, proportion_divide: 0.000797702616465 i.e. approx 55 cells
-step: 1988 of 2000 / Total Time: 2087 / auto_reduce: True, proportion_divide: 0.000797321001435 i.e. approx 55 cells
-step: 1989 of 2000 / Total Time: 2088 / auto_reduce: True, proportion_divide: 0.000796939751355 i.e. approx 55 cells
-step: 1990 of 2000 / Total Time: 2089 / auto_reduce: True, proportion_divide: 0.0007965588657 i.e. approx 55 cells
-step: 1991 of 2000 / Total Time: 2090 / auto_reduce: True, proportion_divide: 0.000796178343949 i.e. approx 55 cells
-step: 1992 of 2000 / Total Time: 2091 / auto_reduce: True, proportion_divide: 0.00079579818558 i.e. approx 55 cells
-step: 1993 of 2000 / Total Time: 2092 / auto_reduce: True, proportion_divide: 0.000795418390073 i.e. approx 55 cells
-step: 1994 of 2000 / Total Time: 2093 / auto_reduce: True, proportion_divide: 0.000795038956909 i.e. approx 55 cells
+step: 1973 of 2000 / Total Time: 2072 / auto_reduce: True, proportion_divide: 0.000803083841953 i.e. approx 54 cells
+step: 1974 of 2000 / Total Time: 2073 / auto_reduce: True, proportion_divide: 0.000802697062129 i.e. approx 54 cells
+step: 1975 of 2000 / Total Time: 2074 / auto_reduce: True, proportion_divide: 0.000802310654685 i.e. approx 54 cells
+step: 1976 of 2000 / Total Time: 2075 / auto_reduce: True, proportion_divide: 0.000801924619086 i.e. approx 54 cells
+step: 1977 of 2000 / Total Time: 2076 / auto_reduce: True, proportion_divide: 0.000801538954793 i.e. approx 54 cells
+step: 1978 of 2000 / Total Time: 2077 / auto_reduce: True, proportion_divide: 0.000801153661272 i.e. approx 54 cells
+step: 1979 of 2000 / Total Time: 2078 / auto_reduce: True, proportion_divide: 0.000800768737988 i.e. approx 54 cells
+step: 1980 of 2000 / Total Time: 2079 / auto_reduce: True, proportion_divide: 0.000800384184409 i.e. approx 54 cells
+step: 1981 of 2000 / Total Time: 2080 / auto_reduce: True, proportion_divide: 0.0008 i.e. approx 54 cells
+step: 1982 of 2000 / Total Time: 2081 / auto_reduce: True, proportion_divide: 0.000799616184232 i.e. approx 54 cells
+step: 1983 of 2000 / Total Time: 2082 / auto_reduce: True, proportion_divide: 0.000799232736573 i.e. approx 54 cells
+step: 1984 of 2000 / Total Time: 2083 / auto_reduce: True, proportion_divide: 0.000798849656495 i.e. approx 54 cells
+step: 1985 of 2000 / Total Time: 2084 / auto_reduce: True, proportion_divide: 0.000798466943469 i.e. approx 54 cells
+step: 1986 of 2000 / Total Time: 2085 / auto_reduce: True, proportion_divide: 0.000798084596967 i.e. approx 54 cells
+step: 1987 of 2000 / Total Time: 2086 / auto_reduce: True, proportion_divide: 0.000797702616465 i.e. approx 54 cells
+step: 1988 of 2000 / Total Time: 2087 / auto_reduce: True, proportion_divide: 0.000797321001435 i.e. approx 54 cells
+step: 1989 of 2000 / Total Time: 2088 / auto_reduce: True, proportion_divide: 0.000796939751355 i.e. approx 54 cells
+step: 1990 of 2000 / Total Time: 2089 / auto_reduce: True, proportion_divide: 0.0007965588657 i.e. approx 54 cells
+step: 1991 of 2000 / Total Time: 2090 / auto_reduce: True, proportion_divide: 0.000796178343949 i.e. approx 54 cells
+step: 1992 of 2000 / Total Time: 2091 / auto_reduce: True, proportion_divide: 0.00079579818558 i.e. approx 54 cells
+step: 1993 of 2000 / Total Time: 2092 / auto_reduce: True, proportion_divide: 0.000795418390073 i.e. approx 54 cells
+step: 1994 of 2000 / Total Time: 2093 / auto_reduce: True, proportion_divide: 0.000795038956909 i.e. approx 54 cells
 step: 1995 of 2000 / Total Time: 2094 / auto_reduce: True, proportion_divide: 0.000794659885569 i.e. approx 55 cells
 step: 1996 of 2000 / Total Time: 2095 / auto_reduce: True, proportion_divide: 0.000794281175536 i.e. approx 55 cells
 step: 1997 of 2000 / Total Time: 2096 / auto_reduce: True, proportion_divide: 0.000793902826294 i.e. approx 55 cells
 step: 1998 of 2000 / Total Time: 2097 / auto_reduce: True, proportion_divide: 0.000793524837327 i.e. approx 55 cells
 step: 1999 of 2000 / Total Time: 2098 / auto_reduce: True, proportion_divide: 0.000793147208122 i.e. approx 55 cells
 step: 2000 of 2000 / Total Time: 2099 / auto_reduce: True, proportion_divide: 0.000792769938164 i.e. approx 55 cells
-Simulation ended at Sat Dec 12 14:18:14 2015
-Total time taken:1648.04957795seconds
+Simulation ended at Sat Dec 12 15:58:12 2015
+Total time taken:1636.0432651seconds
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 1100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 2100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 3100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 4100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 5100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 6100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 7100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 8100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 9100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 10100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 11100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 12100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 13100
 ->Completed processing a threshold= 0
 ->Completed processing a threshold= 1e-05
+->Completed processing a threshold= 0.2
+->Completed processing a threshold= 0.4
+->Completed processing a threshold= 0.6
+->Completed processing a threshold= 0.8
+->Completed processing a threshold= 0.9
+->Completed processing a threshold= 1
 Completed sampling of N= 14100
 regular_processor successfully completed
-total cells: 68794
+total cells: 68303
 -----
-[('N', 't', 'S', 'SH', 'Epi', 'D', 'proportion_cancer', 'sd_S', 'sd_SH', 'sd_Epi', 'sd_D', 'sd_in_proportion'), (100, 0, 25703.400000000001, 4964.5597433115572, 882.70551256281396, -4081.8542307487432, 0.0, 528.16213419744508, 102.01344839119157, 14.590695752235559, 100.62874330290629, 0.0), (100, 1e-05, 26132.200000000001, 5047.3815963711531, 890.93368341708538, -4156.4479129540669, 0.0, 1144.2487317012854, 221.00932910585786, 14.219175821009651, 212.37790039893278, 0.0), (403, 0, 26254.799999999999, 5071.0615385005976, 875.90651758793979, -4195.1550209126581, 0.0, 466.28270394686524, 90.061561545051248, 9.833428215323643, 90.22407297217228, 0.0), (403, 1e-05, 26444.200000000001, 5107.6437655749614, 896.43009547738689, -4211.2136700975743, 0.0, 798.20233023964545, 154.17116629415656, 11.939591651562651, 152.81747118642696, 0.0), (403, 0, 26222.799999999999, 5064.8808031976432, 898.18007537688447, -4166.7007278207584, 0.0, 1003.6936584436509, 193.8614008779559, 15.957503498629254, 187.36886396945553, 0.0), (403, 1e-05, 26368.299999999999, 5092.9838340282668, 895.41599999999994, -4197.5678340282666, 0.0, 677.74361671652798, 130.9048093185047, 20.188156845671546, 119.66179700294894, 0.0), (403, 0, 26850.599999999999, 5186.1391039224891, 900.00719597989939, -4286.1319079425903, 0.0, 659.46299365468576, 127.37394393355659, 15.230827329706809, 125.85588981383445, 0.0), (403, 1e-05, 26587.900000000001, 5135.3991300447942, 910.88014572864324, -4224.5189843161497, 0.0, 1442.6462802780175, 278.64421231846387, 17.683407932019922, 270.54854874886558, 0.0), (403, 0, 26439.299999999999, 5106.6973404816972, 894.1903065326635, -4212.5070339490339, 0.0, 590.01322866525629, 113.95986223817884, 15.843215425587285, 106.00367413892479, 0.0), (403, 1e-05, 26142.599999999999, 5049.390335344613, 900.72209045226134, -4148.6682448923511, 0.0, 693.54123165101009, 133.95608670375589, 16.563163891238506, 136.01389928038114, 0.0), (403, 0, 26246.099999999999, 5069.3811510901069, 897.76686432160807, -4171.6142867684994, 0.0, 603.95636431782054, 116.65295069948181, 23.315407305218585, 115.9672590143701, 0.0), (403, 1e-05, 26565.400000000001, 5131.0533005349034, 891.20782412060305, -4239.8454764143007, 0.0, 535.3257326151994, 103.39708294234184, 20.653272323441772, 91.846069141882964, 0.0), (403, 0, 26563.700000000001, 5130.7249489719343, 902.12175376884409, -4228.6031952030899, 0.0, 1106.5384810299188, 213.72567043061443, 18.202853136257762, 207.23733647490963, 0.0), (403, 1e-05, 26329.5, 5085.489692473433, 899.47328643216076, -4186.0164060412726, 0.0, 729.72902504970978, 140.94568583486137, 11.568193783453404, 144.31316199368632, 0.0), (403, 0, 25649.400000000001, 4954.129752487821, 900.94893467336692, -4053.1808178144543, 0.0, 1034.5608923596524, 199.82334470199305, 23.069116522315561, 187.27646455834605, 0.0), (403, 1e-05, 25944.900000000001, 5011.2049800510449, 894.28781909547729, -4116.917160955566, 0.0, 692.22965119965784, 133.70275759130783, 17.492817238819271, 129.65202725074556, 0.0), (403, 0, 26269.299999999999, 5073.8621841847489, 894.69786934673357, -4179.1643148380153, 0.0, 700.21540257266543, 135.24518932355059, 17.669860070765456, 134.15232400961557, 0.0), (403, 1e-05, 25980.299999999999, 5018.0424184799385, 899.29442211055289, -4118.7479963693859, 0.0, 995.64853738656188, 192.30750201126523, 20.29087783174371, 196.86294441971467, 0.0), (403, 0, 26527.200000000001, 5123.6750477670012, 897.5763718592965, -4226.0986759077041, 0.0, 563.03744102856967, 108.74954339533259, 13.412365185307298, 99.637822983297681, 0.0), (403, 1e-05, 26516.599999999999, 5121.6276791978971, 904.4195226130654, -4217.2081565848321, 0.0, 930.67816134257714, 179.75860523434937, 17.2684202738028, 171.9995006701771, 0.0), (403, 0, 25927.200000000001, 5007.7862608365976, 888.73411557788927, -4119.0521452587082, 0.0, 1078.8160918340068, 208.37114700606989, 17.342101839320762, 198.05972343360639, 0.0), (403, 1e-05, 26418.200000000001, 5102.6219181413117, 897.70337185929657, -4204.9185462820142, 0.0, 754.45978024013982, 145.72238119968111, 16.141778205685636, 145.01695805383827, 0.0), (403, 0, 25326.200000000001, 4891.7043259279772, 883.27456281407012, -4008.4297631139061, 0.0, 892.42734158025439, 172.37053673210093, 17.91180708600994, 162.07755136699433, 0.0), (403, 1e-05, 26429.0, 5104.707916306058, 892.66922110552764, -4212.038695200531, 0.0, 582.07731445229854, 112.42705645263985, 13.681061856504451, 118.65286098940658, 0.0), (403, 0, 26233.200000000001, 5066.8895421711031, 895.68202010050243, -4171.207522070602, 0.0, 942.30141674519427, 182.00361351566869, 13.338656588777761, 175.83225225306518, 0.0), (403, 1e-05, 26290.599999999999, 5077.9762361207795, 906.92790954773864, -4171.04832657304, 0.0, 428.61689187431705, 82.786486095324136, 19.386708321620393, 80.672620571715129, 0.0), (403, 0, 26172.5, 5055.165459893311, 891.15961809045223, -4164.0058418028584, 0.0, 512.61998595450802, 99.011513880913981, 21.254775040227003, 93.124500602417001, 0.0), (403, 1e-05, 26744.200000000001, 5165.5881590401641, 904.04607035175866, -4261.5420886884058, 0.0, 781.30439650625294, 150.9073645575011, 16.44539893325755, 139.91908370478416, 0.0), (403, 0, 26311.0, 5081.9164548764129, 896.86952261306544, -4185.0469322633471, 0.0, 872.47143219706629, 168.5160931812498, 14.817229083615683, 165.40111124523972, 0.0), (403, 1e-05, 26143.099999999999, 5049.4869093337211, 900.89131155778887, -4148.5955977759322, 0.0, 751.7730309076004, 145.20344099812428, 20.25066148683797, 146.04710071956839, 0.0)]
+[('N', 't', 'S', 'SH', 'Epi', 'D', 'proportion_cancer', 'sd_S', 'sd_SH', 'sd_Epi', 'sd_D', 'sd_in_proportion'), (100, 0, 25703.400000000001, 4964.5597433115572, 882.70551256281396, -4081.8542307487432, 0.0, 528.16213419744508, 102.01344839119157, 14.590695752235559, 100.62874330290629, 0.0), (100, 1e-05, 26132.200000000001, 5047.3815963711531, 890.93368341708538, -4156.4479129540669, 0.0, 1144.2487317012854, 221.00932910585786, 14.219175821009651, 212.37790039893278, 0.0), (100, 0.2, 73347.800000000003, 14166.979276689754, 1535.120226130653, -12631.8590505591, 0.25, 1599.0147466486978, 308.84646545490682, 38.282185053032933, 307.49187352551166, 0.0), (100, 0.4, 108902.7, 21034.336327409426, 2121.3372814070349, -18912.999046002391, 0.66666666666666674, 4881.5993495984494, 942.87104484201848, 32.386086084913366, 919.99041801505757, 1.1102230246251565e-16), (100, 0.6, 138369.20000000001, 26725.731227550656, 2707.015226130653, -24018.716001420002, 1.5, 3333.357610578259, 643.83128315857198, 25.086908845749686, 630.84388112457873, 0.0), (100, 0.8, 164268.0, 31728.032085805888, 3230.4948442211053, -28497.537241584774, 4.0, 5437.3814285922599, 1050.2192297291019, 54.632670244618573, 1023.3671949739261, 0.0), (100, 0.9, 176963.89999999999, 34180.219502455395, 3474.8660703517585, -30705.353432103635, 9.0, 4928.3952449047747, 951.90957740930503, 45.297009077596599, 916.39543273334368, 0.0), (100, 1, 184323.10000000001, 35601.63410375244, 3733.6360050251251, -31867.998098727308, 1.0, 3642.5693528057914, 703.55490601088115, 50.494758451937692, 693.80315847619158, 0.0), (403, 0, 26769.099999999999, 5170.3975436977762, 906.47642211055279, -4263.9211215872219, 0.0, 933.21985083901859, 180.24952742184337, 10.341505316060902, 176.13767235916609, 0.0), (403, 1e-05, 26282.599999999999, 5076.43105229504, 897.72944221105513, -4178.7016100839846, 0.0, 852.66818868772157, 164.69113673527417, 16.934430890059076, 158.92082560649496, 0.0), (623, 0.2, 100801.10000000001, 19469.528667083832, 2008.8637839195981, -17460.664883164234, 0.54590570719602993, 7780.2905787637519, 1502.7473952316304, 131.83893172256086, 1377.6699795149716, 1.1102230246251565e-16), (843, 0.4, 126546.5, 24442.200625480516, 2482.9501407035177, -21959.250484777003, 1.0918114143920599, 7734.1478166634497, 1493.8350140225939, 163.96299197687435, 1332.6061769322698, 2.2204460492503131e-16), (1063, 0.6, 140788.20000000001, 27192.956186858395, 2714.8501608040206, -24478.106026054378, 1.6377171215880892, 6707.3857172522894, 1295.5179904111369, 103.37510879867216, 1205.8431629307586, 0.0), (1100, 0.8, 164289.10000000001, 31732.107508146262, 3221.1752211055277, -28510.932287040738, 4.0, 8432.4458189780253, 1628.7098613628607, 137.11097663576396, 1499.664732218409, 0.0), (1100, 0.9, 178760.39999999999, 34527.209845322839, 3480.937185929648, -31046.272659393202, 9.0, 7053.316882148426, 1362.3338955131953, 64.050211563903375, 1306.5529232342453, 0.0), (1100, 1, 185243.70000000001, 35779.446132499317, 3723.5867085427135, -32055.859423956608, 1.0, 4591.2389841958784, 886.78852731006475, 34.238788693458453, 861.54517914415669, 0.0), (403, 0, 26392.599999999999, 5097.6773298989474, 898.75390452261286, -4198.9234253763334, 0.0, 600.46818400311599, 115.97921572403918, 10.318497882446955, 117.13313555942516, 0.0), (403, 1e-05, 26353.299999999999, 5090.0866143550056, 893.44230653266334, -4196.6443078223438, 0.0, 847.31470540761893, 163.65712226330194, 18.37538431805897, 153.77575152369496, 0.0), (823, 0.2, 122711.60000000001, 23701.497443814842, 2414.737462311557, -21286.759981503288, 1.042183622828784, 8094.8730095042256, 1563.5083557118489, 146.70186109329799, 1422.7007315285841, 2.2204460492503131e-16), (1243, 0.4, 147972.70000000001, 28580.627836360865, 2883.3255979899495, -25697.302238370925, 2.0843672456575679, 6585.3572423977121, 1271.9484372080306, 97.945800923230209, 1185.2980922199076, 4.4408920985006262e-16), (1663, 0.6, 158887.10000000001, 30688.7221298162, 3151.1310100502515, -27537.591119765944, 3.1265508684863521, 7702.139033411433, 1487.6525822522694, 133.36373565633815, 1372.0380444309035, 4.4408920985006262e-16), (2083, 0.8, 165476.0, 31961.354843492427, 3233.5212864321611, -28727.833557060269, 4.1687344913151358, 6832.6507740407751, 1319.7126828711137, 84.580711970732025, 1264.3245971982938, 8.8817841970012523e-16), (2100, 0.9, 171768.0, 33176.64192243592, 3423.2113316582909, -29753.430590777636, 9.0, 7506.0704100081557, 1449.7823240500697, 72.947577726708275, 1392.6903814527514, 0.0), (2100, 1, 183546.89999999999, 35451.712643060142, 3692.9479949748738, -31758.764648085264, 1.0, 5958.1138198258686, 1150.7976382881563, 70.394852057693527, 1097.0178184533208, 0.0), (403, 0, 26339.299999999999, 5087.3825426599624, 908.9849497487437, -4178.3975929112194, 0.0, 753.75712931951762, 145.5866655949703, 13.474795868135129, 142.10695796485558, 0.0), (403, 1e-05, 26330.900000000001, 5085.7600996429373, 900.29024120603003, -4185.4698584369071, 0.0, 489.59972426462821, 94.565196877479735, 13.747141508471842, 91.877452669570005, 0.0), (1023, 0.2, 143367.5, 27691.14276707438, 2752.8984271356785, -24938.244339938705, 1.5384615384615385, 7579.1820699861801, 1463.9036933589384, 126.91283452603248, 1338.9310205603169, 0.0), (1643, 0.4, 158019.20000000001, 30521.088999521366, 3146.3399447236179, -27374.74905479775, 3.0769230769230771, 7101.6864166196465, 1371.676373303625, 157.13724495527731, 1247.7096747333803, 0.0), (2263, 0.6, 164115.29999999999, 31698.538389532092, 3250.0382663316586, -28448.500123200436, 4.6153846153846141, 6268.5925701069455, 1210.7659811843912, 82.273716906245113, 1147.5483560659272, 8.8817841970012523e-16), (2883, 0.8, 168523.60000000001, 32549.992621907586, 3356.698703517588, -29193.293918389994, 6.1538461538461542, 7161.20008378484, 1383.1713177928818, 128.88457950837841, 1261.6815661957028, 0.0), (3100, 0.9, 174117.79999999999, 33630.501041651027, 3444.0923668341702, -30186.408674816856, 9.0, 6421.4871766593142, 1240.2972653203169, 129.77177517084715, 1126.9733816349683, 0.0), (3100, 1, 186734.10000000001, 36067.31387923444, 3739.3197839195973, -32327.994095314847, 1.0, 3715.0993109202341, 717.56392078087492, 40.50134263893856, 701.5021122241028, 0.0), (403, 0, 26297.400000000001, 5079.2896423726561, 894.82112562814075, -4184.4685167445159, 0.0, 841.50260843327158, 162.53452748350361, 14.692519473792307, 161.58158769708794, 0.0), (403, 1e-05, 26386.0, 5096.4025532427131, 907.58788944723619, -4188.814663795476, 0.0, 403.55668746782032, 77.946158280496178, 17.632718727968562, 66.934128700297762, 0.0), (1223, 0.2, 145717.0, 28144.943941896025, 2872.3692763819099, -25272.574665514108, 2.0347394540942929, 6224.0210796558204, 1202.1570879176229, 99.512026634201078, 1146.6342710264792, 0.0), (2043, 0.4, 167595.89999999999, 32370.809242515366, 3250.0897738693466, -29120.719468646013, 4.0694789081885858, 5032.0915422913358, 971.9383075981433, 65.64418642408198, 928.87586981055597, 0.0), (2863, 0.6, 173951.89999999999, 33598.457792064772, 3400.3642562814071, -30198.093535783362, 6.1042183622828787, 5744.0039597827572, 1109.4427517044294, 87.678882061310716, 1047.1362652286334, 0.0), (3683, 0.8, 174696.89999999999, 33742.353035836692, 3467.8760000000002, -30274.477035836688, 8.1389578163771716, 4198.1538430600658, 810.8649270324039, 93.868635088392622, 751.22753888540967, 0.0), (4093, 0.9, 176645.10000000001, 34118.643926999721, 3484.2282763819094, -30634.415650617804, 9.1563275434243163, 7863.1324858481175, 1518.7481420966458, 84.940914453467258, 1442.6554893321791, 1.7763568394002505e-15), (4100, 1, 184997.39999999999, 35731.873785464391, 3722.0125979899494, -32009.861187474442, 1.0, 5225.6612251465367, 1009.3259004857972, 49.983008933308788, 974.54297310875666, 0.0), (403, 0, 25704.099999999999, 4964.6949468963094, 875.6211507537688, -4089.0737961425402, 0.0, 1214.0143697666845, 234.48442104723239, 10.827916557097945, 232.30806575413263, 0.0), (403, 1e-05, 26697.0, 5156.4715744683053, 896.12394472361814, -4260.3476297446878, 0.0, 781.50841326245495, 150.94676998148415, 16.265997599369797, 152.96909308701228, 0.0), (1423, 0.2, 157266.20000000001, 30375.648571923713, 3092.0194974874371, -27283.629074436274, 2.5310173697270466, 5359.1243837029942, 1035.1040397274783, 89.64665935635982, 971.66303247837027, 4.4408920985006262e-16), (2443, 0.4, 168981.89999999999, 32638.512340324593, 3315.3642814070358, -29323.148058917555, 5.0620347394540932, 6592.2499565777998, 1273.2797510163446, 104.21140502449208, 1196.3179722775124, 8.8817841970012523e-16), (3463, 0.6, 175345.0, 33867.532240519344, 3428.4477336683412, -30439.084506851003, 7.5930521091811425, 5911.206306668716, 1141.7375469586475, 116.99427625584336, 1040.8133237037691, 8.8817841970012523e-16), (4483, 0.8, 179025.29999999999, 34578.374744752618, 3477.0057236180901, -31101.369021134527, 10.124069478908186, 6771.8613253669037, 1307.9713237628077, 94.570190228663492, 1231.5834745990257, 1.7763568394002505e-15), (4993, 0.9, 177964.39999999999, 34373.464054661847, 3533.6182562814065, -30839.845798380433, 11.389578163771715, 4158.1143130029504, 803.13137275310078, 57.793602354327135, 767.53238536098479, 1.7763568394002505e-15), (5100, 1, 181395.5, 35036.174082723352, 3707.8936834170854, -31328.28039930627, 1.0, 5151.7426226472144, 995.04867186040269, 44.109326342591473, 960.98937347050844, 0.0), (403, 0, 26518.700000000001, 5122.0332899521536, 900.28213065326622, -4221.7511592988876, 0.0, 811.69834914209355, 156.77789505914743, 13.860762346350231, 154.38438525991862, 0.0), (403, 1e-05, 26640.599999999999, 5145.5780284968478, 899.37206532663311, -4246.2059631702141, 0.0, 1099.2278380754374, 212.31363452448738, 18.61308367102497, 202.67873847561293, 0.0), (1623, 0.2, 159289.10000000001, 30766.367617059568, 3093.2101407035179, -27673.157476356049, 3.0272952853598016, 5132.6824653391523, 991.36724101184552, 104.60002247032416, 911.77169774653953, 0.0), (2843, 0.4, 170570.20000000001, 32945.289274127201, 3353.5450502512563, -29591.744223875943, 6.0545905707196033, 7236.1748292865341, 1397.6525383038938, 98.12983056287959, 1321.2946688287491, 0.0), (4063, 0.6, 173747.89999999999, 33559.05560450843, 3462.3331608040207, -30096.722443704413, 9.0818858560794062, 7075.4250677962809, 1366.6040468731317, 111.47819479985166, 1265.9034215726722, 1.7763568394002505e-15), (5283, 0.8, 179654.29999999999, 34699.864823051328, 3548.3917437185928, -31151.473079332733, 12.109181141439207, 5953.4326913134746, 1149.8934877802103, 82.418005959178956, 1087.4466434459484, 0.0), (5893, 0.9, 181611.60000000001, 35077.913360816128, 3619.0543718592962, -31458.858988956828, 13.622828784119108, 6921.3940098798012, 1336.8532594538856, 61.415971228326676, 1291.2936222532912, 0.0), (6100, 1, 184733.29999999999, 35680.863404417192, 3726.4768793969852, -31954.386525020207, 1.0, 5383.8745537020086, 1039.8844850233238, 56.159066431190709, 1004.3003392799594, 0.0), (403, 0, 26357.700000000001, 5090.9364654591618, 903.48051758793974, -4187.4559478712217, 0.0, 597.43485837369758, 115.39333501144201, 15.300041039379474, 105.2828451830304, 0.0), (403, 1e-05, 26640.299999999999, 5145.5200841033811, 899.96754271356781, -4245.552541389814, 0.0, 644.37629534302391, 124.45997865668407, 12.347081774491336, 125.96315215432823, 0.0), (1823, 0.2, 159145.70000000001, 30738.670196983199, 3130.839366834171, -27607.830830149032, 3.5235732009925558, 7687.8581158863753, 1484.8942519052159, 150.58547654246794, 1362.0898774535704, 0.0), (3243, 0.4, 170329.0, 32898.701981781182, 3355.1352814070351, -29543.566700374144, 7.0471464019851116, 4665.128722768537, 901.0601809263801, 41.843477306051362, 886.07343191309656, 0.0), (4663, 0.6, 177730.89999999999, 34328.364001748094, 3541.0737537688447, -30787.290247979254, 10.57071960297767, 9462.2736004619946, 1827.6190152685379, 110.87936127190339, 1743.2882634883167, 1.7763568394002505e-15), (6083, 0.8, 181331.29999999999, 35023.773982521801, 3565.3202562814067, -31458.453726240397, 14.094292803970223, 5741.3945701371194, 1108.9387533699946, 78.237648124016431, 1059.1006757532882, 0.0), (6793, 0.9, 181642.79999999999, 35083.939577736506, 3576.6638291457289, -31507.275748590782, 15.856079404466502, 4592.6671292398278, 887.06437063790349, 106.0543976921923, 789.90809011544877, 1.7763568394002505e-15), (7100, 1, 187299.20000000001, 36176.461801725069, 3711.9964070351757, -32464.465394689887, 1.0, 2186.7523773852404, 422.36680055391855, 47.63770694950167, 437.06530529237261, 0.0), (403, 0, 25984.200000000001, 5018.7956955949858, 900.58748241206035, -4118.2082131829256, 0.0, 579.15711167178119, 111.86302518959822, 14.226883529589164, 105.24804672589055, 0.0), (403, 1e-05, 26545.700000000001, 5127.2482853640213, 900.53374371859297, -4226.7145416454296, 0.0, 719.68229796209391, 139.00518081018694, 12.005328777114565, 142.64326805295212, 0.0), (2023, 0.2, 162047.29999999999, 31299.108370578633, 3209.0198190954775, -28090.088551483157, 4.0198511166253104, 4601.2212085488782, 888.71657376195844, 59.197958161935361, 846.57490088386317, 0.0), (3643, 0.4, 174982.29999999999, 33797.477468819918, 3439.5705829145727, -30357.906885905344, 8.0397022332506207, 6056.9781087601759, 1169.8930758137099, 110.86556209066657, 1078.905551961521, 0.0), (5263, 0.6, 179115.0, 34595.700118398716, 3572.0379798994968, -31023.662138499221, 12.059553349875928, 4601.5740350449651, 888.78472148633739, 71.083861640562304, 839.62834600896872, 1.7763568394002505e-15), (6883, 0.8, 176913.0, 34170.388270364128, 3580.1274070351756, -30590.260863328956, 16.079404466501241, 6494.5951220996058, 1254.4179171737319, 62.301475225693487, 1204.7937747009994, 0.0), (7693, 0.9, 179447.39999999999, 34659.90250635815, 3573.350889447237, -31086.551616910925, 18.089330024813901, 4757.9032819089553, 918.9793994543586, 89.482605045106069, 841.49722105795331, 3.5527136788005009e-15), (8100, 1, 183885.5, 35517.112548484532, 3715.5994723618087, -31801.513076122723, 1.0, 3678.4353807019634, 710.48235678571166, 43.347899417009849, 698.17524022950465, 0.0), (403, 0, 25898.799999999999, 5002.3008582552247, 885.81905025125639, -4116.4818080039686, 0.0, 797.04351198664176, 153.94734289146751, 15.354725249196768, 143.53527941508517, 0.0), (403, 1e-05, 26329.200000000001, 5085.4317480799673, 898.16287437185929, -4187.2688737081089, 0.0, 949.46414360943618, 183.38707972801998, 16.510739371985437, 169.13745819479715, 0.0), (2223, 0.2, 164582.60000000001, 31788.796439753052, 3244.6306331658297, -28544.165806587225, 4.5161290322580649, 9693.7409311369593, 1872.3264622117699, 85.547440728895467, 1797.8572123804393, 0.0), (4043, 0.4, 174147.89999999999, 33636.31479579537, 3452.9796783919601, -30183.335117403407, 9.0322580645161299, 8778.1949448619544, 1695.4906059977545, 103.20553591782453, 1606.5093543100857, 0.0), (5863, 0.6, 175317.29999999999, 33862.182041522727, 3476.2208391959803, -30385.961202326747, 13.548387096774196, 6536.00387163288, 1262.4159334265923, 100.75359630206425, 1174.619680824148, 1.7763568394002505e-15), (7683, 0.8, 180088.70000000001, 34783.768304788937, 3598.6281306532669, -31185.140174135675, 18.06451612903226, 5193.5034427638539, 1003.1146898346296, 76.151482730607839, 943.02034852575014, 0.0), (8593, 0.9, 177519.39999999999, 34287.513204355128, 3573.1194472361813, -30714.393757118949, 20.322580645161288, 4403.8076978905419, 850.58655330551346, 69.965060219724734, 786.73581684723899, 3.5527136788005009e-15), (9100, 1, 183774.89999999999, 35495.750382093698, 3705.5374221105521, -31790.212959983142, 1.0, 3720.5022900140784, 718.60749526920085, 39.251856941406942, 699.02879844008203, 0.0), (403, 0, 25359.200000000001, 4898.0782092091486, 897.10695979899504, -4000.9712494101536, 0.0, 2456.7514648413257, 474.51657841658863, 17.84047151655064, 472.88957921389647, 0.0), (403, 1e-05, 26646.5, 5146.7176015683308, 891.84641206030142, -4254.8711895080287, 0.0, 782.89696001453478, 151.21496497930843, 17.824995186712602, 138.57864975885744, 0.0), (2423, 0.2, 165912.70000000001, 32045.702565579937, 3284.3506080402012, -28761.351957539737, 5.0124069478908178, 7265.1802462155056, 1403.2548759410759, 121.27989238111194, 1307.9281652333475, 8.8817841970012523e-16), (4443, 0.4, 177166.5, 34219.351282842232, 3490.3247286432161, -30729.026554199016, 10.024813895781636, 5081.7023771566946, 981.52054005006244, 85.772940340864579, 917.48499576141319, 1.7763568394002505e-15), (6463, 0.6, 180192.20000000001, 34803.759120534429, 3558.0929849246231, -31245.666135609808, 15.037220843672454, 6032.3055923916854, 1165.1276291596016, 74.877082871922283, 1101.7526914143002, 1.7763568394002505e-15), (8483, 0.8, 178831.20000000001, 34540.884722180643, 3589.1429648241201, -30951.741757356504, 20.049627791563271, 5656.2610583317319, 1092.495387686241, 72.708983050097672, 1042.7614497257509, 3.5527136788005009e-15), (9493, 0.9, 182606.0, 35269.979710355452, 3641.0517286432159, -31628.927981712226, 22.555831265508687, 6782.1830703690093, 1309.9649479416398, 62.387806362811268, 1256.5835438455915, 0.0), (10100, 1, 184160.29999999999, 35570.189612898663, 3721.6378492462309, -31848.551763652427, 1.0, 6349.9074646800955, 1226.471788670151, 49.660905853773123, 1181.585385173174, 0.0), (403, 0, 26234.299999999999, 5067.1020049471426, 889.68630653266337, -4177.4156984144793, 0.0, 693.62987969089102, 133.97320889343177, 13.062464595982862, 131.2428245440062, 0.0), (403, 1e-05, 26142.799999999999, 5049.4289649402563, 897.36893969849245, -4152.0600252417635, 0.0, 838.77348551322245, 162.00740290918964, 18.538867369777012, 153.43768483293442, 0.0), (2623, 0.2, 168751.0, 32593.914472154214, 3282.7239949748741, -29311.190477179342, 5.5086848635235723, 4220.4697368894849, 815.17519680766998, 55.553002824775874, 785.16350016268211, 8.8817841970012523e-16), (4843, 0.4, 177966.89999999999, 34373.946924607393, 3470.3522160804023, -30903.594708526984, 11.017369727047145, 7818.1611962148754, 1510.062028426157, 104.93636191005776, 1444.7247347877485, 1.7763568394002505e-15), (7063, 0.6, 181000.20000000001, 34959.822686934043, 3597.5749748743719, -31362.247712059667, 16.526054590570716, 4665.9253273064714, 901.21404348232193, 35.356461993807805, 890.13767593952173, 3.5527136788005009e-15), (9283, 0.8, 182473.29999999999, 35244.348973646003, 3624.8703266331659, -31619.478647012838, 22.034739454094289, 3683.8799125378664, 711.53395710215727, 47.350603961394555, 686.15833166719653, 3.5527136788005009e-15), (10393, 0.9, 180651.10000000001, 34892.39472773837, 3632.9826984924621, -31259.412029245908, 24.789081885856081, 3643.1870511956972, 703.67421320603808, 43.721499237132313, 693.19710836817399, 3.5527136788005009e-15), (11100, 1, 181730.79999999999, 35100.93659981963, 3694.053954773869, -31406.882645045756, 1.0, 5032.8352406968379, 972.08195144156923, 66.662769808802395, 922.94033477387507, 0.0), (403, 0, 26332.799999999999, 5086.1270808015506, 898.86913065326621, -4187.2579501482851, 0.0, 544.47842932479898, 105.16490780703737, 17.196756540134064, 100.79901248331811, 0.0), (403, 1e-05, 26420.0, 5102.9695845021024, 896.21347738693453, -4206.7561071151667, 0.0, 1002.8220181069022, 193.69304530918009, 15.489299807021784, 193.80709640198089, 0.0), (2823, 0.2, 171277.39999999999, 33081.883524322497, 3359.0185175879392, -29722.865006734559, 6.0049627791563287, 5498.0623532295449, 1061.9396276391533, 99.330541934571826, 985.88618866361048, 8.8817841970012523e-16), (5243, 0.4, 179875.60000000001, 34742.608470630825, 3547.7164422110559, -31194.892028419774, 12.009925558312657, 6351.7092219338883, 1226.819794440959, 83.834452927932375, 1159.2717315559426, 1.7763568394002505e-15), (7663, 0.6, 177695.5, 34321.526563319196, 3545.5942814070354, -30775.93228191217, 18.014888337468985, 5037.6339138528119, 973.00880545977236, 63.822565952046467, 927.41877520778746, 3.5527136788005009e-15), (10083, 0.8, 181611.20000000001, 35077.836101624838, 3637.1073266331659, -31440.728774991672, 24.019851116625315, 5532.5257667723517, 1068.5961662874142, 75.252870160799105, 1022.2723353257371, 3.5527136788005009e-15), (11293, 0.9, 183956.29999999999, 35530.787425342322, 3640.6005929648245, -31890.186832377494, 27.022332506203476, 5708.898861426781, 1102.6622729318526, 60.742438302628194, 1054.7692772626508, 3.5527136788005009e-15), (12100, 1, 185973.89999999999, 35920.482786193621, 3722.7729547738686, -32197.709831419743, 1.0, 6084.5278444592559, 1175.2142515644098, 69.352087504473715, 1120.091204068257, 0.0), (403, 0, 25921.900000000001, 5006.7625765520452, 887.29753768844216, -4119.4650388636037, 0.0, 708.72158849579296, 136.88814193694361, 14.296029534348287, 142.7661198734416, 0.0), (403, 1e-05, 26285.700000000001, 5077.0298110275144, 897.1558844221106, -4179.8739266054035, 0.0, 723.70975535776779, 139.78307606351791, 16.320833744822398, 149.12276710534107, 0.0), (3023, 0.2, 168849.29999999999, 32612.900918412972, 3388.1285477386932, -29224.77237067428, 6.5012406947890806, 7734.004914014472, 1493.8074126648623, 96.540414291163799, 1408.7964586205965, 8.8817841970012523e-16), (5643, 0.4, 178685.10000000001, 34512.665802563082, 3512.2414522613062, -31000.424350301775, 13.002481389578161, 5198.5692348953089, 1004.0931373428893, 69.097004030745239, 955.93569836161464, 1.7763568394002505e-15), (8263, 0.6, 180127.79999999999, 34791.320390737237, 3590.5993618090456, -31200.721028928197, 19.503722084367244, 7170.3307706130263, 1384.9348914934822, 104.94606087501825, 1287.5786765028749, 3.5527136788005009e-15), (10883, 0.8, 178529.60000000001, 34482.631291950282, 3617.4982763819098, -30865.133015568375, 26.004962779156322, 8356.9829867004046, 1614.134367877884, 77.789819727000747, 1567.0333613478779, 3.5527136788005009e-15), (12193, 0.9, 183004.5, 35346.949179675059, 3668.9323216080397, -31678.016858067014, 29.255583126550867, 5348.2876932715581, 1033.0109548800788, 61.994156276608564, 978.54462318556887, 0.0), (13100, 1, 184844.0, 35702.244885605855, 3723.1200653266328, -31979.124820279212, 1.0, 4718.8446467329268, 911.4353030381784, 39.26846205223989, 886.0393664341492, 0.0), (403, 0, 26250.5, 5070.2310021942631, 896.24656783919602, -4173.9844343550667, 0.0, 747.07472852452986, 144.29597339178059, 19.894291476075246, 147.82325911756462, 0.0), (403, 1e-05, 26272.400000000001, 5074.4609429172233, 901.71707035175882, -4172.7438725654638, 0.0, 748.17901601154244, 144.50926428726763, 13.763337837681508, 139.39464332678443, 0.0), (3223, 0.2, 172775.5, 33371.238510489893, 3393.6742110552768, -29977.564299434616, 6.997518610421837, 6854.5803409107402, 1323.9483343752304, 97.726492381642544, 1239.5711542585891, 8.8817841970012523e-16), (6043, 0.4, 179308.60000000001, 34633.093566981588, 3538.9361155778897, -31094.157451403698, 13.995037220843674, 8475.5806550347916, 1637.0412677379609, 91.978825016203217, 1554.7228609369038, 1.7763568394002505e-15), (8863, 0.6, 179375.79999999999, 34646.073111117796, 3558.6723467336683, -31087.400764384125, 20.992555831265513, 3925.8598497653993, 758.27189274681382, 52.083034336823097, 724.19784108205795, 3.5527136788005009e-15), (11683, 0.8, 181659.5, 35087.165148972745, 3626.7332010050245, -31460.431947967714, 27.990074441687348, 6767.9796431431441, 1307.2215846892084, 85.889920241910005, 1237.4992911666873, 3.5527136788005009e-15), (13093, 0.9, 183362.20000000001, 35416.038211483399, 3655.668246231156, -31760.369965252245, 31.488833746898258, 5183.8730077037953, 1001.2545907734259, 64.2995770819455, 952.92879143648042, 3.5527136788005009e-15), (14100, 1, 184372.10000000001, 35611.098354685091, 3719.8924673366832, -31891.205887348409, 1.0, 5548.3721477564932, 1071.6568627365627, 46.181890124665976, 1051.0620970353186, 0.0)]
